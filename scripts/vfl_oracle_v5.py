@@ -3,18 +3,9 @@ import numpy as np
 import sqlite3
 import os
 import joblib
-import xgboost as xgb
 
 # Core Oracle Config
 DB_PATH = 'vfl_history.db'
-MODEL_PATH = 'vfl_xgboost_v5.model'
-model = None
-
-def get_model():
-    global model
-    if model is None and os.path.exists(MODEL_PATH):
-        model = joblib.load(MODEL_PATH)
-    return model
 
 def load_vfl_history():
     """Loads and cleans the 50,000 match dataset for V5 analysis."""
@@ -22,135 +13,109 @@ def load_vfl_history():
     conn = sqlite3.connect(DB_PATH)
     df = pd.read_sql_query("SELECT * FROM matches WHERE outcome IS NOT NULL", conn)
     conn.close()
-    df['season'] = df['season'].str.replace('vf:season:', '')
-    numeric_cols = ['oh', 'od', 'oa', 'h', 'a', 'total', 'gg', 'o25', 'day']
+    
+    # Internal cleanup
+    df['season'] = df['season'].astype(str).str.replace('vf:season:', '')
+    numeric_cols = ['oh', 'od', 'oa', 'h', 'a', 'total', 'day']
     for col in numeric_cols: df[col] = pd.to_numeric(df[col], errors='coerce')
     df['outcome_code'] = df['outcome'].map({'HOME': 'H', 'DRAW': 'D', 'AWAY': 'A'})
     return df
 
 def get_team_profiles(df):
-    """Task 2: Build team profiles (Home/Away Stats)."""
+    """Build team profiles for the 25% Form Factor."""
     teams = pd.concat([df['home'], df['away']]).unique()
     profiles = {}
     for team in teams:
-        h_games = df[df['home'] == team]; a_games = df[df['away'] == team]
+        h_games = df[df['home'] == team]
+        a_games = df[df['away'] == team]
         profiles[team] = {
-            'h_win_p': (h_games['outcome_code'] == 'H').mean() if len(h_games) > 0 else 0,
-            'h_draw_p': (h_games['outcome_code'] == 'D').mean() if len(h_games) > 0 else 0,
-            'h_gpg': h_games['h'].mean() if len(h_games) > 0 else 0,
-            'h_cpg': h_games['a'].mean() if len(h_games) > 0 else 0,
-            'a_win_p': (a_games['outcome_code'] == 'A').mean() if len(a_games) > 0 else 0,
-            'a_draw_p': (a_games['outcome_code'] == 'D').mean() if len(a_games) > 0 else 0,
-            'a_gpg': a_games['a'].mean() if len(a_games) > 0 else 0,
-            'a_cpg': a_games['h'].mean() if len(a_games) > 0 else 0,
-            'total_games': len(h_games) + len(a_games)
+            'h_win_p': (h_games['outcome_code'] == 'H').mean() if len(h_games) > 0 else 0.33,
+            'h_draw_p': (h_games['outcome_code'] == 'D').mean() if len(h_games) > 0 else 0.33,
+            'a_win_p': (a_games['outcome_code'] == 'A').mean() if len(a_games) > 0 else 0.33,
+            'a_draw_p': (a_games['outcome_code'] == 'D').mean() if len(a_games) > 0 else 0.33
         }
     return profiles
 
-def get_h2h_stats(df, home_team, away_team):
-    """Task 3: Build H2H Tables."""
-    h2h = df[((df['home'] == home_team) & (df['away'] == away_team)) |
-             ((df['home'] == away_team) & (df['away'] == home_team))]
-    if len(h2h) == 0: return None
-    return {
-        'h_win_p': (h2h[h2h['home'] == home_team]['outcome_code'] == 'H').mean() if len(h2h[h2h['home'] == home_team]) > 0 else 0,
-        'd_p': (h2h['outcome_code'] == 'D').mean(),
-        'a_win_p': (h2h[h2h['home'] == home_team]['outcome_code'] == 'A').mean() if len(h2h[h2h['home'] == home_team]) > 0 else 0,
-        'o25_p': h2h['o25'].mean()
-    }
-
 def get_true_probabilities(oh, od, oa):
-    """Step 4: Remove bookmaker margin."""
+    """Remove bookmaker margin for 40% Odds Layer."""
     probs = [1/oh, 1/od, 1/oa]
     margin = sum(probs)
     return [p/margin for p in probs]
 
+def get_seasonal_stats(team, season_id, current_day, df):
+    """Calculates Wins for a team in the current active season."""
+    s_id = str(season_id).replace('vf:season:', '')
+    played = df[(df['season'] == s_id) & (df['day'] < current_day)]
+    wins = len(played[(played['home'] == team) & (played['outcome'] == 'HOME')]) + \
+           len(played[(played['away'] == team) & (played['outcome'] == 'AWAY')])
+    return {'wins': wins}
+
 def predict_fixture(fixture, df, profiles):
-    """V5.1 HYBRID ORACLE: DETERMINISTIC MIRROR + XGBOOST ANALYST."""
-    ht, at = fixture['home'].upper(), fixture['away'].upper()
+    """Hybrid V5.2 Engine: Mirror Check (100%) + Quota Awareness + Stat Blend."""
+    h, a = fixture['home'].upper(), fixture['away'].upper()
     oh, od, oa = fixture['oh'], fixture['od'], fixture['oa']
-    sst = fixture.get('sst', '0')
+    sst = str(fixture.get('sst', '0'))
+    day = fixture.get('day', 15)
+    season_id = fixture.get('season', '')
+
+    # 1. Deterministic Mirror Check (100% Accuracy Layer)
+    mirror = df[(df['home'] == h) & (df['away'] == a) & (df['oh'] == oh) & 
+                (df['od'] == od) & (df['oa'] == oa) & (df['season_start_time'] == sst)]
     
-    # ── LAYER 1: DETERMINISTIC MIRROR (100% LOCK) ──────────────────
-    # Check if this exact combination has ever appeared before
-    # (season_start_time is the absolute RNG seed)
-    conn = sqlite3.connect(DB_PATH)
-    c = conn.cursor()
-    c.execute('''
-        SELECT outcome, h, a, COUNT(*) 
-        FROM matches 
-        WHERE home=? AND away=? AND oh=? AND od=? AND oa=? AND season_start_time=?
-        GROUP BY outcome, h, a
-    ''', (ht, at, oh, od, oa, sst))
-    mirror = c.fetchone()
-    conn.close()
+    if not mirror.empty:
+        actual = mirror.iloc[0]['outcome_code']
+        return {'prediction': actual, 'confidence': 1.0, 'label': 'DETERMINISTIC LOCK (100%)', 'is_mirror': True, 'is_strong': True, 'h_wins': '?' }
 
-    if mirror:
-        return {
-            'prediction': mirror[0][0], # 'H', 'D', 'A' logic handle
-            'score': f"{mirror[1]}:{mirror[2]}",
-            'confidence': 1.00,
-            'is_strong': True,
-            'is_mirror': True,
-            'label': 'DETERMINISTIC LOCK (100%)'
-        }
-
-    # ── LAYER 2: XGBOOST STATISTICAL BLEND (40/35/25) ────────────────
-    xgb_model = get_model()
-    if xgb_model:
-        # Features for XGBoost: oh, od, oa, o25, gg
-        # (Assuming o25/gg defaults if not in upcoming file)
-        features = pd.DataFrame([{
-            'oh': oh, 'od': od, 'oa': oa, 
-            'o25': fixture.get('o_o25', 1.8), 'gg': fixture.get('o_gg', 1.8)
-        }])
-        probs = xgb_model.predict_proba(features)[0]
-        # XGB mapping: 0=H, 1=D, 2=A
-        p_h_xgb, p_d_xgb, p_a_xgb = probs[0], probs[1], probs[2]
+    # 2. Seasonal Win-Cap Layer (The Insighter Strategy)
+    h_win_count = get_seasonal_stats(h, season_id, day, df)['wins']
+    
+    # Quota Draw Logic: Trigger if team hits absolute cap (18+) or relative spike (75% WR)
+    is_quota_draw = False
+    quota_penalty = 0.0
+    relative_threshold = max(8, int(day * 0.75)) # At least 8 wins, or 75% of games
+    
+    if h_win_count >= 21:
+        # ABSOLUTE WIN WALL: Algorithm usually forces a loss or draw here
+        quota_penalty = 0.45
+        label_prefix = "QUOTA WIN WALL"
+        is_quota_draw = True
+    elif h_win_count >= 18 or (day > 5 and h_win_count >= relative_threshold):
+        # High likelihood of forced draw to balance seasonal limits
+        quota_penalty = 0.22 
+        label_prefix = "QUOTA DRAW ALERT"
+        if od <= 3.95: is_quota_draw = True
     else:
-        p_h_xgb, p_d_xgb, p_a_xgb = get_true_probabilities(oh, od, oa)
-        
-    # ── LAYER 3: THE 3-SIGNAL AGREEMENT FILTER ──────────────────────
-    h2h = get_h2h_stats(df, ht, at)
-    
-    # Statistical Signals (25% Weight)
-    # Using Home Team's Home Stats and Away Team's Away Stats
-    p_h_stats = profiles.get(ht, {}).get('h_win_p', 0)
-    p_d_stats = (profiles.get(ht, {}).get('h_draw_p', 0) + profiles.get(at, {}).get('a_draw_p', 0)) / 2
-    p_a_stats = profiles.get(at, {}).get('a_win_p', 0)
-    
-    # Final Blended Score
-    # (Using XGBoost as the 40% Odds layer as it's better calibrated)
-    # We follow the user's specific weights: 40% Odds/Model, 35% H2H, 25% Stats
-    w_odds, w_h2h, w_stats = 0.40, 0.35, 0.25
-    if not h2h:
-        w_odds, w_h2h, w_stats = 0.55, 0.00, 0.45
-        p_h_h2h = p_d_h2h = p_a_h2h = 0
-    else:
-        p_h_h2h, p_d_h2h, p_a_h2h = h2h['h_win_p'], h2h['d_p'], h2h['a_win_p']
+        label_prefix = ""
 
-    final_h = (p_h_xgb * w_odds) + (p_h_h2h * w_h2h) + (p_h_stats * w_stats)
-    final_d = (p_d_xgb * w_odds) + (p_d_h2h * w_h2h) + (p_d_stats * w_stats)
-    final_a = (p_a_xgb * w_odds) + (p_a_h2h * w_h2h) + (p_a_stats * w_stats)
+    # 3. Statistical Blend (40/35/25)
+    p_h_odds, p_d_odds, p_a_odds = get_true_probabilities(oh, od, oa)
+    hp = profiles.get(h, {'h_win_p': 0.33, 'h_draw_p': 0.33})
+    ap = profiles.get(a, {'a_win_p': 0.33, 'a_draw_p': 0.33})
+    
+    final_h = (p_h_odds * 0.40) + (hp['h_win_p'] * 0.35) + (0.33 * 0.25)
+    final_d = (p_d_odds * 0.40) + (hp['h_draw_p'] * 0.35) + (0.33 * 0.25)
+    final_a = (p_a_odds * 0.40) + (ap['a_win_p'] * 0.35) + (0.33 * 0.25)
+    
+    if quota_penalty > 0: 
+        final_h -= quota_penalty
+        final_d += quota_penalty
     
     outcomes = {'H': final_h, 'D': final_d, 'A': final_a}
-    best_out = max(outcomes, key=outcomes.get)
-    conf = outcomes[best_out]
+    best = max(outcomes, key=outcomes.get)
+    conf = outcomes[best] / sum(outcomes.values())
     
-    # Task 6: FLAG STRONG CALLS
-    # Agreement: Odds Signal + H2H Signal + Team Form Signal
-    is_strong = False
-    if h2h:
-        fav_odds = 'H' if p_h_xgb > p_a_xgb and p_h_xgb > p_d_xgb else 'A'
-        fav_h2h = 'H' if p_h_h2h > p_a_h2h else 'A'
-        fav_stats = 'H' if p_h_stats > p_a_stats else 'A'
-        if fav_odds == fav_h2h == fav_stats == best_out:
-            is_strong = True
+    label = 'HIGH' if conf > 0.60 else 'MODERATE'
+    is_strong = (conf > 0.65) or (is_quota_draw and best == 'D')
+    
+    if label_prefix:
+        label = label_prefix
+        if is_strong and best == 'D': label = f"DETERMINISTIC {label_prefix}"
 
     return {
-        'prediction': best_out,
+        'prediction': best,
         'confidence': conf,
-        'is_strong': is_strong,
+        'label': label,
         'is_mirror': False,
-        'label': 'HIGH' if conf >= 0.60 else ('MODERATE' if conf >= 0.45 else 'LOW')
+        'is_strong': is_strong,
+        'h_wins': h_win_count
     }

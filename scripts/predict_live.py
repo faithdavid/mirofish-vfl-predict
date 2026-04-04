@@ -15,17 +15,18 @@ def predict_live(json_path):
     data = raw.get('data', {})
     sst = str(data.get('seasonStartTime', '0'))
     day = data.get('matchDay', '?')
+    season_id = data.get('seasonId', '')
     events = data.get('events', [])
     
     # 2. Initialize Oracle Brain
     df = oracle.load_vfl_history()
     profiles = oracle.get_team_profiles(df)
     
-    print(f"\nVFL ORACLE V5.1 - MATCHDAY {day} SCORECARD")
+    print(f"\nVFL ORACLE V5.2 - SEASONAL QUOTA SCAN (MD {day})")
     print(f"Season Seed (SST): {sst}")
-    print("=" * 85)
-    print(f"{'FIXTURE':<40} | {'PRED':<6} | {'CONF':<10} | {'REASON'}")
-    print("-" * 85)
+    print("=" * 95)
+    print(f"{'FIXTURE':<40} | {'PRED':<6} | {'CONF':<10} | {'WINS':<6} | {'SIGNAL'}")
+    print("-" * 95)
     
     for ev in events:
         ht, at = ev['homeTeam'].upper(), ev['awayTeam'].upper()
@@ -39,19 +40,23 @@ def predict_live(json_path):
         oa = float(next(o['odds'] for o in outs if o['id'] == '3'))
         
         fixture = {
-            'home': ht, 'away': at, 'oh': oh, 'od': od, 'oa': oa, 'sst': sst
+            'home': ht, 'away': at, 'oh': oh, 'od': od, 'oa': oa, 
+            'sst': sst, 'day': day, 'season': season_id
         }
         
-        # Oracle Run
+        # Oracle V5.2 Run
         res = oracle.predict_fixture(fixture, df, profiles)
         
         icon = "[STRONG]" if res['is_strong'] else "        "
         if res['is_mirror']: icon = "[**LOCK**]"
         
-        print(f"{ht + ' vs ' + at:<40} | {res['prediction']:<6} | {res['confidence']:<10.1%} | {icon} {res['label']}")
+        h_wins = res.get('h_wins', '?')
+        quota_mark = "!!" if "QUOTA" in res['label'] else "  "
+        
+        print(f"{ht + ' vs ' + at:<40} | {res['prediction']:<6} | {res['confidence']:<10.1%} | {quota_mark}{h_wins:<4} | {icon} {res['label']}")
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         predict_live(sys.argv[1])
     else:
-        predict_live('upcoming_md11.json')
+        predict_live('upcoming_s3074000_md11.json')
