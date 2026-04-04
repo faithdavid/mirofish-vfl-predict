@@ -1,392 +1,227 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🔮 VFL Oracle Dashboard</title>
-    <style>
-        :root {
-            --bg-color: #0f172a;
-            --card-bg: rgba(30, 41, 59, 0.7);
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --accent: #3b82f6;
-            --accent-glow: rgba(59, 130, 246, 0.5);
-            --success: #10b981;
-            --danger: #ef4444;
-            --glass-border: rgba(255, 255, 255, 0.1);
-        }
-        
-        body {
-            font-family: 'Inter', -apple-system, sans-serif;
-            background: radial-gradient(circle at top right, #1e293b, var(--bg-color));
-            color: var(--text-main);
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
 
-        .header {
-            width: 100%;
-            padding: 2rem 0;
-            text-align: center;
-            border-bottom: 1px solid var(--glass-border);
-            background: rgba(15, 23, 42, 0.8);
-            backdrop-filter: blur(10px);
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-        }
-
-        h1 {
-            margin: 0;
-            font-weight: 800;
-            letter-spacing: -1px;
-            text-transform: uppercase;
-            background: linear-gradient(to right, #60a5fa, #a78bfa);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin-top: 2rem;
-        }
-
-        .drop-zones {
-            display: flex;
-            gap: 2rem;
-            margin-bottom: 2rem;
-            justify-content: center;
-        }
-
-        .drop-zone {
-            flex: 1;
-            height: 150px;
-            border: 2px dashed var(--accent);
-            border-radius: 16px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            background: rgba(59, 130, 246, 0.05);
-            transition: all 0.3s ease;
-            cursor: pointer;
-            box-shadow: 0 0 20px var(--accent-glow);
-        }
-
-        .drop-zone:hover, .drop-zone.dragover {
-            background: rgba(59, 130, 246, 0.15);
-            border-color: #60a5fa;
-            transform: translateY(-2px);
-            box-shadow: 0 0 30px rgba(96, 165, 250, 0.6);
-        }
-
-        .drop-zone input[type="file"] {
-            display: none;
-        }
-
-        .results-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .match-card {
-            background: var(--card-bg);
-            border: 1px solid var(--glass-border);
-            border-radius: 16px;
-            padding: 1.5rem;
-            backdrop-filter: blur(12px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            transition: transform 0.2s ease;
-            opacity: 0;
-            animation: fadeIn 0.5s forwards;
-        }
-
-        .match-card:hover {
-            transform: translateY(-5px);
-            border-color: rgba(255,255,255,0.2);
-        }
-
-        @keyframes fadeIn {
-            to { opacity: 1; }
-        }
-
-        .match-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-            padding-bottom: 0.5rem;
-        }
-
-        .teams {
-            font-size: 1.1rem;
-            font-weight: 600;
-        }
-
-        .badge {
-            background: rgba(16, 185, 129, 0.2);
-            color: var(--success);
-            padding: 0.2rem 0.6rem;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: bold;
-            border: 1px solid rgba(16, 185, 129, 0.5);
-            text-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
-        }
-
-        .prediction-row {
-            display: flex;
-            justify-content: space-between;
-            margin: 0.8rem 0;
-            background: rgba(0,0,0,0.2);
-            padding: 0.8rem;
-            border-radius: 8px;
-        }
-
-        .prob-bar-container {
-            width: 100%;
-            height: 6px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 4px;
-            margin-top: 0.5rem;
-            overflow: hidden;
-            display: flex;
-        }
-
-        .prob-bar {
-            height: 100%;
-        }
-
-        .btn-analyze {
-            display: block;
-            width: 100%;
-            padding: 1rem;
-            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
-            color: white;
-            border: none;
-            border-radius: 12px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            cursor: pointer;
-            margin-bottom: 2rem;
-            transition: opacity 0.2s, transform 0.2s;
-            box-shadow: 0 10px 20px rgba(139, 92, 246, 0.3);
-        }
-
-        .btn-analyze:hover {
-            opacity: 0.9;
-            transform: scale(1.02);
-        }
-
-        .btn-analyze:disabled {
-            background: #475569;
-            cursor: not-allowed;
-            transform: none;
-            box-shadow: none;
-        }
-
-    </style>
-</head>
-<body>
-
-    <div class="header">
-        <h1>🔮 VFL Oracle Matrix</h1>
-        <p style="color: var(--text-muted);">Decipher RNG Cycles & Extract True Predictive Value</p>
-    </div>
-
-    <div class="container">
-        
-        <div class="drop-zones">
-            <div class="drop-zone" id="db-drop" onclick="document.getElementById('db-file').click()">
-                <h3 style="margin:0">1. Load RNG Database</h3>
-                <p style="color: var(--text-muted); font-size: 0.9em;">(backend/resources/rng_model.json)</p>
-                <input type="file" id="db-file" accept=".json">
-            </div>
-
-            <div class="drop-zone" id="odds-drop" onclick="document.getElementById('odds-file').click()">
-                <h3 style="margin:0">2. Load Live Match Odds</h3>
-                <p style="color: var(--text-muted); font-size: 0.9em;">(Paste HAR Response / .json / .txt)</p>
-                <input type="file" id="odds-file" accept=".json,.txt">
-            </div>
-        </div>
-
-        <button class="btn-analyze" id="btn-analyze" disabled>SCAN VIRTUAL FOOTBALL LEAGUE</button>
-
-        <div class="results-grid" id="results">
-            <!-- Results will populate here -->
-        </div>
-
-    </div>
-
-    <script>
-        let rngDatabase = null;
-        let incomingOdds = null;
-
-        const dbDrop = document.getElementById('db-drop');
-        const oddsDrop = document.getElementById('odds-drop');
-        const btnAnalyze = document.getElementById('btn-analyze');
-        const resultsGrid = document.getElementById('results');
-
-        document.getElementById('db-file').addEventListener('change', (e) => handleFile(e, 'db'));
-        document.getElementById('odds-file').addEventListener('change', (e) => handleFile(e, 'odds'));
-
-        function handleFile(e, type) {
-            const file = e.target.files[0];
-            if (!file) return;
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>VFL ORACLE V5.1 - COMMAND CENTER</title>
+        <style>
+            body { font-family: 'Inter', system-ui, sans-serif; background: #0b0f19; color: #f8fafc; padding: 40px; margin: 0; }
+            .container { max-width: 1000px; margin: 0 auto; }
+            h1 { color: #38bdf8; border-bottom: 2px solid #1e293b; padding-bottom: 15px; margin-bottom: 30px; letter-spacing: -0.02em; }
+            .card { background: #111827; border-radius: 12px; padding: 24px; margin-bottom: 24px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4); border: 1px solid #1f2937; }
+            h2 { font-size: 1.1rem; margin-top: 0; color: #94a3b8; font-weight: 500; }
+            table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+            th { text-align: left; color: #4b5563; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 12px 16px; border-bottom: 1px solid #1f2937; }
+            td { padding: 16px; border-bottom: 1px solid #111827; }
+            .lock { background: #ea580c; color: white; padding: 4px 8px; border-radius: 6px; font-weight: 800; font-size: 0.7rem; display: inline-block; animation: pulse 2s infinite; }
+            @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+            .strong { color: #22c55e; font-weight: 700; }
+            .miss { color: #ef4444; font-weight: 700; background: rgba(239, 68, 68, 0.1); padding: 4px 8px; border-radius: 4px; }
+            .hit { color: #10b981; font-weight: 800; background: rgba(16, 185, 129, 0.1); padding: 4px 8px; border-radius: 4px; }
+            .fixture { font-weight: 600; font-size: 1rem; color: #f1f5f9; }
+            .pred { font-weight: 800; font-size: 1.1rem; color: #38bdf8; }
+            .badge { padding: 4px 10px; border-radius: 6px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; }
+            .badge-high { background: rgba(34, 197, 94, 0.2); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.4); }
+            .badge-mod { background: rgba(56, 189, 248, 0.1); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.2); }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>VFL ORACLE V5.1 - RESOLUTION DASHBOARD</h1>
+    <div class="card"><h2>MatchDay 11 (Season:  | Seed: 1775314910000)</h2><table><thead><tr><th>Fixture</th><th>Pred</th><th>Conf</th><th>Oracle Signal</th><th>Audit Status</th></tr></thead><tbody>
+            <tr>
+                <td class="fixture">LONDON GUNS vs LIVERPOOL</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">43.7%</div></td>
+                <td><span style="color: #4b5563">Low Edge</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
             
-            const reader = new FileReader();
-            reader.onload = function(evt) {
-                const content = evt.target.result;
-                if(type === 'db') {
-                    try {
-                        rngDatabase = JSON.parse(content);
-                        dbDrop.style.borderColor = 'var(--success)';
-                        dbDrop.style.background = 'rgba(16, 185, 129, 0.1)';
-                        dbDrop.innerHTML = `<h3 style="color:var(--success)">✅ Database Loaded</h3><p>${rngDatabase.length} matches indexed</p>`;
-                    } catch(err) {
-                        alert("Invalid Database File");
-                    }
-                } else if(type === 'odds') {
-                    incomingOdds = parseOddsContent(content);
-                    dbDrop.style.borderColor = 'var(--success)';
-                    oddsDrop.style.borderColor = 'var(--success)';
-                    oddsDrop.style.background = 'rgba(16, 185, 129, 0.1)';
-                    oddsDrop.innerHTML = `<h3 style="color:var(--success)">✅ Odds Loaded</h3><p>${incomingOdds.length} fixtures detected</p>`;
-                }
-                
-                if(rngDatabase && incomingOdds) btnAnalyze.disabled = false;
-            };
-            reader.readAsText(file);
-        }
-
-        // Basic Regex Block Parser (ported from python)
-        function parseOddsContent(content) {
-            const events = [];
-            const blocks = content.split(/===== MATCH #\d+/);
-            if(blocks.length > 1) {
-                blocks.forEach(b => {
-                    const match = b.match(/\{[\s\S]*\}/);
-                    if(match) {
-                        try {
-                            const data = JSON.parse(match[0]);
-                            const evList = data.data?.events || data.events || [];
-                            events.push(...evList);
-                        } catch(e){}
-                    }
-                });
-            } else {
-                try {
-                    const data = JSON.parse(content);
-                    const evList = data.data?.events || data.events || [];
-                    events.push(...evList);
-                } catch(e){}
-            }
-            return events;
-        }
-
-        function calculateTrueProbs(o1, o2, o3) {
-            if(o3) {
-                const ip = (1/o1) + (1/o2) + (1/o3);
-                const bias = 1/ip;
-                return [(1/o1)*bias, (1/o2)*bias, (1/o3)*bias];
-            } else {
-                const ip = (1/o1) + (1/o2);
-                const bias = 1/ip;
-                return [(1/o1)*bias, (1/o2)*bias];
-            }
-        }
-
-        btnAnalyze.addEventListener('click', () => {
-            resultsGrid.innerHTML = '';
+            <tr>
+                <td class="fixture">WOLVERHAMPTON vs WEST HAM</td>
+                <td class="pred">A</td>
+                <td><div style="font-weight: 500;">39.9%</div></td>
+                <td><span style="color: #4b5563">Low Edge</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
             
-            incomingOdds.forEach((e, index) => {
-                const fixture = `${e.homeTeam} vs ${e.awayTeam}`;
-                
-                const m1x2 = e.markets?.find(m => m.id === 1);
-                if(!m1x2) return;
-                
-                const o1 = parseFloat(m1x2.outcomes.find(o => o.id === '1').odds);
-                const o2 = parseFloat(m1x2.outcomes.find(o => o.id === '2').odds);
-                const o3 = parseFloat(m1x2.outcomes.find(o => o.id === '3').odds);
-                
-                const mOU = e.markets?.find(m => m.id === 18 && m.specifiers?.includes('total=2.5'));
-                let ou_over = 0, ou_under = 0;
-                if(mOU) {
-                    ou_over = parseFloat(mOU.outcomes.find(o => o.id === '12').odds);
-                    ou_under = parseFloat(mOU.outcomes.find(o => o.id === '13').odds);
-                }
-
-                // Mathematical Edge
-                const probs = calculateTrueProbs(o1, o2, o3);
-                const maxProb = Math.max(...probs);
-                const labels = ["HOME", "DRAW", "AWAY"];
-                const predIdx = probs.indexOf(maxProb);
-                const bestPred = labels[predIdx];
-                
-                const isHighConf = maxProb >= 0.70;
-
-                // KNN Historical Edge 
-                let histLabel = "Insufficient Data";
-                let histWinRate = 0;
-                
-                if(rngDatabase.length > 0) {
-                    const distances = rngDatabase.map(row => {
-                        const dist = Math.sqrt(Math.pow(o1 - row.h_odds, 2) + Math.pow(o2 - row.d_odds, 2) + Math.pow(o3 - row.a_odds, 2));
-                        return { dist, result: row.actual_1x2 };
-                    }).sort((a,b) => a.dist - b.dist).slice(0, 15);
-                    
-                    const counts = {HOME:0, DRAW:0, AWAY:0};
-                    distances.forEach(d => counts[d.result]++);
-                    const bestHist = Object.keys(counts).reduce((a, b) => counts[a] > counts[b] ? a : b);
-                    histWinRate = (counts[bestHist] / distances.length) * 100;
-                    histLabel = bestHist;
-                }
-
-                const card = document.createElement('div');
-                card.className = 'match-card';
-                card.style.animationDelay = `${index * 0.1}s`;
-                
-                card.innerHTML = `
-                    <div class="match-header">
-                        <div class="teams">${fixture}</div>
-                        ${isHighConf || histWinRate >= 70 ? '<div class="badge">🔥 ELITE PICK</div>' : ''}
-                    </div>
-                    
-                    <div style="font-size: 0.85em; color: var(--text-muted); margin-bottom:1rem">
-                        Raw Odds: [${o1}] [${o2}] [${o3}]
-                    </div>
-
-                    <div class="prediction-row">
-                        <div>
-                            <strong>Math Probability:</strong><br>
-                            <span style="color:${isHighConf ? 'var(--success)' : '#fff'}">${bestPred} ${(maxProb*100).toFixed(1)}%</span>
-                        </div>
-                        <div style="text-align: right">
-                            <strong>Historical KNN Data:</strong><br>
-                            <span style="color:${histWinRate >= 70 ? 'var(--accent)' : '#fff'}">${histLabel} ${(histWinRate).toFixed(1)}%</span>
-                        </div>
-                    </div>
-                    
-                    <div class="prob-bar-container">
-                        <div class="prob-bar" style="width: ${probs[0]*100}%; background: #3b82f6;"></div>
-                        <div class="prob-bar" style="width: ${probs[1]*100}%; background: #94a3b8;"></div>
-                        <div class="prob-bar" style="width: ${probs[2]*100}%; background: #ef4444;"></div>
-                    </div>
-                    <div style="display:flex; justify-content:space-between; font-size:0.75rem; margin-top:4px">
-                        <span style="color:#3b82f6">Home ${Math.round(probs[0]*100)}%</span>
-                        <span style="color:#94a3b8">Draw ${Math.round(probs[1]*100)}%</span>
-                        <span style="color:#ef4444">Away ${Math.round(probs[2]*100)}%</span>
-                    </div>
-                `;
-                resultsGrid.appendChild(card);
-            });
-        });
-
-    </script>
-</body>
-</html>
+            <tr>
+                <td class="fixture">LEEDS vs MANCHESTER RED</td>
+                <td class="pred">A</td>
+                <td><div style="font-weight: 500;">64.3%</div></td>
+                <td><span class="badge badge-mod">MODERATE</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">CRYSTAL PALACE vs MANCHESTER BLUE</td>
+                <td class="pred">A</td>
+                <td><div style="font-weight: 500;">65.2%</div></td>
+                <td><span class="badge badge-high">STRONG HIGH</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">FULHAM vs CHELSEA</td>
+                <td class="pred">A</td>
+                <td><div style="font-weight: 500;">65.0%</div></td>
+                <td><span class="badge badge-high">STRONG HIGH</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">ASTON VILLA vs NEWCASTLE</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">62.3%</div></td>
+                <td><span class="badge badge-mod">MODERATE</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">TOTTENHAM vs BRIGHTON</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">57.9%</div></td>
+                <td><span class="badge badge-mod">MODERATE</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">BOURNEMOUTH vs EVERTON</td>
+                <td class="pred">A</td>
+                <td><div style="font-weight: 500;">45.5%</div></td>
+                <td><span style="color: #4b5563">Low Edge</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            </tbody></table></div><div class="card"><h2>MatchDay 22 (Season:  | Seed: 1775314910000)</h2><table><thead><tr><th>Fixture</th><th>Pred</th><th>Conf</th><th>Oracle Signal</th><th>Audit Status</th></tr></thead><tbody>
+            <tr>
+                <td class="fixture">LEEDS vs NEWCASTLE</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">44.1%</div></td>
+                <td><span style="color: #4b5563">Low Edge</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">BOURNEMOUTH vs WOLVERHAMPTON</td>
+                <td class="pred">A</td>
+                <td><div style="font-weight: 500;">39.9%</div></td>
+                <td><span style="color: #4b5563">Low Edge</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">CHELSEA vs FULHAM</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">57.1%</div></td>
+                <td><span class="badge badge-mod">MODERATE</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">LONDON GUNS vs MANCHESTER RED</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">47.2%</div></td>
+                <td><span style="color: #4b5563">Low Edge</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">LIVERPOOL vs TOTTENHAM</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">59.2%</div></td>
+                <td><span class="badge badge-mod">MODERATE</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">ASTON VILLA vs EVERTON</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">60.1%</div></td>
+                <td><span class="badge badge-mod">MODERATE</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">MANCHESTER BLUE vs WEST HAM</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">69.0%</div></td>
+                <td><span class="badge badge-high">STRONG HIGH</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">CRYSTAL PALACE vs BRIGHTON</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">40.6%</div></td>
+                <td><span style="color: #4b5563">Low Edge</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            </tbody></table></div><div class="card"><h2>MatchDay 11 (Season:  | Seed: 1775321630000)</h2><table><thead><tr><th>Fixture</th><th>Pred</th><th>Conf</th><th>Oracle Signal</th><th>Audit Status</th></tr></thead><tbody>
+            <tr>
+                <td class="fixture">LONDON GUNS vs BOURNEMOUTH</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">67.0%</div></td>
+                <td><span class="badge badge-high">STRONG HIGH</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">BRIGHTON vs CHELSEA</td>
+                <td class="pred">A</td>
+                <td><div style="font-weight: 500;">51.5%</div></td>
+                <td><span style="color: #4b5563">Low Edge</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">LIVERPOOL vs MANCHESTER BLUE</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">50.8%</div></td>
+                <td><span style="color: #4b5563">Low Edge</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">LEEDS vs NEWCASTLE</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">43.9%</div></td>
+                <td><span style="color: #4b5563">Low Edge</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">ASTON VILLA vs WEST HAM</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">53.8%</div></td>
+                <td><span style="color: #4b5563">Low Edge</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">MANCHESTER RED vs EVERTON</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">59.8%</div></td>
+                <td><span class="badge badge-mod">MODERATE</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">TOTTENHAM vs FULHAM</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">66.1%</div></td>
+                <td><span class="badge badge-high">STRONG HIGH</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            
+            <tr>
+                <td class="fixture">CRYSTAL PALACE vs WOLVERHAMPTON</td>
+                <td class="pred">H</td>
+                <td><div style="font-weight: 500;">38.9%</div></td>
+                <td><span style="color: #4b5563">Low Edge</span></td>
+                <td><span style="color: #4b5563">Pending...</span></td>
+            </tr>
+            </tbody></table></div>
+        </div>
+    </body>
+    </html>
+    
