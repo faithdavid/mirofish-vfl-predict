@@ -1,0 +1,25 @@
+========================================================================
+  SCORED TEST: 2026-04-04_17-16_www.msport23a
+  Scored: 2026-04-04 17:17
+========================================================================
+  High-confidence picks : 6
+  Matched to results    : 6
+  No result data found  : 0
+
+  RESULT  accuracy : 2/6 = 33.3%
+  GOALS   accuracy : 5/6 = 83.3%
+  GG/NG   accuracy : 1/6 = 16.7%
+
+  ***** picks: 0/1 = 0.0%
+  **** picks: 2/5 = 40.0%
+
+------------------------------------------------------------------------
+  #   Match                            Stars  Pred  Actual  Score Goals Pred   Goals Act 
+  --- -------------------------------- ------ ----- ------- ----- ------------ ----------
+  1   MD17: WOLVERHAMPTON v FULHAM     ****   HOME  DRAW    MISS  UNDER 2.5    UNDER(OK)
+  2   MD17: LONDON GUNS v WEST HAM     *****  HOME  AWAY    MISS  OVER 2.5     UNDER(X)
+  3   MD18: FULHAM v EVERTON           ****   AWAY  DRAW    MISS  UNDER 2.5    UNDER(OK)
+  4   MD19: BOURNEMOUTH v MANCHESTER BL ****   AWAY  AWAY    HIT   OVER 2.5     OVER(OK)
+  5   MD20: LIVERPOOL v TOTTENHAM      ****   HOME  DRAW    MISS  OVER 2.5     OVER(OK)
+  6   MD21: WOLVERHAMPTON v LIVERPOOL  ****   AWAY  AWAY    HIT   OVER 2.5     OVER(OK)
+========================================================================

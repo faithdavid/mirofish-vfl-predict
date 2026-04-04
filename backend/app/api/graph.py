@@ -161,10 +161,13 @@ def generate_ontology():
         }), 400
 
     except Exception as e:
-        logger.error(f"Failed to generate ontology: {str(e)}")
+        import traceback
+        tb = traceback.format_exc()
+        logger.error(f"Failed to generate ontology: {tb}")
         return jsonify({
             "success": False,
-            "error": str(e)
+            "error": str(e),
+            "traceback": tb
         }), 500
 
 

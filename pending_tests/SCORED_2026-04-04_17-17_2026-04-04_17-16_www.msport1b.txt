@@ -1,0 +1,23 @@
+========================================================================
+  SCORED TEST: 2026-04-04_17-16_www.msport1b
+  Scored: 2026-04-04 17:17
+========================================================================
+  High-confidence picks : 5
+  Matched to results    : 5
+  No result data found  : 0
+
+  RESULT  accuracy : 1/5 = 20.0%
+  GOALS   accuracy : 3/5 = 60.0%
+  GG/NG   accuracy : 3/5 = 60.0%
+
+  **** picks: 1/5 = 20.0%
+
+------------------------------------------------------------------------
+  #   Match                            Stars  Pred  Actual  Score Goals Pred   Goals Act 
+  --- -------------------------------- ------ ----- ------- ----- ------------ ----------
+  1   MD19: CRYSTAL PALAC v LIVERPOOL  ****   AWAY  HOME    MISS  OVER 2.5     UNDER(X)
+  2   MD20: BRIGHTON v WOLVERHAMPTON   ****   HOME  AWAY    MISS  OVER 2.5     OVER(OK)
+  3   MD21: WOLVERHAMPTON v MANCHESTER RE ****   AWAY  DRAW    MISS  OVER 2.5     UNDER(X)
+  4   MD21: LONDON GUNS v LEEDS        ****   HOME  HOME    HIT   UNDER 2.5    UNDER(OK)
+  5   MD22: EVERTON v NEWCASTLE        ****   HOME  AWAY    MISS  UNDER 2.5    UNDER(OK)
+========================================================================

@@ -1,0 +1,79 @@
+========================================================================
+  PENDING BLIND TEST  --  www.msport20b
+  Generated: 2026-04-04 17:16
+  Total fixtures: 104
+  High-confidence (4+*): 13  |  Medium (3*): 18
+========================================================================
+
+  STATUS: AWAITING RESULTS
+  When you have the results, run:
+    python scripts/manage_tests.py verify
+
+
+  -- MATCH DAY 14 ---------------------------------------------
+  [****-]  BOURNEMOUTH      vs CHELSEA           =>  AWAY  odds:1.5    85.7% (sig:85.7%)
+              Goals: OVER 2.5 (53.3%)   GG: NG (51.3%)
+
+  -- MATCH DAY 15 ---------------------------------------------
+  [****-]  LIVERPOOL        vs MANCHESTER RED    =>  HOME  odds:2.0    100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (52.2%)   GG: NG (50.1%)
+  [****-]  BRIGHTON         vs BOURNEMOUTH       =>  HOME  odds:1.75   71.4% (sig:71.4%)
+              Goals: UNDER 2.5 (56.0%)   GG: NG (55.5%)
+
+  -- MATCH DAY 16 ---------------------------------------------
+  [****-]  CHELSEA          vs WOLVERHAMPTON     =>  AWAY  odds:5.75   75.0% (sig:75.0%)
+              Goals: OVER 2.5 (62.2%)   GG: GG (58.1%)
+
+  -- MATCH DAY 17 ---------------------------------------------
+  [*****]  MANCHESTER BLUE  vs FULHAM            =>  HOME  odds:1.22   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (58.9%)   GG: NG (54.3%)
+
+  -- MATCH DAY 18 ---------------------------------------------
+  [****-]  BOURNEMOUTH      vs MANCHESTER BLUE   =>  AWAY  odds:1.45   77.8% (sig:77.8%)
+              Goals: OVER 2.5 (53.9%)   GG: GG (51.5%)
+  [****-]  LONDON GUNS      vs CRYSTAL PALACE    =>  HOME  odds:1.4    83.3% (sig:83.3%)
+              Goals: OVER 2.5 (58.2%)   GG: GG (52.4%)
+
+  -- MATCH DAY 19 ---------------------------------------------
+  [****-]  LEEDS            vs FULHAM            =>  DRAW  odds:3.05   83.3% (sig:83.3%)
+              Goals: UNDER 2.5 (69.6%)   GG: NG (64.5%)
+
+  -- MATCH DAY 20 ---------------------------------------------
+  [****-]  ASTON VILLA      vs EVERTON           =>  DRAW  odds:2.95   75.0% (sig:75.0%)
+              Goals: UNDER 2.5 (66.9%)   GG: NG (61.5%)
+
+  -- MATCH DAY 22 ---------------------------------------------
+  [*****]  MANCHESTER BLUE  vs WEST HAM          =>  HOME  odds:1.45   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (67.2%)   GG: GG (58.4%)
+
+  -- MATCH DAY 24 ---------------------------------------------
+  [****-]  BRIGHTON         vs EVERTON           =>  DRAW  odds:2.95   75.0% (sig:75.0%)
+              Goals: UNDER 2.5 (64.4%)   GG: NG (57.3%)
+
+  -- MATCH DAY 25 ---------------------------------------------
+  [****-]  MANCHESTER RED   vs WOLVERHAMPTON     =>  HOME  odds:1.45   71.4% (sig:71.4%)
+              Goals: OVER 2.5 (56.5%)   GG: NG (52.3%)
+
+  -- MATCH DAY 26 ---------------------------------------------
+  [****-]  MANCHESTER BLUE  vs TOTTENHAM         =>  HOME  odds:1.7    77.8% (sig:77.8%)
+              Goals: OVER 2.5 (62.2%)   GG: GG (59.4%)
+
+========================================================================
+  VERIFICATION TABLE  (13 picks)
+========================================================================
+  #   Match                              Stars   Pred   Actual   HIT?
+  --- ---------------------------------- ------- ------ -------- ----
+  1   MD14: BOURNEMOUTH v CHELSEA        [****-]  AWAY   ?        ?
+  2   MD15: LIVERPOOL v MANCHESTER RE    [****-]  HOME   ?        ?
+  3   MD15: BRIGHTON v BOURNEMOUTH       [****-]  HOME   ?        ?
+  4   MD16: CHELSEA v WOLVERHAMPTON      [****-]  AWAY   ?        ?
+  5   MD17: MANCHESTER BL v FULHAM       [*****]  HOME   ?        ?
+  6   MD18: BOURNEMOUTH v MANCHESTER BL  [****-]  AWAY   ?        ?
+  7   MD18: LONDON GUNS v CRYSTAL PALAC  [****-]  HOME   ?        ?
+  8   MD19: LEEDS v FULHAM               [****-]  DRAW   ?        ?
+  9   MD20: ASTON VILLA v EVERTON        [****-]  DRAW   ?        ?
+  10  MD22: MANCHESTER BL v WEST HAM     [*****]  HOME   ?        ?
+  11  MD24: BRIGHTON v EVERTON           [****-]  DRAW   ?        ?
+  12  MD25: MANCHESTER RE v WOLVERHAMPTON [****-]  HOME   ?        ?
+  13  MD26: MANCHESTER BL v TOTTENHAM    [****-]  HOME   ?        ?
+========================================================================

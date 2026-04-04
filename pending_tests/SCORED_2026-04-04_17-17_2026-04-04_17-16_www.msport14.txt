@@ -1,0 +1,33 @@
+========================================================================
+  SCORED TEST: 2026-04-04_17-16_www.msport14
+  Scored: 2026-04-04 17:17
+========================================================================
+  High-confidence picks : 14
+  Matched to results    : 14
+  No result data found  : 0
+
+  RESULT  accuracy : 5/14 = 35.7%
+  GOALS   accuracy : 7/14 = 50.0%
+  GG/NG   accuracy : 8/14 = 57.1%
+
+  ***** picks: 1/2 = 50.0%
+  **** picks: 4/12 = 33.3%
+
+------------------------------------------------------------------------
+  #   Match                            Stars  Pred  Actual  Score Goals Pred   Goals Act 
+  --- -------------------------------- ------ ----- ------- ----- ------------ ----------
+  1   MD3: TOTTENHAM v LEEDS           ****   HOME  HOME    HIT   UNDER 2.5    UNDER(OK)
+  2   MD6: BRIGHTON v EVERTON          ****   DRAW  HOME    MISS  UNDER 2.5    UNDER(OK)
+  3   MD7: WEST HAM v LEEDS            ****   HOME  HOME    HIT   UNDER 2.5    OVER(X)
+  4   MD8: WOLVERHAMPTON v TOTTENHAM   ****   AWAY  DRAW    MISS  OVER 2.5     UNDER(X)
+  5   MD9: ASTON VILLA v MANCHESTER BL *****  AWAY  DRAW    MISS  OVER 2.5     OVER(OK)
+  6   MD9: FULHAM v BRIGHTON           ****   AWAY  DRAW    MISS  UNDER 2.5    UNDER(OK)
+  7   MD11: LEEDS v MANCHESTER BL      ****   AWAY  AWAY    HIT   UNDER 2.5    UNDER(OK)
+  8   MD12: MANCHESTER BL v LIVERPOOL  ****   HOME  AWAY    MISS  OVER 2.5     OVER(OK)
+  9   MD15: WEST HAM v LIVERPOOL       ****   AWAY  AWAY    HIT   OVER 2.5     UNDER(X)
+  10  MD15: ASTON VILLA v WOLVERHAMPTON ****   AWAY  HOME    MISS  UNDER 2.5    OVER(X)
+  11  MD16: LEEDS v WOLVERHAMPTON      ****   HOME  DRAW    MISS  UNDER 2.5    OVER(X)
+  12  MD18: MANCHESTER BL v WEST HAM   *****  HOME  HOME    HIT   OVER 2.5     OVER(OK)
+  13  MD23: CRYSTAL PALAC v LEEDS      ****   HOME  AWAY    MISS  UNDER 2.5    OVER(X)
+  14  MD24: MANCHESTER BL v ASTON VILLA ****   HOME  DRAW    MISS  OVER 2.5     UNDER(X)
+========================================================================

@@ -1,0 +1,88 @@
+{
+    "entity_types": [
+        {
+            "name": "RngSystem",
+            "description": "The logic core that generates match outcomes based on random seeds and bias parameters.",
+            "attributes": [
+                {"name": "system_version", "type": "text", "description": "Version of the RNG logic"},
+                {"name": "seed_frequency", "type": "text", "description": "How often the RNG seed refreshes"}
+            ],
+            "examples": ["Virtual Soccer RNG V3", "Msport RNG Engine"]
+        },
+        {
+            "name": "OddsInjector",
+            "description": "The component responsible for converting raw probabilities into adjusted market odds.",
+            "attributes": [
+                {"name": "injected_bias_factor", "type": "number", "description": "The current bias factor being applied"},
+                {"name": "house_margin_percent", "type": "number", "description": "Fixed house edge"}
+            ],
+            "examples": ["Margin Controller", "Profit Optimizer"]
+        },
+        {
+            "name": "MarketFactor",
+            "description": "External constraints or biases that influence the final odds shown to the user.",
+            "attributes": [
+                {"name": "factor_type", "type": "text", "description": "e.g. Volume Bias, Stake Adjuster"},
+                {"name": "impact_level", "type": "text", "description": "High / Medium / Low"}
+            ],
+            "examples": ["Heavy Betting Volume", "Market Stability Buffer"]
+        },
+        {
+            "name": "MathematicalAuditor",
+            "description": "A persona or system tasked with stripping biases to find the true statistical probability.",
+            "attributes": [
+                {"name": "auditor_role", "type": "text", "description": "Data Scientist / Statistical Analyst"}
+            ],
+            "examples": ["Bias Stripper AI", "Antigravity Audit Node"]
+        },
+        {
+            "name": "MatchDay",
+            "description": "A collection of matches processed by the RNG system.",
+            "attributes": [
+                {"name": "match_day_id", "type": "text", "description": "Identifier for the match day"}
+            ],
+            "examples": ["Match Day 7", "Season 3037968 Day 10"]
+        },
+        {
+            "name": "BettingMarket",
+            "description": "The specific outcome probabilities being presented (1x2, O/U).",
+            "attributes": [
+                {"name": "market_type", "type": "text", "description": "1x2 / OverUnder"}
+            ],
+            "examples": ["HomeWin Market", "Over2.5 Market"]
+        },
+        {
+            "name": "Person",
+            "description": "Fallback: Any individual agent.",
+            "attributes": [{"name": "full_name", "type": "text", "description": "Agent name"}],
+            "examples": ["Auditor", "Observer"]
+        },
+        {
+            "name": "Organization",
+            "description": "Fallback: Any organizational agent.",
+            "attributes": [{"name": "org_name", "type": "text", "description": "Organization name"}],
+            "examples": ["Audit Bureau", "System Provider"]
+        }
+    ],
+    "edge_types": [
+        {
+            "name": "INJECTS_BIAS_INTO",
+            "description": "Movement of the bias factor from the injector to the market odds.",
+            "source_targets": [{"source": "OddsInjector", "target": "BettingMarket"}],
+            "attributes": []
+        },
+        {
+            "name": "AUDITS_SYSTEM",
+            "description": "The act of checking RNG integrity or bias levels.",
+            "source_targets": [{"source": "MathematicalAuditor", "target": "RngSystem"}],
+            "attributes": []
+        },
+        {
+            "name": "CALCULATES_PROBABILITY",
+            "description": "The mathematical derivation of true outcomes.",
+            "source_targets": [{"source": "MathematicalAuditor", "target": "BettingMarket"}],
+            "attributes": []
+        }
+    ],
+    "analysis_summary": "Simulating the interaction between biased odds injectors and independent mathematical auditors."
+}

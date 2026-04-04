@@ -1,0 +1,153 @@
+========================================================================
+  PENDING BLIND TEST  --  www.msport3
+  Generated: 2026-04-04 17:16
+  Total fixtures: 208
+  High-confidence (4+*): 33  |  Medium (3*): 45
+========================================================================
+
+  STATUS: AWAITING RESULTS
+  When you have the results, run:
+    python scripts/manage_tests.py verify
+
+
+  -- MATCH DAY 1 ---------------------------------------------
+  [****-]  LIVERPOOL        vs LONDON GUNS       =>  HOME  odds:1.75   83.3% (sig:83.3%)
+              Goals: OVER 2.5 (55.2%)   GG: GG (55.3%)
+
+  -- MATCH DAY 2 ---------------------------------------------
+  [****-]  ASTON VILLA      vs CRYSTAL PALACE    =>  HOME  odds:1.35   100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (50.2%)   GG: NG (58.4%)
+  [****-]  MANCHESTER RED   vs LEEDS             =>  HOME  odds:1.35   80.0% (sig:80.0%)
+              Goals: UNDER 2.5 (55.1%)   GG: NG (58.5%)
+
+  -- MATCH DAY 3 ---------------------------------------------
+  [*****]  LEEDS            vs LONDON GUNS       =>  AWAY  odds:1.95   100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (61.4%)   GG: NG (58.3%)
+
+  -- MATCH DAY 11 ---------------------------------------------
+  [****-]  LONDON GUNS      vs WOLVERHAMPTON     =>  HOME  odds:1.45   73.3% (sig:73.3%)
+              Goals: OVER 2.5 (64.7%)   GG: GG (59.4%)
+
+  -- MATCH DAY 13 ---------------------------------------------
+  [****-]  LIVERPOOL        vs WOLVERHAMPTON     =>  HOME  odds:1.35   71.4% (sig:71.4%)
+              Goals: OVER 2.5 (62.3%)   GG: GG (51.5%)
+  [****-]  TOTTENHAM        vs EVERTON           =>  DRAW  odds:3.4    71.4% (sig:71.4%)
+              Goals: UNDER 2.5 (61.5%)   GG: NG (56.5%)
+  [****-]  ASTON VILLA      vs LEEDS             =>  HOME  odds:1.55   71.4% (sig:71.4%)
+              Goals: UNDER 2.5 (64.3%)   GG: NG (64.1%)
+
+  -- MATCH DAY 14 ---------------------------------------------
+  [****-]  LEEDS            vs FULHAM            =>  DRAW  odds:3.0    83.3% (sig:83.3%)
+              Goals: UNDER 2.5 (69.8%)   GG: NG (64.6%)
+  [****-]  MANCHESTER BLUE  vs LIVERPOOL         =>  HOME  odds:2.05   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (59.6%)   GG: GG (59.0%)
+
+  -- MATCH DAY 15 ---------------------------------------------
+  [*****]  BRIGHTON         vs LONDON GUNS       =>  AWAY  odds:2.1    100.0% (sig:100.0%)
+              Goals: OVER 2.5 (51.5%)   GG: GG (53.8%)
+  [****-]  MANCHESTER RED   vs LEEDS             =>  HOME  odds:1.35   80.0% (sig:80.0%)
+              Goals: UNDER 2.5 (54.8%)   GG: NG (58.5%)
+  [****-]  FULHAM           vs WOLVERHAMPTON     =>  AWAY  odds:2.35   80.0% (sig:80.0%)
+              Goals: UNDER 2.5 (52.2%)   GG: GG (50.9%)
+
+  -- MATCH DAY 16 ---------------------------------------------
+  [****-]  MANCHESTER RED   vs WOLVERHAMPTON     =>  HOME  odds:1.45   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (56.8%)   GG: NG (52.5%)
+
+  -- MATCH DAY 18 ---------------------------------------------
+  [*****]  MANCHESTER RED   vs WEST HAM          =>  HOME  odds:1.5    100.0% (sig:100.0%)
+              Goals: OVER 2.5 (56.9%)   GG: GG (52.8%)
+
+  -- MATCH DAY 19 ---------------------------------------------
+  [****-]  NEWCASTLE        vs CRYSTAL PALACE    =>  HOME  odds:2.0    83.3% (sig:83.3%)
+              Goals: UNDER 2.5 (52.7%)   GG: NG (50.6%)
+  [****-]  MANCHESTER BLUE  vs CHELSEA           =>  DRAW  odds:4.45   80.0% (sig:80.0%)
+              Goals: OVER 2.5 (62.9%)   GG: GG (63.1%)
+
+  -- MATCH DAY 21 ---------------------------------------------
+  [****-]  LONDON GUNS      vs CHELSEA           =>  HOME  odds:2.25   87.5% (sig:87.5%)
+              Goals: OVER 2.5 (57.9%)   GG: GG (60.1%)
+  [****-]  LIVERPOOL        vs MANCHESTER RED    =>  HOME  odds:2.05   90.9% (sig:90.9%)
+              Goals: UNDER 2.5 (52.5%)   GG: GG (50.1%)
+  [****-]  WOLVERHAMPTON    vs NEWCASTLE         =>  HOME  odds:1.85   80.0% (sig:80.0%)
+              Goals: OVER 2.5 (56.1%)   GG: GG (54.4%)
+
+  -- MATCH DAY 24 ---------------------------------------------
+  [****-]  WOLVERHAMPTON    vs MANCHESTER BLUE   =>  AWAY  odds:1.7    100.0% (sig:100.0%)
+              Goals: OVER 2.5 (62.4%)   GG: GG (62.5%)
+
+  -- MATCH DAY 25 ---------------------------------------------
+  [****-]  BRIGHTON         vs NEWCASTLE         =>  HOME  odds:1.9    90.0% (sig:90.0%)
+              Goals: UNDER 2.5 (55.3%)   GG: GG (50.9%)
+  [****-]  FULHAM           vs CHELSEA           =>  DRAW  odds:4.05   80.0% (sig:80.0%)
+              Goals: UNDER 2.5 (54.5%)   GG: NG (55.8%)
+  [****-]  LONDON GUNS      vs LEEDS             =>  HOME  odds:1.5    71.4% (sig:71.4%)
+              Goals: UNDER 2.5 (50.8%)   GG: NG (57.3%)
+
+  -- MATCH DAY 26 ---------------------------------------------
+  [****-]  LEEDS            vs BRIGHTON          =>  DRAW  odds:2.7    80.0% (sig:80.0%)
+              Goals: UNDER 2.5 (69.0%)   GG: NG (63.0%)
+  [****-]  WOLVERHAMPTON    vs LONDON GUNS       =>  AWAY  odds:2.15   85.7% (sig:85.7%)
+              Goals: OVER 2.5 (60.3%)   GG: GG (60.6%)
+
+  -- MATCH DAY 27 ---------------------------------------------
+  [*****]  ASTON VILLA      vs NEWCASTLE         =>  HOME  odds:1.45   100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (52.1%)   GG: NG (57.7%)
+  [****-]  BRIGHTON         vs WOLVERHAMPTON     =>  HOME  odds:1.95   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (52.9%)   GG: GG (56.5%)
+
+  -- MATCH DAY 28 ---------------------------------------------
+  [****-]  LEEDS            vs ASTON VILLA       =>  DRAW  odds:3.0    71.4% (sig:71.4%)
+              Goals: UNDER 2.5 (68.2%)   GG: NG (63.6%)
+
+  -- MATCH DAY 29 ---------------------------------------------
+  [*****]  MANCHESTER RED   vs NEWCASTLE         =>  HOME  odds:1.35   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (54.6%)   GG: NG (57.5%)
+  [****-]  FULHAM           vs LEEDS             =>  AWAY  odds:2.6    71.4% (sig:71.4%)
+              Goals: UNDER 2.5 (66.2%)   GG: NG (60.7%)
+
+  -- MATCH DAY 30 ---------------------------------------------
+  [*****]  WOLVERHAMPTON    vs FULHAM            =>  HOME  odds:1.7    100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (52.2%)   GG: NG (51.4%)
+  [****-]  NEWCASTLE        vs TOTTENHAM         =>  DRAW  odds:3.75   71.4% (sig:71.4%)
+              Goals: OVER 2.5 (51.0%)   GG: GG (52.9%)
+
+========================================================================
+  VERIFICATION TABLE  (33 picks)
+========================================================================
+  #   Match                              Stars   Pred   Actual   HIT?
+  --- ---------------------------------- ------- ------ -------- ----
+  1   MD1: LIVERPOOL v LONDON GUNS       [****-]  HOME   ?        ?
+  2   MD2: ASTON VILLA v CRYSTAL PALAC   [****-]  HOME   ?        ?
+  3   MD2: MANCHESTER RE v LEEDS         [****-]  HOME   ?        ?
+  4   MD3: LEEDS v LONDON GUNS           [*****]  AWAY   ?        ?
+  5   MD11: LONDON GUNS v WOLVERHAMPTON  [****-]  HOME   ?        ?
+  6   MD13: LIVERPOOL v WOLVERHAMPTON    [****-]  HOME   ?        ?
+  7   MD13: TOTTENHAM v EVERTON          [****-]  DRAW   ?        ?
+  8   MD13: ASTON VILLA v LEEDS          [****-]  HOME   ?        ?
+  9   MD14: LEEDS v FULHAM               [****-]  DRAW   ?        ?
+  10  MD14: MANCHESTER BL v LIVERPOOL    [****-]  HOME   ?        ?
+  11  MD15: BRIGHTON v LONDON GUNS       [*****]  AWAY   ?        ?
+  12  MD15: MANCHESTER RE v LEEDS        [****-]  HOME   ?        ?
+  13  MD15: FULHAM v WOLVERHAMPTON       [****-]  AWAY   ?        ?
+  14  MD16: MANCHESTER RE v WOLVERHAMPTON [****-]  HOME   ?        ?
+  15  MD18: MANCHESTER RE v WEST HAM     [*****]  HOME   ?        ?
+  16  MD19: NEWCASTLE v CRYSTAL PALAC    [****-]  HOME   ?        ?
+  17  MD19: MANCHESTER BL v CHELSEA      [****-]  DRAW   ?        ?
+  18  MD21: LONDON GUNS v CHELSEA        [****-]  HOME   ?        ?
+  19  MD21: LIVERPOOL v MANCHESTER RE    [****-]  HOME   ?        ?
+  20  MD21: WOLVERHAMPTON v NEWCASTLE    [****-]  HOME   ?        ?
+  21  MD24: WOLVERHAMPTON v MANCHESTER BL [****-]  AWAY   ?        ?
+  22  MD25: BRIGHTON v NEWCASTLE         [****-]  HOME   ?        ?
+  23  MD25: FULHAM v CHELSEA             [****-]  DRAW   ?        ?
+  24  MD25: LONDON GUNS v LEEDS          [****-]  HOME   ?        ?
+  25  MD26: LEEDS v BRIGHTON             [****-]  DRAW   ?        ?
+  26  MD26: WOLVERHAMPTON v LONDON GUNS  [****-]  AWAY   ?        ?
+  27  MD27: ASTON VILLA v NEWCASTLE      [*****]  HOME   ?        ?
+  28  MD27: BRIGHTON v WOLVERHAMPTON     [****-]  HOME   ?        ?
+  29  MD28: LEEDS v ASTON VILLA          [****-]  DRAW   ?        ?
+  30  MD29: MANCHESTER RE v NEWCASTLE    [*****]  HOME   ?        ?
+  31  MD29: FULHAM v LEEDS               [****-]  AWAY   ?        ?
+  32  MD30: WOLVERHAMPTON v FULHAM       [*****]  HOME   ?        ?
+  33  MD30: NEWCASTLE v TOTTENHAM        [****-]  DRAW   ?        ?
+========================================================================

@@ -1,0 +1,4 @@
+*.har filter=lfs diff=lfs merge=lfs -text
+*.db filter=lfs diff=lfs merge=lfs -text
+*.model filter=lfs diff=lfs merge=lfs -text
+ANalysis/* filter=lfs diff=lfs merge=lfs -text

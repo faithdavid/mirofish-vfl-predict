@@ -1,0 +1,29 @@
+========================================================================
+  PENDING BLIND TEST  --  www.msport12
+  Generated: 2026-04-04 17:02
+  Total fixtures: 8
+  High-confidence (4+*): 3  |  Medium (3*): 2
+========================================================================
+
+  STATUS: AWAITING RESULTS
+  When you have the results, run:
+    python scripts/manage_tests.py verify
+
+
+  -- MATCH DAY 30 ---------------------------------------------
+  [*****]  LEEDS            vs BRIGHTON          =>  AWAY  odds:2.55   91.7% (sig:91.7%)
+              Goals: UNDER 2.5 (69.5%)   GG: NG (63.1%)
+  [*****]  WEST HAM         vs WOLVERHAMPTON     =>  AWAY  odds:3.15   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (62.2%)   GG: GG (63.7%)
+  [****-]  LONDON GUNS      vs FULHAM            =>  HOME  odds:1.35   72.7% (sig:72.7%)
+              Goals: OVER 2.5 (50.1%)   GG: NG (53.3%)
+
+========================================================================
+  VERIFICATION TABLE  (3 picks)
+========================================================================
+  #   Match                              Stars   Pred   Actual   HIT?
+  --- ---------------------------------- ------- ------ -------- ----
+  1   MD30: LONDON GUNS v FULHAM         [****-]  HOME   ?        ?
+  2   MD30: LEEDS v BRIGHTON             [*****]  AWAY   ?        ?
+  3   MD30: WEST HAM v WOLVERHAMPTON     [*****]  AWAY   ?        ?
+========================================================================

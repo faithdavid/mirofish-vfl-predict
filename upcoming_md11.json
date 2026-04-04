@@ -1,0 +1,184 @@
+{
+    "bizCode": 10000,
+    "data": {
+        "events": [
+            {
+                "awayTeam": "Liverpool",
+                "homeTeam": "London Guns",
+                "markets": [
+                    {
+                        "id": 1,
+                        "outcomes": [
+                            {"id": "1", "odds": "2.55"},
+                            {"id": "2", "odds": "3.75"},
+                            {"id": "3", "odds": "2.35"}
+                        ]
+                    },
+                    {
+                        "id": 18,
+                        "specifiers": "total=2.5",
+                        "outcomes": [
+                            {"id": "12", "odds": "1.65"},
+                            {"id": "13", "odds": "2.05"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "awayTeam": "West Ham",
+                "homeTeam": "Wolverhampton",
+                "markets": [
+                    {
+                        "id": 1,
+                        "outcomes": [
+                            {"id": "1", "odds": "2.10"},
+                            {"id": "2", "odds": "4.45"},
+                            {"id": "3", "odds": "2.60"}
+                        ]
+                    },
+                    {
+                        "id": 18,
+                        "specifiers": "total=2.5",
+                        "outcomes": [
+                            {"id": "12", "odds": "1.50"},
+                            {"id": "13", "odds": "2.40"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "awayTeam": "Manchester Red",
+                "homeTeam": "Leeds",
+                "markets": [
+                    {
+                        "id": 1,
+                        "outcomes": [
+                            {"id": "1", "odds": "6.00"},
+                            {"id": "2", "odds": "3.50"},
+                            {"id": "3", "odds": "1.60"}
+                        ]
+                    },
+                    {
+                        "id": 18,
+                        "specifiers": "total=2.5",
+                        "outcomes": [
+                            {"id": "12", "odds": "2.50"},
+                            {"id": "13", "odds": "1.50"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "awayTeam": "Manchester Blue",
+                "homeTeam": "Crystal Palace",
+                "markets": [
+                    {
+                        "id": 1,
+                        "outcomes": [
+                            {"id": "1", "odds": "4.80"},
+                            {"id": "2", "odds": "4.25"},
+                            {"id": "3", "odds": "1.55"}
+                        ]
+                    },
+                    {
+                        "id": 18,
+                        "specifiers": "total=2.5",
+                        "outcomes": [
+                            {"id": "12", "odds": "1.60"},
+                            {"id": "13", "odds": "2.20"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "awayTeam": "Chelsea",
+                "homeTeam": "Fulham",
+                "markets": [
+                    {
+                        "id": 1,
+                        "outcomes": [
+                            {"id": "1", "odds": "5.75"},
+                            {"id": "2", "odds": "4.00"},
+                            {"id": "3", "odds": "1.55"}
+                        ]
+                    },
+                    {
+                        "id": 18,
+                        "specifiers": "total=2.5",
+                        "outcomes": [
+                            {"id": "12", "odds": "1.90"},
+                            {"id": "13", "odds": "1.80"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "awayTeam": "Newcastle",
+                "homeTeam": "Aston Villa",
+                "markets": [
+                    {
+                        "id": 1,
+                        "outcomes": [
+                            {"id": "1", "odds": "1.40"},
+                            {"id": "2", "odds": "4.95"},
+                            {"id": "3", "odds": "6.00"}
+                        ]
+                    },
+                    {
+                        "id": 18,
+                        "specifiers": "total=2.5",
+                        "outcomes": [
+                            {"id": "12", "odds": "1.95"},
+                            {"id": "13", "odds": "1.80"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "awayTeam": "Brighton",
+                "homeTeam": "Tottenham",
+                "markets": [
+                    {
+                        "id": 1,
+                        "outcomes": [
+                            {"id": "1", "odds": "1.60"},
+                            {"id": "2", "odds": "3.90"},
+                            {"id": "3", "odds": "5.25"}
+                        ]
+                    },
+                    {
+                        "id": 18,
+                        "specifiers": "total=2.5",
+                        "outcomes": [
+                            {"id": "12", "odds": "1.90"},
+                            {"id": "13", "odds": "1.80"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "awayTeam": "Everton",
+                "homeTeam": "Bournemouth",
+                "markets": [
+                    {
+                        "id": 1,
+                        "outcomes": [
+                            {"id": "1", "odds": "3.35"},
+                            {"id": "2", "odds": "3.10"},
+                            {"id": "3", "odds": "2.15"}
+                        ]
+                    },
+                    {
+                        "id": 18,
+                        "specifiers": "total=2.5",
+                        "outcomes": [
+                            {"id": "12", "odds": "2.75"},
+                            {"id": "13", "odds": "1.40"}
+                        ]
+                    }
+                ]
+            }
+        ],
+        "matchDay": 11
+    }
+}

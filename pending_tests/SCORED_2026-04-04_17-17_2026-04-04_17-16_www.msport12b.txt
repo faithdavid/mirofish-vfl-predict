@@ -1,0 +1,22 @@
+========================================================================
+  SCORED TEST: 2026-04-04_17-16_www.msport12b
+  Scored: 2026-04-04 17:17
+========================================================================
+  High-confidence picks : 3
+  Matched to results    : 3
+  No result data found  : 0
+
+  RESULT  accuracy : 2/3 = 66.7%
+  GOALS   accuracy : 1/3 = 33.3%
+  GG/NG   accuracy : 1/3 = 33.3%
+
+  ***** picks: 1/2 = 50.0%
+  **** picks: 1/1 = 100.0%
+
+------------------------------------------------------------------------
+  #   Match                            Stars  Pred  Actual  Score Goals Pred   Goals Act 
+  --- -------------------------------- ------ ----- ------- ----- ------------ ----------
+  1   MD30: LONDON GUNS v FULHAM       ****   HOME  HOME    HIT   UNDER 2.5    OVER(X)
+  2   MD30: LEEDS v BRIGHTON           *****  AWAY  HOME    MISS  UNDER 2.5    UNDER(OK)
+  3   MD30: WEST HAM v WOLVERHAMPTON   *****  AWAY  AWAY    HIT   OVER 2.5     UNDER(X)
+========================================================================

@@ -1,0 +1,154 @@
+========================================================================
+  PENDING BLIND TEST  --  www.msport12c
+  Generated: 2026-04-04 17:16
+  Total fixtures: 272
+  High-confidence (4+*): 34  |  Medium (3*): 62
+========================================================================
+
+  STATUS: AWAITING RESULTS
+  When you have the results, run:
+    python scripts/manage_tests.py verify
+
+
+  -- MATCH DAY 1 ---------------------------------------------
+  [****-]  LONDON GUNS      vs ASTON VILLA       =>  AWAY  odds:3.55   83.3% (sig:83.3%)
+              Goals: OVER 2.5 (51.0%)   GG: GG (54.2%)
+
+  -- MATCH DAY 2 ---------------------------------------------
+  [*****]  ASTON VILLA      vs MANCHESTER BLUE   =>  AWAY  odds:2.35   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (50.4%)   GG: GG (53.6%)
+  [****-]  LIVERPOOL        vs TOTTENHAM         =>  HOME  odds:1.65   77.8% (sig:77.8%)
+              Goals: OVER 2.5 (52.3%)   GG: NG (51.1%)
+
+  -- MATCH DAY 11 ---------------------------------------------
+  [*****]  WEST HAM         vs LEEDS             =>  HOME  odds:1.85   100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (55.5%)   GG: NG (54.0%)
+
+  -- MATCH DAY 13 ---------------------------------------------
+  [****-]  WOLVERHAMPTON    vs FULHAM            =>  HOME  odds:1.7    100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (51.0%)   GG: GG (50.0%)
+  [****-]  WEST HAM         vs LIVERPOOL         =>  AWAY  odds:1.85   80.0% (sig:80.0%)
+              Goals: OVER 2.5 (52.9%)   GG: GG (55.6%)
+
+  -- MATCH DAY 15 ---------------------------------------------
+  [*****]  ASTON VILLA      vs MANCHESTER BLUE   =>  AWAY  odds:2.35   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (50.4%)   GG: GG (53.9%)
+
+  -- MATCH DAY 16 ---------------------------------------------
+  [*****]  ASTON VILLA      vs FULHAM            =>  HOME  odds:1.45   91.7% (sig:91.7%)
+              Goals: UNDER 2.5 (59.8%)   GG: NG (60.4%)
+  [*****]  BOURNEMOUTH      vs MANCHESTER RED    =>  AWAY  odds:1.55   100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (53.3%)   GG: NG (53.9%)
+  [****-]  WOLVERHAMPTON    vs TOTTENHAM         =>  HOME  odds:2.9    83.3% (sig:83.3%)
+              Goals: OVER 2.5 (55.4%)   GG: GG (57.0%)
+
+  -- MATCH DAY 17 ---------------------------------------------
+  [*****]  LONDON GUNS      vs WEST HAM          =>  HOME  odds:1.6    100.0% (sig:100.0%)
+              Goals: OVER 2.5 (61.1%)   GG: GG (60.2%)
+  [*****]  LONDON GUNS      vs WEST HAM          =>  HOME  odds:1.6    100.0% (sig:100.0%)
+              Goals: OVER 2.5 (61.1%)   GG: GG (60.2%)
+
+  -- MATCH DAY 18 ---------------------------------------------
+  [****-]  EVERTON          vs FULHAM            =>  HOME  odds:1.7    90.0% (sig:90.0%)
+              Goals: UNDER 2.5 (64.6%)   GG: NG (61.5%)
+  [****-]  BRIGHTON         vs WOLVERHAMPTON     =>  HOME  odds:1.95   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (52.9%)   GG: GG (55.5%)
+
+  -- MATCH DAY 19 ---------------------------------------------
+  [*****]  ASTON VILLA      vs MANCHESTER BLUE   =>  AWAY  odds:2.35   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (50.4%)   GG: GG (53.6%)
+  [****-]  LIVERPOOL        vs WEST HAM          =>  HOME  odds:1.45   80.0% (sig:80.0%)
+              Goals: OVER 2.5 (55.0%)   GG: NG (51.2%)
+  [****-]  LONDON GUNS      vs FULHAM            =>  HOME  odds:1.35   72.7% (sig:72.7%)
+              Goals: UNDER 2.5 (50.6%)   GG: NG (54.2%)
+
+  -- MATCH DAY 20 ---------------------------------------------
+  [****-]  WEST HAM         vs WOLVERHAMPTON     =>  AWAY  odds:3.15   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (62.6%)   GG: GG (63.5%)
+  [****-]  BRIGHTON         vs FULHAM            =>  HOME  odds:1.7    100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (58.7%)   GG: NG (57.9%)
+  [****-]  BOURNEMOUTH      vs CHELSEA           =>  AWAY  odds:1.5    85.7% (sig:85.7%)
+              Goals: OVER 2.5 (54.1%)   GG: NG (50.2%)
+  [****-]  MANCHESTER BLUE  vs LIVERPOOL         =>  HOME  odds:2.05   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (60.1%)   GG: GG (58.5%)
+  [****-]  WOLVERHAMPTON    vs TOTTENHAM         =>  AWAY  odds:2.05   83.3% (sig:83.3%)
+              Goals: OVER 2.5 (55.4%)   GG: GG (57.0%)
+
+  -- MATCH DAY 21 ---------------------------------------------
+  [****-]  WOLVERHAMPTON    vs ASTON VILLA       =>  AWAY  odds:2.0    100.0% (sig:100.0%)
+              Goals: OVER 2.5 (52.7%)   GG: GG (57.9%)
+  [****-]  BOURNEMOUTH      vs CHELSEA           =>  AWAY  odds:1.5    85.7% (sig:85.7%)
+              Goals: OVER 2.5 (54.1%)   GG: NG (50.5%)
+
+  -- MATCH DAY 24 ---------------------------------------------
+  [****-]  LIVERPOOL        vs TOTTENHAM         =>  HOME  odds:1.65   77.8% (sig:77.8%)
+              Goals: OVER 2.5 (52.3%)   GG: NG (51.1%)
+  [****-]  BRIGHTON         vs ASTON VILLA       =>  DRAW  odds:3.15   85.7% (sig:85.7%)
+              Goals: UNDER 2.5 (58.9%)   GG: NG (53.3%)
+
+  -- MATCH DAY 25 ---------------------------------------------
+  [****-]  ASTON VILLA      vs CRYSTAL PALACE    =>  HOME  odds:1.35   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (50.1%)   GG: NG (57.6%)
+  [****-]  ASTON VILLA      vs WOLVERHAMPTON     =>  HOME  odds:1.6    100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (50.7%)   GG: NG (52.2%)
+
+  -- MATCH DAY 27 ---------------------------------------------
+  [*****]  WOLVERHAMPTON    vs MANCHESTER BLUE   =>  AWAY  odds:1.7    100.0% (sig:100.0%)
+              Goals: OVER 2.5 (62.4%)   GG: GG (62.6%)
+  [****-]  LIVERPOOL        vs TOTTENHAM         =>  HOME  odds:1.65   77.8% (sig:77.8%)
+              Goals: OVER 2.5 (52.3%)   GG: NG (51.1%)
+
+  -- MATCH DAY 28 ---------------------------------------------
+  [*****]  WOLVERHAMPTON    vs MANCHESTER BLUE   =>  AWAY  odds:1.7    100.0% (sig:100.0%)
+              Goals: OVER 2.5 (62.4%)   GG: GG (62.6%)
+  [****-]  BRIGHTON         vs FULHAM            =>  HOME  odds:1.7    100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (58.7%)   GG: NG (57.9%)
+
+  -- MATCH DAY 29 ---------------------------------------------
+  [*****]  LIVERPOOL        vs MANCHESTER RED    =>  HOME  odds:2.0    100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (52.5%)   GG: NG (50.7%)
+
+  -- MATCH DAY 30 ---------------------------------------------
+  [****-]  LONDON GUNS      vs ASTON VILLA       =>  AWAY  odds:3.55   83.3% (sig:83.3%)
+              Goals: OVER 2.5 (51.0%)   GG: GG (54.2%)
+
+========================================================================
+  VERIFICATION TABLE  (34 picks)
+========================================================================
+  #   Match                              Stars   Pred   Actual   HIT?
+  --- ---------------------------------- ------- ------ -------- ----
+  1   MD1: LONDON GUNS v ASTON VILLA     [****-]  AWAY   ?        ?
+  2   MD2: ASTON VILLA v MANCHESTER BL   [*****]  AWAY   ?        ?
+  3   MD2: LIVERPOOL v TOTTENHAM         [****-]  HOME   ?        ?
+  4   MD11: WEST HAM v LEEDS             [*****]  HOME   ?        ?
+  5   MD13: WOLVERHAMPTON v FULHAM       [****-]  HOME   ?        ?
+  6   MD13: WEST HAM v LIVERPOOL         [****-]  AWAY   ?        ?
+  7   MD15: ASTON VILLA v MANCHESTER BL  [*****]  AWAY   ?        ?
+  8   MD16: ASTON VILLA v FULHAM         [*****]  HOME   ?        ?
+  9   MD16: BOURNEMOUTH v MANCHESTER RE  [*****]  AWAY   ?        ?
+  10  MD16: WOLVERHAMPTON v TOTTENHAM    [****-]  HOME   ?        ?
+  11  MD17: LONDON GUNS v WEST HAM       [*****]  HOME   ?        ?
+  12  MD17: LONDON GUNS v WEST HAM       [*****]  HOME   ?        ?
+  13  MD18: EVERTON v FULHAM             [****-]  HOME   ?        ?
+  14  MD18: BRIGHTON v WOLVERHAMPTON     [****-]  HOME   ?        ?
+  15  MD19: ASTON VILLA v MANCHESTER BL  [*****]  AWAY   ?        ?
+  16  MD19: LIVERPOOL v WEST HAM         [****-]  HOME   ?        ?
+  17  MD19: LONDON GUNS v FULHAM         [****-]  HOME   ?        ?
+  18  MD20: WEST HAM v WOLVERHAMPTON     [****-]  AWAY   ?        ?
+  19  MD20: BRIGHTON v FULHAM            [****-]  HOME   ?        ?
+  20  MD20: BOURNEMOUTH v CHELSEA        [****-]  AWAY   ?        ?
+  21  MD20: MANCHESTER BL v LIVERPOOL    [****-]  HOME   ?        ?
+  22  MD20: WOLVERHAMPTON v TOTTENHAM    [****-]  AWAY   ?        ?
+  23  MD21: WOLVERHAMPTON v ASTON VILLA  [****-]  AWAY   ?        ?
+  24  MD21: BOURNEMOUTH v CHELSEA        [****-]  AWAY   ?        ?
+  25  MD24: LIVERPOOL v TOTTENHAM        [****-]  HOME   ?        ?
+  26  MD24: BRIGHTON v ASTON VILLA       [****-]  DRAW   ?        ?
+  27  MD25: ASTON VILLA v CRYSTAL PALAC  [****-]  HOME   ?        ?
+  28  MD25: ASTON VILLA v WOLVERHAMPTON  [****-]  HOME   ?        ?
+  29  MD27: WOLVERHAMPTON v MANCHESTER BL [*****]  AWAY   ?        ?
+  30  MD27: LIVERPOOL v TOTTENHAM        [****-]  HOME   ?        ?
+  31  MD28: BRIGHTON v FULHAM            [****-]  HOME   ?        ?
+  32  MD28: WOLVERHAMPTON v MANCHESTER BL [*****]  AWAY   ?        ?
+  33  MD29: LIVERPOOL v MANCHESTER RE    [*****]  HOME   ?        ?
+  34  MD30: LONDON GUNS v ASTON VILLA    [****-]  AWAY   ?        ?
+========================================================================

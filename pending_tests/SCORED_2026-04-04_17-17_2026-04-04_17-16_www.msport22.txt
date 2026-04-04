@@ -1,0 +1,57 @@
+========================================================================
+  SCORED TEST: 2026-04-04_17-16_www.msport22
+  Scored: 2026-04-04 17:17
+========================================================================
+  High-confidence picks : 38
+  Matched to results    : 38
+  No result data found  : 0
+
+  RESULT  accuracy : 12/38 = 31.6%
+  GOALS   accuracy : 18/38 = 47.4%
+  GG/NG   accuracy : 18/38 = 47.4%
+
+  ***** picks: 4/6 = 66.7%
+  **** picks: 8/32 = 25.0%
+
+------------------------------------------------------------------------
+  #   Match                            Stars  Pred  Actual  Score Goals Pred   Goals Act 
+  --- -------------------------------- ------ ----- ------- ----- ------------ ----------
+  1   MD2: FULHAM v CHELSEA            ****   DRAW  HOME    MISS  UNDER 2.5    UNDER(OK)
+  2   MD2: ASTON VILLA v EVERTON       ****   DRAW  HOME    MISS  UNDER 2.5    UNDER(OK)
+  3   MD3: MANCHESTER BL v CRYSTAL PALAC ****   HOME  HOME    HIT   OVER 2.5     UNDER(X)
+  4   MD3: BOURNEMOUTH v BRIGHTON      ****   DRAW  AWAY    MISS  UNDER 2.5    UNDER(OK)
+  5   MD5: BOURNEMOUTH v LEEDS         ****   HOME  AWAY    MISS  UNDER 2.5    UNDER(OK)
+  6   MD6: LEEDS v LONDON GUNS         ****   AWAY  HOME    MISS  UNDER 2.5    OVER(X)
+  7   MD7: TOTTENHAM v CRYSTAL PALAC   ****   HOME  HOME    HIT   OVER 2.5     UNDER(X)
+  8   MD8: MANCHESTER RE v WEST HAM    *****  HOME  DRAW    MISS  OVER 2.5     OVER(OK)
+  9   MD9: ASTON VILLA v MANCHESTER BL ****   AWAY  HOME    MISS  UNDER 2.5    UNDER(OK)
+  10  MD9: TOTTENHAM v FULHAM          ****   HOME  DRAW    MISS  UNDER 2.5    UNDER(OK)
+  11  MD10: WOLVERHAMPTON v TOTTENHAM  ****   AWAY  DRAW    MISS  OVER 2.5     UNDER(X)
+  12  MD11: WEST HAM v WOLVERHAMPTON   ****   AWAY  AWAY    HIT   OVER 2.5     UNDER(X)
+  13  MD12: WOLVERHAMPTON v BRIGHTON   ****   HOME  AWAY    MISS  OVER 2.5     UNDER(X)
+  14  MD13: BOURNEMOUTH v MANCHESTER BL ****   AWAY  HOME    MISS  OVER 2.5     UNDER(X)
+  15  MD13: BOURNEMOUTH v MANCHESTER BL ****   AWAY  AWAY    HIT   OVER 2.5     OVER(OK)
+  16  MD13: CRYSTAL PALAC v WOLVERHAMPTON ****   HOME  DRAW    MISS  OVER 2.5     UNDER(X)
+  17  MD16: MANCHESTER RE v LONDON GUNS ****   AWAY  HOME    MISS  OVER 2.5     UNDER(X)
+  18  MD17: FULHAM v CHELSEA           ****   DRAW  AWAY    MISS  UNDER 2.5    OVER(X)
+  19  MD17: MANCHESTER BL v CRYSTAL PALAC *****  HOME  AWAY    MISS  OVER 2.5     UNDER(X)
+  20  MD18: WOLVERHAMPTON v FULHAM     ****   HOME  AWAY    MISS  UNDER 2.5    OVER(X)
+  21  MD18: FULHAM v EVERTON           ****   AWAY  DRAW    MISS  UNDER 2.5    OVER(X)
+  22  MD18: WOLVERHAMPTON v CHELSEA    ****   AWAY  HOME    MISS  OVER 2.5     OVER(OK)
+  23  MD19: WEST HAM v LEEDS           *****  HOME  HOME    HIT   UNDER 2.5    UNDER(OK)
+  24  MD20: MANCHESTER RE v WEST HAM   *****  HOME  HOME    HIT   OVER 2.5     UNDER(X)
+  25  MD20: ASTON VILLA v MANCHESTER BL ****   AWAY  DRAW    MISS  UNDER 2.5    UNDER(OK)
+  26  MD21: MANCHESTER BL v FULHAM     *****  HOME  HOME    HIT   OVER 2.5     OVER(OK)
+  27  MD21: TOTTENHAM v CRYSTAL PALAC  ****   HOME  DRAW    MISS  OVER 2.5     UNDER(X)
+  28  MD23: WEST HAM v LEEDS           *****  HOME  HOME    HIT   UNDER 2.5    OVER(X)
+  29  MD23: LIVERPOOL v MANCHESTER RE  ****   HOME  AWAY    MISS  UNDER 2.5    OVER(X)
+  30  MD24: WOLVERHAMPTON v LIVERPOOL  ****   AWAY  DRAW    MISS  OVER 2.5     OVER(OK)
+  31  MD25: BOURNEMOUTH v LEEDS        ****   HOME  AWAY    MISS  UNDER 2.5    UNDER(OK)
+  32  MD26: WOLVERHAMPTON v TOTTENHAM  ****   AWAY  HOME    MISS  OVER 2.5     OVER(OK)
+  33  MD26: MANCHESTER RE v LEEDS      ****   HOME  DRAW    MISS  UNDER 2.5    UNDER(OK)
+  34  MD28: FULHAM v EVERTON           ****   AWAY  AWAY    HIT   UNDER 2.5    UNDER(OK)
+  35  MD29: LEEDS v MANCHESTER BL      ****   AWAY  AWAY    HIT   UNDER 2.5    OVER(X)
+  36  MD29: TOTTENHAM v FULHAM         ****   HOME  HOME    HIT   UNDER 2.5    OVER(X)
+  37  MD30: BRIGHTON v EVERTON         ****   DRAW  HOME    MISS  UNDER 2.5    UNDER(OK)
+  38  MD30: MANCHESTER RE v LEEDS      ****   HOME  HOME    HIT   UNDER 2.5    OVER(X)
+========================================================================

@@ -1,0 +1,35 @@
+# VIRTUAL SPORTS REALITY SEED (Match Day 11, VFLM 4331)
+
+## FIXTURE 1: London Guns vs Liverpool
+* RAW ODDS: [H: 2.55] [D: 3.75] [A: 2.35]
+* OVER/UNDER 2.5: [Over: 1.65] [Under: 2.05]
+* TRUE PROBABILITY (Bias Adjusted): Home=36.1% | Draw=24.5% | Away=39.2%
+
+## FIXTURE 2: Wolverhampton vs West Ham
+* RAW ODDS: [H: 2.10] [D: 4.45] [A: 2.60]
+* OVER/UNDER 2.5: [Over: 1.50] [Under: 2.40]
+* TRUE PROBABILITY (Bias Adjusted): Home=43.7% | Draw=20.6% | Away=35.3%
+
+## FIXTURE 3: Leeds vs Manchester Red
+* RAW ODDS: [H: 6.00] [D: 3.50] [A: 1.60]
+* TRUE PROBABILITY (Bias Adjusted): Home=15.5% | Draw=26.5% | Away=58.0%
+
+## FIXTURE 4: Crystal Palace vs Manchester Blue
+* RAW ODDS: [H: 4.80] [D: 4.25] [A: 1.55]
+* TRUE PROBABILITY (Bias Adjusted): Home=19.1% | Draw=21.6% | Away=59.3%
+
+## FIXTURE 5: Fulham vs Chelsea
+* RAW ODDS: [H: 5.75] [D: 4.00] [A: 1.55]
+* TRUE PROBABILITY (Bias Adjusted): Home=16.2% | Draw=23.3% | Away=60.1%
+
+## FIXTURE 6: Aston Villa vs Newcastle
+* RAW ODDS: [H: 1.40] [D: 4.95] [A: 6.00]
+* TRUE PROBABILITY (Bias Adjusted): Home=66.1% | Draw=18.7% | Away=15.4%
+
+## FIXTURE 7: Tottenham vs Brighton
+* RAW ODDS: [H: 1.60] [D: 3.90] [A: 5.25]
+* TRUE PROBABILITY (Bias Adjusted): Home=58.2% | Draw=23.9% | Away=17.7%
+
+## FIXTURE 8: Bournemouth vs Everton
+* RAW ODDS: [H: 3.35] [D: 3.10] [A: 2.15]
+* TRUE PROBABILITY (Bias Adjusted): Home=27.5% | Draw=29.7% | Away=42.8%

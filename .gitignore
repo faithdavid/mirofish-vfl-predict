@@ -1,61 +1,31 @@
-# OS
-.DS_Store
-Thumbs.db
-
-# 环境变量（保护敏感信息）
-.env
-.env.local
-.env.*.local
-.env.development
-.env.test
-.env.production
-
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
 .venv/
+env/
 venv/
 ENV/
-.eggs/
-*.egg-info/
-dist/
-build/
+.env
 
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# 测试
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Cursor
-.cursor/
-.claude/
-
-# 文档与测试程序
-mydoc/
-mytest/
-
-# 日志文件
-backend/logs/
+# Database and Large Data (handled by Git LFS)
+# We track them via tracking logic, but exclude generic temp files
+tmp/
 *.log
 
-# 上传文件
-backend/uploads/
-uploads/
+# System/IDE
+.DS_Store
+.vscode/
+.idea/
+.gemini/
 
-# Docker 数据
-data/
+# Project Specific
+ANalysis/results* # Usually big, already handled or redundant
+extracted_odds/
+extracted_results/
+node_modules/
+backend/data/
+backend/uploads/
+backend/test_api.py
+backend/test_openrouter.py
+backend/test_tool.py

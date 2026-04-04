@@ -1,0 +1,64 @@
+========================================================================
+  PENDING BLIND TEST  --  www.msport13
+  Generated: 2026-04-04 17:02
+  Total fixtures: 80
+  High-confidence (4+*): 10  |  Medium (3*): 20
+========================================================================
+
+  STATUS: AWAITING RESULTS
+  When you have the results, run:
+    python scripts/manage_tests.py verify
+
+
+  -- MATCH DAY 11 ---------------------------------------------
+  [****-]  LONDON GUNS      vs BOURNEMOUTH       =>  HOME  odds:1.35   75.0% (sig:75.0%)
+              Goals: OVER 2.5 (53.5%)   GG: NG (54.2%)
+
+  -- MATCH DAY 12 ---------------------------------------------
+  [****-]  BRIGHTON         vs NEWCASTLE         =>  HOME  odds:1.95   90.0% (sig:90.0%)
+              Goals: UNDER 2.5 (55.4%)   GG: GG (50.3%)
+
+  -- MATCH DAY 13 ---------------------------------------------
+  [****-]  BRIGHTON         vs FULHAM            =>  HOME  odds:1.7    100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (59.3%)   GG: NG (58.3%)
+
+  -- MATCH DAY 14 ---------------------------------------------
+  [****-]  WOLVERHAMPTON    vs TOTTENHAM         =>  AWAY  odds:2.05   83.3% (sig:83.3%)
+              Goals: OVER 2.5 (55.7%)   GG: GG (56.6%)
+
+  -- MATCH DAY 16 ---------------------------------------------
+  [****-]  BRIGHTON         vs WOLVERHAMPTON     =>  HOME  odds:1.95   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (51.4%)   GG: GG (54.7%)
+
+  -- MATCH DAY 18 ---------------------------------------------
+  [****-]  CHELSEA          vs LONDON GUNS       =>  AWAY  odds:3.55   70.0% (sig:70.0%)
+              Goals: OVER 2.5 (56.1%)   GG: GG (57.5%)
+
+  -- MATCH DAY 19 ---------------------------------------------
+  [*****]  ASTON VILLA      vs MANCHESTER BLUE   =>  AWAY  odds:2.35   100.0% (sig:100.0%)
+              Goals: OVER 2.5 (50.3%)   GG: GG (52.8%)
+  [****-]  WOLVERHAMPTON    vs FULHAM            =>  HOME  odds:1.7    100.0% (sig:100.0%)
+              Goals: UNDER 2.5 (50.7%)   GG: GG (50.6%)
+
+  -- MATCH DAY 20 ---------------------------------------------
+  [****-]  EVERTON          vs LIVERPOOL         =>  AWAY  odds:1.95   70.0% (sig:70.0%)
+              Goals: UNDER 2.5 (60.3%)   GG: NG (54.8%)
+  [****-]  BRIGHTON         vs LEEDS             =>  HOME  odds:1.85   85.7% (sig:85.7%)
+              Goals: UNDER 2.5 (64.1%)   GG: NG (60.4%)
+
+========================================================================
+  VERIFICATION TABLE  (10 picks)
+========================================================================
+  #   Match                              Stars   Pred   Actual   HIT?
+  --- ---------------------------------- ------- ------ -------- ----
+  1   MD11: LONDON GUNS v BOURNEMOUTH    [****-]  HOME   ?        ?
+  2   MD12: BRIGHTON v NEWCASTLE         [****-]  HOME   ?        ?
+  3   MD13: BRIGHTON v FULHAM            [****-]  HOME   ?        ?
+  4   MD14: WOLVERHAMPTON v TOTTENHAM    [****-]  AWAY   ?        ?
+  5   MD16: BRIGHTON v WOLVERHAMPTON     [****-]  HOME   ?        ?
+  6   MD18: CHELSEA v LONDON GUNS        [****-]  AWAY   ?        ?
+  7   MD19: ASTON VILLA v MANCHESTER BL  [*****]  AWAY   ?        ?
+  8   MD19: WOLVERHAMPTON v FULHAM       [****-]  HOME   ?        ?
+  9   MD20: EVERTON v LIVERPOOL          [****-]  AWAY   ?        ?
+  10  MD20: BRIGHTON v LEEDS             [****-]  HOME   ?        ?
+========================================================================

@@ -12,7 +12,12 @@ A swarm intelligence prediction engine. Upload documents describing any scenario
 2. **Describe what to predict** — natural language prompt (e.g., "Predict public reaction to this policy over 60 days")
 3. **MiroFish builds a world** — extracts entities and relationships into a knowledge graph, generates AI agent personas with distinct personalities and opinions
 4. **Agents simulate social media** — dual-platform simulation (Twitter + Reddit) where agents post, reply, like, argue, and follow each other
-5. **Get a prediction report** — AI analyzes all simulation data and produces findings. Chat with the report agent or interview individual simulated agents.
+15. **Get a prediction report** — AI analyzes all simulation data and produces findings. Chat with the report agent or interview individual simulated agents.
+16. **Specialized RNG Analysis** — Use the built-in `scripts/batch_analyze_msport.py` to strip house bias (e.g., 0.8) from virtual sports odds and identify true statistical value.
+
+## Virtual Sports Prediction
+
+For a full walkthrough on how to use the generated prediction reports, format Match Seeds, and run the Swarm Intelligence against RNG bias, please refer to the **[Virtual Sports Prediction Guide](docs/virtual_sports_prediction.md)**.
 
 ## Changes from upstream
 
@@ -96,6 +101,13 @@ docker compose up -d
 ```
 
 The proxy container mounts the host Codex binary and `~/.codex` auth state, so make sure Codex CLI is installed and authenticated on the host first. The legacy `LLM_PROVIDER=codex-cli` path remains available outside Docker as a fallback, but the proxy is the recommended Docker path because it queues requests instead of cold-starting an unbounded number of CLI subprocesses.
+
+## OpenClaw Integration
+
+MiroFish can be integrated with OpenClaw by exposing its local API:
+1. **Tool Access**: Point OpenClaw to MiroFish's backend port (default `5001`).
+2. **Data Loop**: Use OpenClaw to fetch HAR files or live odds, then trigger `scripts/batch_analyze_msport.py` to process them.
+3. **Simulated Reasoning**: Feed the bias-adjusted results into MiroFish as "Additional Context" to see how the swarm intelligence handles the systemic variables.
 
 ## Architecture
 

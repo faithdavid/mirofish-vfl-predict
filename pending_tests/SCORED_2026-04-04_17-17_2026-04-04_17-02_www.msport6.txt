@@ -1,0 +1,30 @@
+========================================================================
+  SCORED TEST: 2026-04-04_17-02_www.msport6
+  Scored: 2026-04-04 17:17
+========================================================================
+  High-confidence picks : 11
+  Matched to results    : 11
+  No result data found  : 0
+
+  RESULT  accuracy : 6/11 = 54.5%
+  GOALS   accuracy : 8/11 = 72.7%
+  GG/NG   accuracy : 8/11 = 72.7%
+
+  ***** picks: 1/2 = 50.0%
+  **** picks: 5/9 = 55.6%
+
+------------------------------------------------------------------------
+  #   Match                            Stars  Pred  Actual  Score Goals Pred   Goals Act 
+  --- -------------------------------- ------ ----- ------- ----- ------------ ----------
+  1   MD5: LIVERPOOL v MANCHESTER RE   *****  HOME  AWAY    MISS  UNDER 2.5    UNDER(OK)
+  2   MD5: BRIGHTON v EVERTON          ****   DRAW  DRAW    HIT   UNDER 2.5    UNDER(OK)
+  3   MD5: WOLVERHAMPTON v MANCHESTER BL ****   AWAY  HOME    MISS  OVER 2.5     OVER(OK)
+  4   MD6: TOTTENHAM v WOLVERHAMPTON   ****   HOME  HOME    HIT   OVER 2.5     OVER(OK)
+  5   MD9: CHELSEA v FULHAM            *****  HOME  HOME    HIT   UNDER 2.5    OVER(X)
+  6   MD9: BOURNEMOUTH v MANCHESTER BL ****   AWAY  AWAY    HIT   OVER 2.5     OVER(OK)
+  7   MD11: EVERTON v MANCHESTER RE    ****   AWAY  HOME    MISS  UNDER 2.5    UNDER(OK)
+  8   MD11: BRIGHTON v WOLVERHAMPTON   ****   HOME  HOME    HIT   OVER 2.5     UNDER(X)
+  9   MD17: BRIGHTON v LEEDS           ****   HOME  HOME    HIT   UNDER 2.5    UNDER(OK)
+  10  MD17: WOLVERHAMPTON v MANCHESTER RE ****   AWAY  DRAW    MISS  OVER 2.5     UNDER(X)
+  11  MD17: ASTON VILLA v FULHAM       ****   HOME  DRAW    MISS  UNDER 2.5    UNDER(OK)
+========================================================================

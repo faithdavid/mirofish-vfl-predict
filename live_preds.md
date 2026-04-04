@@ -1,0 +1,2388 @@
+```
+=================================================================
+  VFL MASTER PREDICTION ENGINE  v2.0
+  Generated: 2026-04-04 16:27
+=================================================================
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 1
+─────────────────────────────────────────────────────────────────
+
+  FULHAM vs CRYSTAL PALACE
+  Odds: 2.2 / 3.3 / 3.1  (H/D/A)
+  ★★★★ SIGNATURE MATCH  71.4% ({'AWAY': 5, 'HOME': 2}) over 7 games
+  H2H (240 games): H=44.2%  D=27.1%  A=28.8%  |  Last 5: D,H,A,A,H  (1:1,1:0,0:1,1:2,2:1)
+  ── PICK ── RESULT: AWAY (71.4%)   GOALS: UNDER 2.5 (58.2%)   GG: NG (52.2%)
+
+  MANCHESTER RED vs NEWCASTLE
+  Odds: 1.35 / 4.55 / 8.75  (H/D/A)
+  ★★★ [STATS]  blend: H=67.3%  D=20.1%  A=13.1%
+  H2H (245 games): H=70.6%  D=18.4%  A=11.0%  |  Last 5: H,H,H,H,H  (4:0,5:1,3:1,2:0,2:0)
+  ── PICK ── RESULT: HOME (67.3%)   GOALS: OVER 2.5 (53.4%)   GG: NG (56.9%)
+
+  LIVERPOOL vs WOLVERHAMPTON
+  Odds: 1.35 / 4.65 / 7.25  (H/D/A)
+  ★★★ [STATS]  blend: H=68.5%  D=18.4%  A=15.3%
+  H2H (247 games): H=73.7%  D=15.8%  A=10.5%  |  Last 5: H,D,D,H,H  (2:0,1:1,2:2,4:1,3:1)
+  ── PICK ── RESULT: HOME (68.5%)   GOALS: OVER 2.5 (62.9%)   GG: GG (50.9%)
+
+  FULHAM vs BOURNEMOUTH
+  Odds: 2.15 / 3.3 / 3.2  (H/D/A)
+  ★★★ SIGNATURE MATCH  71.4% ({'AWAY': 1, 'DRAW': 1, 'HOME': 5}) over 7 games
+  H2H (244 games): H=45.9%  D=30.7%  A=23.4%  |  Last 5: H,H,H,D,H  (1:0,2:1,3:0,2:2,3:0)
+  ── PICK ── RESULT: HOME (71.4%)   GOALS: UNDER 2.5 (63.4%)   GG: NG (58.5%)
+
+  MANCHESTER BLUE vs BRIGHTON
+  Odds: 1.4 / 4.6 / 7.25  (H/D/A)
+  ★★★ [STATS]  blend: H=68.2%  D=17.7%  A=16.5%
+  H2H (242 games): H=73.1%  D=12.4%  A=14.5%  |  Last 5: H,H,H,A,H  (2:1,1:0,2:1,1:2,3:2)
+  ── PICK ── RESULT: HOME (68.2%)   GOALS: OVER 2.5 (56.5%)   GG: NG (51.1%)
+
+  LIVERPOOL vs BOURNEMOUTH
+  Odds: 1.3 / 5.0 / 9.5  (H/D/A)
+  ★★★ [STATS]  blend: H=73.0%  D=17.0%  A=10.0%
+  H2H (244 games): H=82.0%  D=12.3%  A=5.7%  |  Last 5: H,H,H,H,H  (4:1,4:0,2:0,3:0,3:0)
+  ── PICK ── RESULT: HOME (73.0%)   GOALS: OVER 2.5 (55.1%)   GG: NG (58.2%)
+
+  CHELSEA vs WEST HAM
+  Odds: 1.6 / 4.15 / 4.65  (H/D/A)
+  ★★ [STATS]  blend: H=57.9%  D=23.0%  A=21.4%
+  H2H (243 games): H=58.4%  D=23.9%  A=17.7%  |  Last 5: H,D,A,A,H  (3:0,2:2,1:2,0:1,2:1)
+  ── PICK ── RESULT: HOME (57.9%)   GOALS: OVER 2.5 (56.2%)   GG: GG (56.0%)
+
+  LEEDS vs MANCHESTER BLUE
+  Odds: 5.25 / 3.3 / 1.7  (H/D/A)
+  ★★ [STATS]  blend: H=20.9%  D=22.9%  A=57.5%
+  H2H (249 games): H=18.5%  D=15.3%  A=66.3%  |  Last 5: H,D,A,D,A  (2:0,1:1,0:1,1:1,0:1)
+  ── PICK ── RESULT: AWAY (57.5%)   GOALS: UNDER 2.5 (57.4%)   GG: NG (56.5%)
+
+  MANCHESTER RED vs EVERTON
+  Odds: 1.6 / 3.9 / 4.95  (H/D/A)
+  ★★ [STATS]  blend: H=57.7%  D=26.2%  A=19.2%
+  H2H (244 games): H=56.1%  D=29.5%  A=14.3%  |  Last 5: H,D,A,H,H  (4:2,0:0,0:1,2:0,5:1)
+  ── PICK ── RESULT: HOME (57.7%)   GOALS: UNDER 2.5 (57.8%)   GG: NG (55.9%)
+
+  EVERTON vs TOTTENHAM
+  Odds: 2.95 / 3.1 / 2.35  (H/D/A)
+  ★ [STATS]  blend: H=34.6%  D=27.1%  A=39.9%
+  H2H (243 games): H=33.3%  D=25.1%  A=41.6%  |  Last 5: A,D,A,A,D  (1:2,0:0,0:1,0:2,0:0)
+  ── PICK ── RESULT: AWAY (39.9%)   GOALS: UNDER 2.5 (62.4%)   GG: NG (57.0%)
+
+  ASTON VILLA vs LONDON GUNS
+  Odds: 2.2 / 3.35 / 3.1  (H/D/A)
+  ★ [STATS]  blend: H=48.3%  D=24.0%  A=31.8%
+  H2H (242 games): H=51.7%  D=19.4%  A=28.9%  |  Last 5: D,D,A,H,H  (0:0,1:1,1:2,1:0,1:0)
+  ── PICK ── RESULT: HOME (48.3%)   GOALS: UNDER 2.5 (53.2%)   GG: NG (50.6%)
+
+  LEEDS vs CRYSTAL PALACE
+  Odds: 1.95 / 3.35 / 3.65  (H/D/A)
+  ★ [STATS]  blend: H=42.1%  D=26.8%  A=24.2%
+  H2H (245 games): H=45.3%  D=27.3%  A=27.3%  |  Last 5: H,D,H,D,H  (2:0,0:0,5:1,1:1,4:3)
+  ── PICK ── RESULT: HOME (42.1%)   GOALS: UNDER 2.5 (63.6%)   GG: NG (58.2%)
+
+  NEWCASTLE vs BRIGHTON
+  Odds: 2.45 / 3.2 / 2.75  (H/D/A)
+  ★ [STATS]  blend: H=36.3%  D=25.5%  A=33.1%
+  H2H (245 games): H=38.8%  D=22.9%  A=38.4%  |  Last 5: H,A,D,H,H  (1:0,1:2,0:0,6:0,2:0)
+  ── PICK ── RESULT: HOME (36.3%)   GOALS: UNDER 2.5 (59.0%)   GG: NG (53.8%)
+
+  WOLVERHAMPTON vs WEST HAM
+  Odds: 2.1 / 4.35 / 2.7  (H/D/A)
+  ★ [STATS]  blend: H=43.8%  D=20.4%  A=33.9%
+  H2H (245 games): H=46.5%  D=16.7%  A=36.7%  |  Last 5: H,H,H,A,A  (1:0,4:0,2:1,1:2,1:4)
+  ── PICK ── RESULT: HOME (43.8%)   GOALS: OVER 2.5 (61.1%)   GG: GG (62.0%)
+
+  TOTTENHAM vs CHELSEA
+  Odds: 2.3 / 3.95 / 2.55  (H/D/A)
+  ★ [STATS]  blend: H=44.4%  D=21.0%  A=40.5%
+  H2H (244 games): H=41.4%  D=16.8%  A=41.8%  |  Last 5: A,A,H,D,D  (1:5,1:2,4:3,0:0,0:0)
+  ── PICK ── RESULT: HOME (44.4%)   GOALS: OVER 2.5 (55.9%)   GG: GG (56.8%)
+
+  ASTON VILLA vs LONDON GUNS
+  Odds: 2.2 / 3.3 / 3.1  (H/D/A)
+  ★ [STATS]  blend: H=48.2%  D=24.2%  A=31.8%
+  H2H (242 games): H=51.7%  D=19.4%  A=28.9%  |  Last 5: D,D,A,H,H  (0:0,1:1,1:2,1:0,1:0)
+  ── PICK ── RESULT: HOME (48.2%)   GOALS: UNDER 2.5 (53.5%)   GG: NG (50.6%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 10
+─────────────────────────────────────────────────────────────────
+
+  MANCHESTER BLUE vs LEEDS
+  Odds: 1.35 / 4.8 / 8.25  (H/D/A)
+  ★★★ [STATS]  blend: H=67.1%  D=20.3%  A=13.9%
+  H2H (241 games): H=67.2%  D=19.9%  A=12.9%  |  Last 5: H,D,H,H,A  (5:0,1:1,4:0,5:0,1:2)
+  RANK: Home ranked 12 higher
+  ── PICK ── RESULT: HOME (67.1%)   GOALS: OVER 2.5 (51.3%)   GG: NG (56.9%)
+
+  FULHAM vs WOLVERHAMPTON
+  Odds: 2.6 / 3.8 / 2.3  (H/D/A)
+  ★★★ SIGNATURE MATCH  87.5% ({'AWAY': 7, 'HOME': 1}) over 8 games
+  H2H (244 games): H=34.4%  D=26.2%  A=39.3%  |  Last 5: D,A,D,A,D  (2:2,0:2,2:2,1:2,0:0)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: AWAY (87.5%)   GOALS: UNDER 2.5 (51.7%)   GG: GG (51.3%)
+
+  NEWCASTLE vs CHELSEA
+  Odds: 5.25 / 4.2 / 1.55  (H/D/A)
+  ★★ [STATS]  blend: H=20.9%  D=22.4%  A=56.7%
+  H2H (244 games): H=17.6%  D=21.7%  A=60.7%  |  Last 5: A,A,H,A,A  (0:3,1:3,1:0,0:3,0:2)
+  RANK: Away ranked 13 higher
+  ── PICK ── RESULT: AWAY (56.7%)   GOALS: OVER 2.5 (52.1%)   GG: NG (50.4%)
+
+  LONDON GUNS vs WEST HAM
+  Odds: 1.6 / 4.3 / 4.35  (H/D/A)
+  ★★ [STATS]  blend: H=56.4%  D=21.5%  A=24.0%
+  H2H (244 games): H=55.7%  D=20.5%  A=23.8%  |  Last 5: H,A,D,A,H  (4:1,0:1,1:1,1:2,2:0)
+  ── PICK ── RESULT: HOME (56.4%)   GOALS: OVER 2.5 (60.2%)   GG: GG (59.0%)
+
+  TOTTENHAM vs BRIGHTON
+  Odds: 1.6 / 3.6 / 5.75  (H/D/A)
+  ★★ [STATS]  blend: H=59.1%  D=23.8%  A=17.9%
+  H2H (242 games): H=63.2%  D=21.9%  A=14.9%  |  Last 5: H,H,H,D,A  (4:0,5:0,2:1,1:1,1:2)
+  ── PICK ── RESULT: HOME (59.1%)   GOALS: UNDER 2.5 (50.9%)   GG: NG (50.9%)
+
+  ASTON VILLA vs MANCHESTER RED
+  Odds: 2.3 / 3.85 / 2.6  (H/D/A)
+  ★ [STATS]  blend: H=42.9%  D=26.1%  A=36.8%
+  H2H (243 games): H=38.7%  D=29.6%  A=31.7%  |  Last 5: A,D,A,H,H  (0:3,0:0,0:2,1:0,2:1)
+  ── PICK ── RESULT: HOME (42.9%)   GOALS: UNDER 2.5 (56.7%)   GG: NG (52.2%)
+
+  BOURNEMOUTH vs CRYSTAL PALACE
+  Odds: 2.35 / 3.15 / 2.95  (H/D/A)
+  ★ [STATS]  blend: H=37.9%  D=25.2%  A=29.1%
+  H2H (245 games): H=43.7%  D=22.0%  A=34.3%  |  Last 5: D,H,H,D,H  (1:1,3:1,2:1,1:1,1:0)
+  ── PICK ── RESULT: HOME (37.9%)   GOALS: UNDER 2.5 (57.4%)   GG: GG (50.5%)
+
+  EVERTON vs LIVERPOOL
+  Odds: 3.95 / 3.05 / 2.0  (H/D/A)
+  ★ [STATS]  blend: H=29.8%  D=27.7%  A=46.1%
+  H2H (244 games): H=28.7%  D=25.8%  A=45.5%  |  Last 5: A,H,A,D,D  (0:2,3:2,0:2,1:1,2:2)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: AWAY (46.1%)   GOALS: UNDER 2.5 (60.5%)   GG: NG (55.3%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 11
+─────────────────────────────────────────────────────────────────
+
+  BRIGHTON vs LONDON GUNS
+  Odds: 3.15 / 3.6 / 2.05  (H/D/A)
+  ★★★★ SIGNATURE MATCH  80.0% ({'AWAY': 4, 'DRAW': 1}) over 5 games
+  H2H (245 games): H=21.6%  D=20.8%  A=57.6%  |  Last 5: A,H,D,A,H  (1:2,1:0,1:1,0:3,1:0)
+  ── PICK ── RESULT: AWAY (80.0%)   GOALS: OVER 2.5 (52.1%)   GG: GG (54.6%)
+
+  TOTTENHAM vs NEWCASTLE
+  Odds: 1.4 / 5.0 / 6.5  (H/D/A)
+  ★★★ [STATS]  blend: H=66.7%  D=17.5%  A=15.2%
+  H2H (246 games): H=74.8%  D=12.6%  A=12.6%  |  Last 5: H,H,H,H,H  (3:1,1:0,2:0,4:1,1:0)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (66.7%)   GOALS: OVER 2.5 (54.6%)   GG: NG (53.7%)
+
+  LIVERPOOL vs MANCHESTER BLUE
+  Odds: 2.15 / 3.65 / 2.95  (H/D/A)
+  ★★★ SIGNATURE MATCH  83.3% ({'DRAW': 2, 'HOME': 10}) over 12 games
+  H2H (240 games): H=45.8%  D=25.4%  A=28.8%  |  Last 5: A,H,A,D,A  (1:2,2:1,1:2,1:1,0:2)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: HOME (83.3%)   GOALS: OVER 2.5 (54.9%)   GG: GG (56.9%)
+
+  LEEDS vs CHELSEA
+  Odds: 6.0 / 3.6 / 1.55  (H/D/A)
+  ★★ [STATS]  blend: H=19.7%  D=24.1%  A=56.3%
+  H2H (242 games): H=17.8%  D=21.5%  A=60.7%  |  Last 5: A,D,A,A,H  (0:2,1:1,1:4,2:3,2:1)
+  RANK: Away ranked 12 higher
+  ── PICK ── RESULT: AWAY (56.3%)   GOALS: UNDER 2.5 (58.9%)   GG: NG (59.6%)
+
+  MANCHESTER RED vs EVERTON
+  Odds: 1.6 / 3.9 / 4.95  (H/D/A)
+  ★★ [STATS]  blend: H=57.7%  D=26.2%  A=19.2%
+  H2H (244 games): H=56.1%  D=29.5%  A=14.3%  |  Last 5: H,D,A,H,H  (4:2,0:0,0:1,2:0,5:1)
+  RANK: Home ranked 14 higher
+  ── PICK ── RESULT: HOME (57.7%)   GOALS: UNDER 2.5 (57.8%)   GG: NG (56.1%)
+
+  CRYSTAL PALACE vs FULHAM
+  Odds: 2.05 / 3.4 / 3.3  (H/D/A)
+  ★ [STATS]  blend: H=41.1%  D=27.5%  A=24.2%
+  H2H (243 games): H=44.9%  D=29.6%  A=25.5%  |  Last 5: D,D,H,H,D  (0:0,1:1,3:1,2:0,0:0)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (41.1%)   GOALS: UNDER 2.5 (59.9%)   GG: NG (55.2%)
+
+  WEST HAM vs BOURNEMOUTH
+  Odds: 1.65 / 3.95 / 4.5  (H/D/A)
+  ★ [STATS]  blend: H=52.3%  D=22.3%  A=20.8%
+  H2H (242 games): H=55.8%  D=19.8%  A=24.4%  |  Last 5: D,A,H,H,A  (1:1,0:1,2:0,2:0,0:1)
+  RANK: Home ranked 5 higher
+  ── PICK ── RESULT: HOME (52.3%)   GOALS: OVER 2.5 (51.5%)   GG: NG (51.5%)
+
+  WOLVERHAMPTON vs ASTON VILLA
+  Odds: 3.4 / 3.5 / 2.0  (H/D/A)
+  ★ [STATS]  blend: H=30.4%  D=25.9%  A=44.8%
+  H2H (242 games): H=27.7%  D=26.0%  A=46.3%  |  Last 5: A,A,A,D,A  (0:1,1:3,0:1,0:0,0:2)
+  RANK: Away ranked 10 higher
+  ── PICK ── RESULT: AWAY (44.8%)   GOALS: OVER 2.5 (51.9%)   GG: GG (57.4%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 12
+─────────────────────────────────────────────────────────────────
+
+  NEWCASTLE vs LEEDS
+  Odds: 2.45 / 3.1 / 2.85  (H/D/A)
+  ★★★★★ SIGNATURE MATCH  100.0% ({'DRAW': 5}) over 5 games
+  H2H (239 games): H=38.1%  D=28.0%  A=33.9%  |  Last 5: D,D,H,H,D  (0:0,0:0,4:0,1:0,1:1)
+  ── PICK ── RESULT: DRAW (100.0%)   GOALS: UNDER 2.5 (64.3%)   GG: NG (60.0%)
+
+  FULHAM vs WEST HAM
+  Odds: 3.1 / 3.75 / 2.05  (H/D/A)
+  ★★★ SIGNATURE MATCH  71.4% ({'AWAY': 5, 'HOME': 2}) over 7 games
+  H2H (248 games): H=30.6%  D=29.0%  A=40.3%  |  Last 5: H,H,A,D,A  (3:2,3:0,0:2,1:1,0:3)
+  RANK: Away ranked 10 higher
+  ── PICK ── RESULT: AWAY (71.4%)   GOALS: UNDER 2.5 (56.7%)   GG: NG (51.4%)
+
+  ASTON VILLA vs CRYSTAL PALACE
+  Odds: 1.4 / 4.35 / 8.25  (H/D/A)
+  ★★★ [STATS]  blend: H=66.0%  D=20.3%  A=12.4%
+  H2H (242 games): H=74.0%  D=16.5%  A=9.5%  |  Last 5: D,H,H,H,H  (1:1,2:1,2:0,2:1,2:0)
+  RANK: Home ranked 7 higher
+  ── PICK ── RESULT: HOME (66.0%)   GOALS: OVER 2.5 (50.2%)   GG: NG (57.6%)
+
+  CHELSEA vs LIVERPOOL
+  Odds: 2.15 / 3.65 / 2.95  (H/D/A)
+  ★ [STATS]  blend: H=47.4%  D=23.6%  A=35.8%
+  H2H (243 games): H=45.3%  D=21.8%  A=32.9%  |  Last 5: H,H,H,D,H  (2:0,1:0,1:0,2:2,4:1)
+  RANK: Home ranked 6 higher
+  ── PICK ── RESULT: HOME (47.4%)   GOALS: OVER 2.5 (55.1%)   GG: GG (57.7%)
+
+  EVERTON vs WOLVERHAMPTON
+  Odds: 1.85 / 3.85 / 3.7  (H/D/A)
+  ★ [STATS]  blend: H=46.9%  D=24.0%  A=27.0%
+  H2H (241 games): H=46.5%  D=24.1%  A=29.5%  |  Last 5: D,H,H,A,D  (0:0,2:1,3:1,2:3,1:1)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: HOME (46.9%)   GOALS: UNDER 2.5 (52.7%)   GG: NG (52.7%)
+
+  MANCHESTER BLUE vs MANCHESTER RED
+  Odds: 1.9 / 3.75 / 3.45  (H/D/A)
+  ★ [STATS]  blend: H=52.7%  D=23.1%  A=31.9%
+  H2H (242 games): H=49.6%  D=22.7%  A=27.7%  |  Last 5: A,H,H,A,H  (0:1,1:0,4:0,0:1,3:0)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: HOME (52.7%)   GOALS: OVER 2.5 (58.5%)   GG: GG (56.2%)
+
+  LONDON GUNS vs TOTTENHAM
+  Odds: 2.0 / 3.85 / 3.2  (H/D/A)
+  ★ [STATS]  blend: H=50.8%  D=24.3%  A=29.4%
+  H2H (240 games): H=52.1%  D=25.0%  A=22.9%  |  Last 5: H,H,H,H,A  (3:1,3:1,3:0,1:0,1:2)
+  ── PICK ── RESULT: HOME (50.8%)   GOALS: OVER 2.5 (55.4%)   GG: GG (57.7%)
+
+  BOURNEMOUTH vs BRIGHTON
+  Odds: 2.95 / 3.2 / 2.35  (H/D/A)
+  ★ [STATS]  blend: H=29.9%  D=27.4%  A=36.8%
+  H2H (244 games): H=29.5%  D=28.3%  A=42.2%  |  Last 5: A,A,D,D,A  (0:3,2:4,0:0,0:0,0:2)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: AWAY (36.8%)   GOALS: UNDER 2.5 (61.9%)   GG: NG (55.2%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 13
+─────────────────────────────────────────────────────────────────
+
+  LONDON GUNS vs NEWCASTLE
+  Odds: 1.5 / 3.75 / 6.5  (H/D/A)
+  ★★★★ SIGNATURE MATCH  100.0% ({'HOME': 13}) over 13 games
+  H2H (245 games): H=66.9%  D=19.6%  A=13.5%  |  Last 5: H,H,H,H,H  (6:1,2:1,2:1,3:0,4:1)
+  RANK: Home ranked 5 higher
+  ── PICK ── RESULT: HOME (100.0%)   GOALS: OVER 2.5 (56.1%)   GG: NG (51.2%)
+
+  LIVERPOOL vs LEEDS
+  Odds: 1.35 / 4.1 / 9.5  (H/D/A)
+  ★★★ [STATS]  blend: H=66.9%  D=21.3%  A=13.2%
+  H2H (245 games): H=68.6%  D=18.8%  A=12.7%  |  Last 5: H,H,H,H,D  (2:1,2:1,3:0,4:0,1:1)
+  RANK: Home ranked 6 higher
+  ── PICK ── RESULT: HOME (66.9%)   GOALS: UNDER 2.5 (57.0%)   GG: NG (66.5%)
+
+  TOTTENHAM vs BOURNEMOUTH
+  Odds: 1.3 / 4.65 / 9.75  (H/D/A)
+  ★★★ [STATS]  blend: H=66.3%  D=19.7%  A=12.5%
+  H2H (243 games): H=69.1%  D=17.7%  A=13.2%  |  Last 5: H,H,H,D,H  (2:0,4:1,1:0,2:2,2:0)
+  RANK: Home ranked 9 higher
+  ── PICK ── RESULT: HOME (66.3%)   GOALS: OVER 2.5 (51.7%)   GG: NG (54.6%)
+
+  WOLVERHAMPTON vs MANCHESTER BLUE
+  Odds: 3.65 / 4.45 / 1.7  (H/D/A)
+  ★★ [STATS]  blend: H=26.3%  D=21.5%  A=55.4%
+  H2H (240 games): H=18.3%  D=20.8%  A=60.8%  |  Last 5: H,A,A,A,A  (4:1,1:3,0:4,1:2,1:3)
+  RANK: Away ranked 7 higher
+  ── PICK ── RESULT: AWAY (55.4%)   GOALS: OVER 2.5 (62.9%)   GG: GG (62.0%)
+
+  MANCHESTER RED vs CHELSEA
+  Odds: 2.1 / 3.25 / 3.4  (H/D/A)
+  ★ [STATS]  blend: H=48.2%  D=24.1%  A=34.7%
+  H2H (246 games): H=44.3%  D=20.3%  A=35.4%  |  Last 5: D,A,A,H,H  (3:3,1:2,0:3,3:1,3:0)
+  ── PICK ── RESULT: HOME (48.2%)   GOALS: OVER 2.5 (54.2%)   GG: GG (57.1%)
+
+  BRIGHTON vs FULHAM
+  Odds: 1.65 / 3.6 / 4.9  (H/D/A)
+  ★ [STATS]  blend: H=51.4%  D=26.0%  A=17.7%
+  H2H (246 games): H=55.7%  D=26.8%  A=17.5%  |  Last 5: H,H,D,H,D  (2:1,4:0,0:0,4:0,1:1)
+  RANK: Home ranked 7 higher
+  ── PICK ── RESULT: HOME (51.4%)   GOALS: UNDER 2.5 (59.3%)   GG: NG (57.7%)
+
+  CRYSTAL PALACE vs EVERTON
+  Odds: 2.8 / 3.2 / 2.4  (H/D/A)
+  ★ [STATS]  blend: H=31.7%  D=27.7%  A=36.4%
+  H2H (240 games): H=32.1%  D=27.1%  A=40.8%  |  Last 5: A,A,D,H,A  (0:1,1:3,0:0,1:0,1:2)
+  ── PICK ── RESULT: AWAY (36.4%)   GOALS: UNDER 2.5 (58.2%)   GG: NG (53.7%)
+
+  WEST HAM vs ASTON VILLA
+  Odds: 3.05 / 3.5 / 2.15  (H/D/A)
+  ★ [STATS]  blend: H=33.0%  D=26.5%  A=42.3%
+  H2H (243 games): H=30.0%  D=27.2%  A=42.8%  |  Last 5: A,A,H,D,A  (0:2,0:3,2:0,0:0,0:3)
+  ── PICK ── RESULT: AWAY (42.3%)   GOALS: UNDER 2.5 (55.0%)   GG: NG (50.8%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 14
+─────────────────────────────────────────────────────────────────
+
+  ASTON VILLA vs BRIGHTON
+  Odds: 1.7 / 3.2 / 5.25  (H/D/A)
+  ★★★★ SIGNATURE MATCH  71.4% ({'DRAW': 2, 'HOME': 5}) over 7 games
+  H2H (241 games): H=59.3%  D=28.2%  A=12.4%  |  Last 5: H,D,H,A,H  (2:0,1:1,3:0,1:2,2:1)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (71.4%)   GOALS: UNDER 2.5 (62.2%)   GG: NG (58.2%)
+
+  BOURNEMOUTH vs LONDON GUNS
+  Odds: 3.7 / 3.6 / 1.9  (H/D/A)
+  ★★★★ SIGNATURE MATCH  71.4% ({'AWAY': 5, 'DRAW': 1, 'HOME': 1}) over 7 games
+  H2H (248 games): H=19.8%  D=30.2%  A=50.0%  |  Last 5: A,A,A,A,A  (0:1,0:1,0:4,0:2,0:1)
+  RANK: Away ranked 9 higher
+  ── PICK ── RESULT: AWAY (71.4%)   GOALS: UNDER 2.5 (54.9%)   GG: NG (51.1%)
+
+  MANCHESTER BLUE vs CRYSTAL PALACE
+  Odds: 1.22 / 6.5 / 9.25  (H/D/A)
+  ★★★ [STATS]  blend: H=73.3%  D=15.4%  A=11.9%
+  H2H (243 games): H=77.4%  D=13.2%  A=9.5%  |  Last 5: H,H,D,H,D  (4:0,5:0,1:1,3:1,1:1)
+  RANK: Home ranked 6 higher
+  ── PICK ── RESULT: HOME (73.3%)   GOALS: OVER 2.5 (65.8%)   GG: GG (53.2%)
+
+  NEWCASTLE vs LIVERPOOL
+  Odds: 5.25 / 3.55 / 1.65  (H/D/A)
+  ★★ [STATS]  blend: H=20.4%  D=24.6%  A=55.6%
+  H2H (247 games): H=16.2%  D=22.7%  A=61.1%  |  Last 5: D,A,A,D,A  (1:1,0:1,0:1,2:2,2:4)
+  RANK: Away ranked 5 higher
+  ── PICK ── RESULT: AWAY (55.6%)   GOALS: UNDER 2.5 (52.3%)   GG: NG (54.3%)
+
+  CHELSEA vs WOLVERHAMPTON
+  Odds: 1.5 / 4.5 / 5.25  (H/D/A)
+  ★★ [STATS]  blend: H=61.8%  D=19.4%  A=19.8%
+  H2H (244 games): H=65.2%  D=17.2%  A=17.6%  |  Last 5: H,H,H,H,H  (1:0,3:2,2:1,3:1,2:1)
+  RANK: Home ranked 7 higher
+  ── PICK ── RESULT: HOME (61.8%)   GOALS: OVER 2.5 (63.4%)   GG: GG (60.6%)
+
+  LEEDS vs MANCHESTER RED
+  Odds: 5.75 / 3.7 / 1.6  (H/D/A)
+  ★ [STATS]  blend: H=21.7%  D=24.6%  A=54.0%
+  H2H (245 games): H=22.4%  D=22.9%  A=54.7%  |  Last 5: A,A,D,D,A  (0:3,0:1,0:0,0:0,0:1)
+  RANK: Away ranked 10 higher
+  ── PICK ── RESULT: AWAY (54.0%)   GOALS: UNDER 2.5 (61.7%)   GG: NG (60.9%)
+
+  EVERTON vs WEST HAM
+  Odds: 2.15 / 3.55 / 2.95  (H/D/A)
+  ★ [STATS]  blend: H=43.2%  D=24.0%  A=31.8%
+  H2H (241 games): H=44.8%  D=20.7%  A=34.4%  |  Last 5: A,A,D,A,D  (0:1,1:2,0:0,2:3,2:2)
+  RANK: Away ranked 9 higher
+  ── PICK ── RESULT: HOME (43.2%)   GOALS: UNDER 2.5 (54.5%)   GG: GG (50.0%)
+
+  FULHAM vs TOTTENHAM
+  Odds: 4.5 / 3.35 / 1.8  (H/D/A)
+  ★ [STATS]  blend: H=21.5%  D=28.0%  A=48.5%
+  H2H (243 games): H=18.5%  D=29.6%  A=51.9%  |  Last 5: D,D,D,H,D  (1:1,1:1,1:1,2:1,1:1)
+  RANK: Away ranked 14 higher
+  ── PICK ── RESULT: AWAY (48.5%)   GOALS: UNDER 2.5 (59.6%)   GG: NG (55.5%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 15
+─────────────────────────────────────────────────────────────────
+
+  WEST HAM vs MANCHESTER BLUE
+  Odds: 3.9 / 3.85 / 1.75  (H/D/A)
+  ★★★★ SIGNATURE MATCH  80.0% ({'DRAW': 1, 'HOME': 4}) over 5 games
+  H2H (247 games): H=21.9%  D=24.7%  A=53.4%  |  Last 5: H,H,A,A,A  (4:1,2:1,1:3,1:2,0:2)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: HOME (80.0%)   GOALS: OVER 2.5 (61.6%)   GG: GG (60.3%)
+
+  LONDON GUNS vs FULHAM
+  Odds: 1.35 / 4.35 / 9.25  (H/D/A)
+  ★★ [STATS]  blend: H=64.0%  D=22.2%  A=12.7%
+  H2H (244 games): H=64.8%  D=22.1%  A=13.1%  |  Last 5: H,D,D,D,A  (3:1,2:2,1:1,1:1,1:2)
+  RANK: Home ranked 10 higher
+  ── PICK ── RESULT: HOME (64.0%)   GOALS: OVER 2.5 (50.1%)   GG: NG (52.6%)
+
+  CRYSTAL PALACE vs CHELSEA
+  Odds: 6.25 / 4.1 / 1.5  (H/D/A)
+  ★★ [STATS]  blend: H=18.3%  D=21.9%  A=59.4%
+  H2H (245 games): H=14.3%  D=19.6%  A=66.1%  |  Last 5: A,A,H,H,A  (1:4,0:2,3:0,3:0,1:3)
+  RANK: Away ranked 8 higher
+  ── PICK ── RESULT: AWAY (59.4%)   GOALS: OVER 2.5 (59.1%)   GG: GG (57.2%)
+
+  WOLVERHAMPTON vs LEEDS
+  Odds: 1.95 / 3.3 / 3.85  (H/D/A)
+  ★ [STATS]  blend: H=47.1%  D=27.7%  A=21.1%
+  H2H (244 games): H=52.0%  D=29.1%  A=18.9%  |  Last 5: H,H,H,H,A  (3:2,2:0,2:1,2:0,1:2)
+  ── PICK ── RESULT: HOME (47.1%)   GOALS: UNDER 2.5 (53.9%)   GG: NG (50.5%)
+
+  TOTTENHAM vs ASTON VILLA
+  Odds: 2.2 / 3.35 / 3.05  (H/D/A)
+  ★ [STATS]  blend: H=45.4%  D=25.0%  A=34.5%
+  H2H (247 games): H=42.1%  D=22.7%  A=35.2%  |  Last 5: A,A,H,D,A  (0:3,1:2,2:1,0:0,1:2)
+  ── PICK ── RESULT: HOME (45.4%)   GOALS: UNDER 2.5 (56.6%)   GG: NG (53.7%)
+
+  BRIGHTON vs EVERTON
+  Odds: 2.3 / 3.25 / 2.95  (H/D/A)
+  ★ [STATS]  blend: H=41.5%  D=28.0%  A=28.8%
+  H2H (244 games): H=45.1%  D=27.9%  A=27.0%  |  Last 5: H,H,D,A,H  (3:1,2:1,0:0,0:1,2:0)
+  RANK: Home ranked 6 higher
+  ── PICK ── RESULT: HOME (41.5%)   GOALS: UNDER 2.5 (64.5%)   GG: NG (57.8%)
+
+  MANCHESTER RED vs LIVERPOOL
+  Odds: 2.35 / 3.45 / 2.8  (H/D/A)
+  ★ [STATS]  blend: H=47.8%  D=25.1%  A=34.7%
+  H2H (242 games): H=48.3%  D=24.0%  A=27.7%  |  Last 5: H,D,D,H,H  (4:1,1:1,1:1,1:0,1:0)
+  ── PICK ── RESULT: HOME (47.8%)   GOALS: UNDER 2.5 (50.7%)   GG: GG (50.7%)
+
+  BOURNEMOUTH vs NEWCASTLE
+  Odds: 2.45 / 3.1 / 2.85  (H/D/A)
+  ★ [STATS]  blend: H=36.8%  D=25.5%  A=30.4%
+  H2H (246 games): H=42.3%  D=22.4%  A=35.4%  |  Last 5: A,H,D,H,H  (1:3,3:0,1:1,4:1,2:0)
+  ── PICK ── RESULT: HOME (36.8%)   GOALS: UNDER 2.5 (59.2%)   GG: NG (55.4%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 16
+─────────────────────────────────────────────────────────────────
+
+  BOURNEMOUTH vs FULHAM
+  Odds: 2.35 / 3.1 / 3.05  (H/D/A)
+  ★★★★ SIGNATURE MATCH  71.4% ({'AWAY': 1, 'DRAW': 3, 'HOME': 10}) over 14 games
+  H2H (239 games): H=38.1%  D=29.7%  A=32.2%  |  Last 5: D,A,H,H,A  (0:0,0:1,2:0,4:2,0:1)
+  ── PICK ── RESULT: HOME (71.4%)   GOALS: UNDER 2.5 (62.9%)   GG: NG (61.5%)
+
+  TOTTENHAM vs EVERTON
+  Odds: 1.7 / 3.45 / 4.8  (H/D/A)
+  ★ [STATS]  blend: H=54.7%  D=27.9%  A=19.4%
+  H2H (241 games): H=55.2%  D=30.7%  A=14.1%  |  Last 5: H,D,H,H,H  (1:0,1:1,3:1,5:1,1:0)
+  RANK: Home ranked 13 higher
+  ── PICK ── RESULT: HOME (54.7%)   GOALS: UNDER 2.5 (61.6%)   GG: NG (56.6%)
+
+  NEWCASTLE vs MANCHESTER RED
+  Odds: 4.7 / 3.9 / 1.65  (H/D/A)
+  ★ [STATS]  blend: H=22.4%  D=25.8%  A=52.2%
+  H2H (238 games): H=19.3%  D=29.0%  A=51.7%  |  Last 5: H,A,A,A,H  (2:0,1:2,1:3,1:3,2:1)
+  RANK: Away ranked 8 higher
+  ── PICK ── RESULT: AWAY (52.2%)   GOALS: UNDER 2.5 (52.2%)   GG: NG (51.3%)
+
+  WOLVERHAMPTON vs LIVERPOOL
+  Odds: 3.95 / 4.35 / 1.65  (H/D/A)
+  ★ [STATS]  blend: H=26.4%  D=22.5%  A=53.8%
+  H2H (245 games): H=20.8%  D=22.4%  A=56.7%  |  Last 5: A,A,D,A,A  (0:1,1:2,1:1,1:3,0:5)
+  RANK: Away ranked 8 higher
+  ── PICK ── RESULT: AWAY (53.8%)   GOALS: OVER 2.5 (57.3%)   GG: GG (56.0%)
+
+  LONDON GUNS vs ASTON VILLA
+  Odds: 2.1 / 3.45 / 3.2  (H/D/A)
+  ★ [STATS]  blend: H=46.7%  D=24.2%  A=34.0%
+  H2H (244 games): H=43.4%  D=21.3%  A=35.2%  |  Last 5: A,D,H,A,A  (0:2,1:1,2:1,0:3,0:2)
+  ── PICK ── RESULT: HOME (46.7%)   GOALS: OVER 2.5 (50.9%)   GG: GG (53.5%)
+
+  CRYSTAL PALACE vs LEEDS
+  Odds: 2.25 / 3.3 / 3.0  (H/D/A)
+  ★ [STATS]  blend: H=37.8%  D=28.2%  A=27.6%
+  H2H (243 games): H=39.9%  D=30.5%  A=29.6%  |  Last 5: D,A,A,H,H  (1:1,1:2,0:1,1:0,2:1)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: HOME (37.8%)   GOALS: UNDER 2.5 (60.7%)   GG: NG (53.9%)
+
+  WEST HAM vs CHELSEA
+  Odds: 3.2 / 4.05 / 1.95  (H/D/A)
+  ★ [STATS]  blend: H=31.0%  D=25.8%  A=46.0%
+  H2H (244 games): H=25.8%  D=29.9%  A=44.3%  |  Last 5: D,A,D,H,D  (1:1,1:2,1:1,2:1,0:0)
+  ── PICK ── RESULT: AWAY (46.0%)   GOALS: OVER 2.5 (56.9%)   GG: GG (60.6%)
+
+  BRIGHTON vs MANCHESTER BLUE
+  Odds: 4.2 / 3.6 / 1.75  (H/D/A)
+  ★ [STATS]  blend: H=27.3%  D=24.5%  A=51.5%
+  H2H (245 games): H=25.3%  D=23.3%  A=51.4%  |  Last 5: D,A,D,D,A  (0:0,2:3,0:0,2:2,0:2)
+  ── PICK ── RESULT: AWAY (51.5%)   GOALS: OVER 2.5 (53.7%)   GG: GG (56.9%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 17
+─────────────────────────────────────────────────────────────────
+
+  MANCHESTER BLUE vs TOTTENHAM
+  Odds: 1.7 / 4.0 / 4.05  (H/D/A)
+  ★★★★ SIGNATURE MATCH  75.0% ({'AWAY': 1, 'DRAW': 1, 'HOME': 6}) over 8 games
+  H2H (246 games): H=51.2%  D=22.8%  A=26.0%  |  Last 5: H,A,A,H,D  (2:1,0:4,2:3,5:0,2:2)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: HOME (75.0%)   GOALS: OVER 2.5 (62.4%)   GG: GG (60.6%)
+
+  LIVERPOOL vs CRYSTAL PALACE
+  Odds: 1.25 / 5.5 / 11.0  (H/D/A)
+  ★★★ [STATS]  blend: H=66.5%  D=22.3%  A=11.7%
+  H2H (242 games): H=59.9%  D=29.3%  A=10.7%  |  Last 5: D,A,H,H,D  (2:2,0:1,2:0,4:1,1:1)
+  RANK: Home ranked 10 higher
+  ── PICK ── RESULT: HOME (66.5%)   GOALS: OVER 2.5 (53.1%)   GG: NG (57.3%)
+
+  MANCHESTER RED vs WOLVERHAMPTON
+  Odds: 1.45 / 3.95 / 6.75  (H/D/A)
+  ★★ [STATS]  blend: H=64.9%  D=20.1%  A=16.8%
+  H2H (243 games): H=70.4%  D=16.0%  A=13.6%  |  Last 5: H,H,H,H,H  (5:0,3:1,2:0,4:1,2:0)
+  RANK: Home ranked 12 higher
+  ── PICK ── RESULT: HOME (64.9%)   GOALS: OVER 2.5 (56.2%)   GG: NG (51.4%)
+
+  CHELSEA vs BRIGHTON
+  Odds: 1.5 / 4.15 / 5.5  (H/D/A)
+  ★★ [STATS]  blend: H=60.4%  D=21.6%  A=19.1%
+  H2H (249 games): H=61.8%  D=20.5%  A=17.7%  |  Last 5: D,H,D,H,D  (1:1,1:0,0:0,2:0,2:2)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (60.4%)   GOALS: OVER 2.5 (52.1%)   GG: NG (52.0%)
+
+  ASTON VILLA vs BOURNEMOUTH
+  Odds: 1.4 / 4.15 / 8.0  (H/D/A)
+  ★★ [STATS]  blend: H=63.6%  D=21.6%  A=13.0%
+  H2H (245 games): H=68.2%  D=19.6%  A=12.2%  |  Last 5: H,H,D,A,H  (4:0,1:0,1:1,0:1,2:1)
+  RANK: Home ranked 6 higher
+  ── PICK ── RESULT: HOME (63.6%)   GOALS: UNDER 2.5 (55.7%)   GG: NG (60.8%)
+
+  EVERTON vs LONDON GUNS
+  Odds: 2.65 / 3.2 / 2.6  (H/D/A)
+  ★ [STATS]  blend: H=37.7%  D=29.5%  A=34.4%
+  H2H (240 games): H=37.9%  D=32.5%  A=29.6%  |  Last 5: H,D,A,D,H  (2:1,1:1,1:2,2:2,3:0)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: HOME (37.7%)   GOALS: UNDER 2.5 (56.7%)   GG: NG (52.0%)
+
+  FULHAM vs NEWCASTLE
+  Odds: 2.35 / 3.4 / 2.8  (H/D/A)
+  ★ [STATS]  blend: H=37.8%  D=25.4%  A=29.8%
+  H2H (241 games): H=43.6%  D=23.7%  A=32.8%  |  Last 5: H,A,D,H,A  (2:1,1:3,1:1,2:0,0:4)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: HOME (37.8%)   GOALS: UNDER 2.5 (57.7%)   GG: NG (53.0%)
+
+  LEEDS vs WEST HAM
+  Odds: 2.95 / 3.35 / 2.3  (H/D/A)
+  ★ [STATS]  blend: H=30.7%  D=30.3%  A=35.0%
+  H2H (239 games): H=30.5%  D=36.4%  A=33.1%  |  Last 5: D,H,H,A,H  (0:0,2:1,1:0,0:3,3:1)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: AWAY (35.0%)   GOALS: UNDER 2.5 (57.4%)   GG: NG (52.2%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 18
+─────────────────────────────────────────────────────────────────
+
+  NEWCASTLE vs WOLVERHAMPTON
+  Odds: 2.55 / 3.55 / 2.45  (H/D/A)
+  ★★★★ SIGNATURE MATCH  70.0% ({'AWAY': 7, 'HOME': 3}) over 10 games
+  H2H (244 games): H=37.7%  D=18.9%  A=43.4%  |  Last 5: D,D,D,H,D  (2:2,1:1,1:1,3:2,2:2)
+  ── PICK ── RESULT: AWAY (70.0%)   GOALS: OVER 2.5 (58.1%)   GG: GG (57.7%)
+
+  CRYSTAL PALACE vs MANCHESTER RED
+  Odds: 5.25 / 4.45 / 1.5  (H/D/A)
+  ★★★★ SIGNATURE MATCH  80.0% ({'AWAY': 8, 'HOME': 2}) over 10 games
+  H2H (242 games): H=19.0%  D=13.6%  A=67.4%  |  Last 5: H,H,H,A,A  (1:0,1:0,1:0,1:2,0:1)
+  RANK: Away ranked 10 higher
+  ── PICK ── RESULT: AWAY (80.0%)   GOALS: OVER 2.5 (51.8%)   GG: NG (51.0%)
+
+  WEST HAM vs LIVERPOOL
+  Odds: 3.4 / 3.8 / 1.9  (H/D/A)
+  ★★★ SIGNATURE MATCH  80.0% ({'AWAY': 8, 'DRAW': 1, 'HOME': 1}) over 10 games
+  H2H (240 games): H=27.1%  D=26.7%  A=46.2%  |  Last 5: H,A,H,H,A  (2:1,0:2,2:1,3:1,0:1)
+  ── PICK ── RESULT: AWAY (80.0%)   GOALS: OVER 2.5 (51.7%)   GG: GG (55.2%)
+
+  LONDON GUNS vs MANCHESTER BLUE
+  Odds: 2.35 / 4.2 / 2.4  (H/D/A)
+  ★ [STATS]  blend: H=42.1%  D=25.3%  A=39.7%
+  H2H (248 games): H=35.5%  D=31.0%  A=33.5%  |  Last 5: D,H,D,A,H  (0:0,3:0,2:2,0:2,7:0)
+  RANK: Away ranked 5 higher
+  ── PICK ── RESULT: HOME (42.1%)   GOALS: OVER 2.5 (59.7%)   GG: GG (59.7%)
+
+  BOURNEMOUTH vs EVERTON
+  Odds: 3.3 / 3.2 / 2.15  (H/D/A)
+  ★ [STATS]  blend: H=26.9%  D=28.7%  A=39.7%
+  H2H (248 games): H=25.0%  D=30.2%  A=44.8%  |  Last 5: H,A,A,H,D  (3:2,0:3,0:1,1:0,0:0)
+  ── PICK ── RESULT: AWAY (39.7%)   GOALS: UNDER 2.5 (65.8%)   GG: NG (59.5%)
+
+  BRIGHTON vs LEEDS
+  Odds: 1.85 / 3.3 / 4.35  (H/D/A)
+  ★ [STATS]  blend: H=46.0%  D=29.3%  A=20.8%
+  H2H (244 games): H=46.3%  D=32.8%  A=20.9%  |  Last 5: H,H,A,D,D  (2:1,2:0,0:2,1:1,1:1)
+  RANK: Home ranked 6 higher
+  ── PICK ── RESULT: HOME (46.0%)   GOALS: UNDER 2.5 (64.3%)   GG: NG (61.5%)
+
+  TOTTENHAM vs CHELSEA
+  Odds: 2.3 / 3.95 / 2.55  (H/D/A)
+  ★ [STATS]  blend: H=44.4%  D=21.0%  A=40.5%
+  H2H (244 games): H=41.4%  D=16.8%  A=41.8%  |  Last 5: A,A,H,D,D  (1:5,1:2,4:3,0:0,0:0)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (44.4%)   GOALS: OVER 2.5 (55.9%)   GG: GG (56.8%)
+
+  FULHAM vs ASTON VILLA
+  Odds: 4.85 / 3.5 / 1.7  (H/D/A)
+  ★ [STATS]  blend: H=19.7%  D=29.1%  A=49.6%
+  H2H (248 games): H=15.3%  D=33.9%  A=50.8%  |  Last 5: A,D,A,A,H  (1:4,1:1,0:1,0:6,1:0)
+  RANK: Away ranked 13 higher
+  ── PICK ── RESULT: AWAY (49.6%)   GOALS: UNDER 2.5 (62.5%)   GG: NG (60.6%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 19
+─────────────────────────────────────────────────────────────────
+
+  CHELSEA vs LONDON GUNS
+  Odds: 1.85 / 3.9 / 3.55  (H/D/A)
+  ★★★★ SIGNATURE MATCH  70.0% ({'AWAY': 7, 'HOME': 3}) over 10 games
+  H2H (246 games): H=51.2%  D=23.6%  A=25.2%  |  Last 5: H,A,H,D,H  (2:0,0:1,5:1,2:2,1:0)
+  ── PICK ── RESULT: AWAY (70.0%)   GOALS: OVER 2.5 (56.1%)   GG: GG (57.5%)
+
+  MANCHESTER BLUE vs BOURNEMOUTH
+  Odds: 1.25 / 5.75 / 9.25  (H/D/A)
+  ★★★ [STATS]  blend: H=72.1%  D=16.5%  A=11.4%
+  H2H (243 games): H=76.1%  D=14.4%  A=9.5%  |  Last 5: H,H,H,H,H  (4:1,2:1,2:1,4:0,3:0)
+  RANK: Home ranked 12 higher
+  ── PICK ── RESULT: HOME (72.1%)   GOALS: OVER 2.5 (57.6%)   GG: NG (53.9%)
+
+  LIVERPOOL vs BRIGHTON
+  Odds: 1.4 / 4.95 / 6.5  (H/D/A)
+  ★★★ [STATS]  blend: H=67.6%  D=18.6%  A=16.3%
+  H2H (246 games): H=72.0%  D=15.9%  A=12.2%  |  Last 5: H,H,H,H,H  (2:0,2:0,4:0,4:2,5:1)
+  ── PICK ── RESULT: HOME (67.6%)   GOALS: OVER 2.5 (51.0%)   GG: NG (57.1%)
+
+  ASTON VILLA vs NEWCASTLE
+  Odds: 1.4 / 4.5 / 6.5  (H/D/A)
+  ★★ [STATS]  blend: H=62.8%  D=20.3%  A=16.0%
+  H2H (242 games): H=66.5%  D=18.2%  A=15.3%  |  Last 5: H,A,H,H,H  (3:1,0:1,3:1,3:1,1:0)
+  RANK: Home ranked 5 higher
+  ── PICK ── RESULT: HOME (62.8%)   GOALS: UNDER 2.5 (52.2%)   GG: NG (57.8%)
+
+  MANCHESTER RED vs WEST HAM
+  Odds: 1.45 / 4.6 / 6.0  (H/D/A)
+  ★★ [STATS]  blend: H=64.9%  D=20.0%  A=18.1%
+  H2H (243 games): H=69.1%  D=17.7%  A=13.2%  |  Last 5: A,H,H,H,H  (1:2,2:0,3:0,3:2,4:1)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: HOME (64.9%)   GOALS: OVER 2.5 (57.7%)   GG: GG (54.5%)
+
+  WOLVERHAMPTON vs CRYSTAL PALACE
+  Odds: 1.75 / 4.2 / 3.75  (H/D/A)
+  ★ [STATS]  blend: H=50.4%  D=23.6%  A=21.2%
+  H2H (240 games): H=55.4%  D=25.4%  A=19.2%  |  Last 5: H,H,H,H,A  (3:0,2:0,2:0,4:3,0:1)
+  ── PICK ── RESULT: HOME (50.4%)   GOALS: OVER 2.5 (57.1%)   GG: GG (57.7%)
+
+  LEEDS vs TOTTENHAM
+  Odds: 4.1 / 3.5 / 1.8  (H/D/A)
+  ★ [STATS]  blend: H=24.9%  D=27.2%  A=46.5%
+  H2H (245 games): H=24.5%  D=29.0%  A=46.5%  |  Last 5: A,A,H,A,H  (2:3,1:4,1:0,1:2,1:0)
+  RANK: Away ranked 12 higher
+  ── PICK ── RESULT: AWAY (46.5%)   GOALS: UNDER 2.5 (63.5%)   GG: NG (58.9%)
+
+  EVERTON vs FULHAM
+  Odds: 1.65 / 3.35 / 5.5  (H/D/A)
+  ★ [STATS]  blend: H=52.1%  D=26.7%  A=17.3%
+  H2H (242 games): H=55.4%  D=26.0%  A=18.6%  |  Last 5: H,H,H,H,H  (4:2,2:0,2:1,3:2,3:0)
+  ── PICK ── RESULT: HOME (52.1%)   GOALS: UNDER 2.5 (63.5%)   GG: NG (60.8%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 2
+─────────────────────────────────────────────────────────────────
+
+  WEST HAM vs LEEDS
+  Odds: 1.8 / 3.45 / 4.2  (H/D/A)
+  ★★★★★ SIGNATURE MATCH  100.0% ({'HOME': 6}) over 6 games
+  H2H (244 games): H=57.8%  D=20.9%  A=21.3%  |  Last 5: H,A,H,H,H  (1:0,0:3,2:0,3:0,3:0)
+  ── PICK ── RESULT: HOME (100.0%)   GOALS: UNDER 2.5 (54.5%)   GG: NG (53.6%)
+
+  WOLVERHAMPTON vs MANCHESTER RED
+  Odds: 4.05 / 3.6 / 1.8  (H/D/A)
+  ★★★ SIGNATURE MATCH  83.3% ({'AWAY': 5, 'DRAW': 1}) over 6 games
+  H2H (247 games): H=21.1%  D=22.7%  A=56.3%  |  Last 5: D,H,D,A,A  (2:2,3:2,2:2,0:4,1:3)
+  ── PICK ── RESULT: AWAY (83.3%)   GOALS: OVER 2.5 (55.2%)   GG: GG (56.1%)
+
+  MANCHESTER BLUE vs NEWCASTLE
+  Odds: 1.3 / 4.9 / 9.5  (H/D/A)
+  ★★★ [STATS]  blend: H=69.6%  D=19.5%  A=11.8%
+  H2H (244 games): H=72.1%  D=19.7%  A=8.2%  |  Last 5: H,H,H,H,H  (3:0,3:1,1:0,3:0,3:0)
+  ── PICK ── RESULT: HOME (69.6%)   GOALS: OVER 2.5 (57.7%)   GG: NG (52.0%)
+
+  CRYSTAL PALACE vs LIVERPOOL
+  Odds: 5.25 / 4.15 / 1.55  (H/D/A)
+  ★★ [STATS]  blend: H=20.8%  D=22.1%  A=57.4%
+  H2H (242 games): H=18.2%  D=19.8%  A=62.0%  |  Last 5: D,H,A,A,A  (1:1,2:1,1:2,0:2,0:1)
+  ── PICK ── RESULT: AWAY (57.4%)   GOALS: OVER 2.5 (53.9%)   GG: GG (51.4%)
+
+  LONDON GUNS vs EVERTON
+  Odds: 1.65 / 3.9 / 4.5  (H/D/A)
+  ★★ [STATS]  blend: H=56.5%  D=24.4%  A=21.2%
+  H2H (244 games): H=57.8%  D=24.6%  A=17.6%  |  Last 5: A,A,H,H,D  (0:4,1:2,1:0,3:1,0:0)
+  ── PICK ── RESULT: HOME (56.5%)   GOALS: UNDER 2.5 (53.6%)   GG: NG (50.4%)
+
+  CRYSTAL PALACE vs LIVERPOOL
+  Odds: 5.25 / 4.15 / 1.55  (H/D/A)
+  ★★ [STATS]  blend: H=20.8%  D=22.1%  A=57.4%
+  H2H (242 games): H=18.2%  D=19.8%  A=62.0%  |  Last 5: D,H,A,A,A  (1:1,2:1,1:2,0:2,0:1)
+  ── PICK ── RESULT: AWAY (57.4%)   GOALS: OVER 2.5 (53.9%)   GG: GG (51.1%)
+
+  CHELSEA vs WOLVERHAMPTON
+  Odds: 1.5 / 4.45 / 5.25  (H/D/A)
+  ★★ [STATS]  blend: H=61.8%  D=19.5%  A=19.8%
+  H2H (244 games): H=65.2%  D=17.2%  A=17.6%  |  Last 5: H,H,H,H,H  (1:0,3:2,2:1,3:1,2:1)
+  ── PICK ── RESULT: HOME (61.8%)   GOALS: OVER 2.5 (63.4%)   GG: GG (60.6%)
+
+  LONDON GUNS vs LEEDS
+  Odds: 1.5 / 4.15 / 6.25  (H/D/A)
+  ★★ [STATS]  blend: H=64.7%  D=21.0%  A=14.1%
+  H2H (241 games): H=73.9%  D=17.0%  A=9.1%  |  Last 5: H,H,H,D,H  (4:0,1:0,2:1,0:0,4:2)
+  ── PICK ── RESULT: HOME (64.7%)   GOALS: UNDER 2.5 (51.0%)   GG: NG (57.6%)
+
+  BOURNEMOUTH vs MANCHESTER RED
+  Odds: 6.75 / 3.65 / 1.5  (H/D/A)
+  ★★ [STATS]  blend: H=18.6%  D=23.0%  A=57.8%
+  H2H (247 games): H=17.8%  D=19.8%  A=62.3%  |  Last 5: D,A,A,D,D  (1:1,0:1,0:3,1:1,1:1)
+  ── PICK ── RESULT: AWAY (57.8%)   GOALS: UNDER 2.5 (53.3%)   GG: NG (54.0%)
+
+  BOURNEMOUTH vs ASTON VILLA
+  Odds: 4.75 / 3.7 / 1.65  (H/D/A)
+  ★ [STATS]  blend: H=22.7%  D=25.4%  A=50.1%
+  H2H (241 games): H=22.8%  D=26.6%  A=50.6%  |  Last 5: A,A,D,A,A  (0:3,1:2,0:0,0:1,0:2)
+  ── PICK ── RESULT: AWAY (50.1%)   GOALS: UNDER 2.5 (58.1%)   GG: NG (56.4%)
+
+  TOTTENHAM vs MANCHESTER BLUE
+  Odds: 2.4 / 3.6 / 2.6  (H/D/A)
+  ★ [STATS]  blend: H=41.7%  D=26.1%  A=39.1%
+  H2H (243 games): H=35.8%  D=28.8%  A=35.4%  |  Last 5: A,A,A,H,A  (1:2,1:2,1:3,2:0,0:2)
+  ── PICK ── RESULT: HOME (41.7%)   GOALS: OVER 2.5 (57.0%)   GG: GG (59.6%)
+
+  NEWCASTLE vs FULHAM
+  Odds: 1.85 / 3.55 / 3.95  (H/D/A)
+  ★ [STATS]  blend: H=42.6%  D=27.9%  A=22.5%
+  H2H (247 games): H=42.1%  D=32.0%  A=25.9%  |  Last 5: D,H,H,A,H  (2:2,1:0,3:1,0:1,1:0)
+  ── PICK ── RESULT: HOME (42.6%)   GOALS: UNDER 2.5 (59.1%)   GG: NG (55.4%)
+
+  BRIGHTON vs CHELSEA
+  Odds: 3.5 / 3.7 / 1.9  (H/D/A)
+  ★ [STATS]  blend: H=30.4%  D=23.9%  A=48.0%
+  H2H (241 games): H=29.0%  D=22.0%  A=49.0%  |  Last 5: A,A,D,H,A  (1:3,0:2,1:1,3:0,0:4)
+  ── PICK ── RESULT: AWAY (48.0%)   GOALS: OVER 2.5 (51.1%)   GG: GG (51.9%)
+
+  EVERTON vs TOTTENHAM
+  Odds: 2.95 / 3.1 / 2.35  (H/D/A)
+  ★ [STATS]  blend: H=34.6%  D=27.1%  A=39.9%
+  H2H (243 games): H=33.3%  D=25.1%  A=41.6%  |  Last 5: A,D,A,A,D  (1:2,0:0,0:1,0:2,0:0)
+  ── PICK ── RESULT: AWAY (39.9%)   GOALS: UNDER 2.5 (62.4%)   GG: NG (57.0%)
+
+  WEST HAM vs ASTON VILLA
+  Odds: 3.05 / 3.5 / 2.15  (H/D/A)
+  ★ [STATS]  blend: H=33.0%  D=26.5%  A=42.3%
+  H2H (243 games): H=30.0%  D=27.2%  A=42.8%  |  Last 5: A,A,H,D,A  (0:2,0:3,2:0,0:0,0:3)
+  ── PICK ── RESULT: AWAY (42.3%)   GOALS: UNDER 2.5 (55.0%)   GG: NG (50.8%)
+
+  BRIGHTON vs FULHAM
+  Odds: 1.7 / 3.6 / 4.85  (H/D/A)
+  ★ [STATS]  blend: H=51.1%  D=26.2%  A=17.9%
+  H2H (246 games): H=55.7%  D=26.8%  A=17.5%  |  Last 5: H,H,D,H,D  (2:1,4:0,0:0,4:0,1:1)
+  ── PICK ── RESULT: HOME (51.1%)   GOALS: UNDER 2.5 (59.3%)   GG: NG (57.7%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 20
+─────────────────────────────────────────────────────────────────
+
+  FULHAM vs MANCHESTER BLUE
+  Odds: 5.25 / 4.3 / 1.5  (H/D/A)
+  ★★★★★ SIGNATURE MATCH  100.0% ({'AWAY': 5}) over 5 games
+  H2H (246 games): H=20.3%  D=15.9%  A=63.8%  |  Last 5: A,H,A,H,A  (0:1,2:1,0:3,2:0,0:1)
+  RANK: Away ranked 13 higher
+  ── PICK ── RESULT: AWAY (100.0%)   GOALS: UNDER 2.5 (52.5%)   GG: NG (55.9%)
+
+  BOURNEMOUTH vs CHELSEA
+  Odds: 5.75 / 4.35 / 1.5  (H/D/A)
+  ★★★★ SIGNATURE MATCH  75.0% ({'AWAY': 6, 'DRAW': 1, 'HOME': 1}) over 8 games
+  H2H (241 games): H=20.3%  D=13.7%  A=66.0%  |  Last 5: A,A,A,D,D  (0:3,0:1,2:3,3:3,3:3)
+  RANK: Away ranked 10 higher
+  ── PICK ── RESULT: AWAY (75.0%)   GOALS: OVER 2.5 (53.0%)   GG: NG (51.4%)
+
+  BRIGHTON vs MANCHESTER RED
+  Odds: 3.5 / 3.6 / 1.95  (H/D/A)
+  ★★★★ SIGNATURE MATCH  100.0% ({'AWAY': 8}) over 8 games
+  H2H (246 games): H=22.4%  D=26.4%  A=51.2%  |  Last 5: A,D,H,D,A  (1:2,0:0,3:1,2:2,0:1)
+  RANK: Away ranked 5 higher
+  ── PICK ── RESULT: AWAY (100.0%)   GOALS: UNDER 2.5 (53.4%)   GG: NG (51.2%)
+
+  ASTON VILLA vs EVERTON
+  Odds: 1.95 / 2.85 / 4.6  (H/D/A)
+  ★★★ SIGNATURE MATCH  75.0% ({'AWAY': 1, 'DRAW': 9, 'HOME': 2}) over 12 games
+  H2H (245 games): H=54.3%  D=31.4%  A=14.3%  |  Last 5: H,H,D,A,H  (1:0,1:0,0:0,1:2,2:0)
+  RANK: Home ranked 13 higher
+  ── PICK ── RESULT: DRAW (75.0%)   GOALS: UNDER 2.5 (67.3%)   GG: NG (60.8%)
+
+  NEWCASTLE vs CRYSTAL PALACE
+  Odds: 2.0 / 4.1 / 3.0  (H/D/A)
+  ★★★ SIGNATURE MATCH  83.3% ({'AWAY': 1, 'HOME': 5}) over 6 games
+  H2H (244 games): H=45.9%  D=18.4%  A=35.7%  |  Last 5: A,D,H,A,H  (0:1,1:1,3:1,0:3,3:2)
+  ── PICK ── RESULT: HOME (83.3%)   GOALS: UNDER 2.5 (54.8%)   GG: NG (52.5%)
+
+  LONDON GUNS vs LEEDS
+  Odds: 1.5 / 4.1 / 6.25  (H/D/A)
+  ★★ [STATS]  blend: H=64.7%  D=21.1%  A=14.0%
+  H2H (241 games): H=73.9%  D=17.0%  A=9.1%  |  Last 5: H,H,H,D,H  (4:0,1:0,2:1,0:0,4:2)
+  RANK: Home ranked 6 higher
+  ── PICK ── RESULT: HOME (64.7%)   GOALS: UNDER 2.5 (51.0%)   GG: NG (57.9%)
+
+  WEST HAM vs WOLVERHAMPTON
+  Odds: 1.85 / 4.35 / 3.3  (H/D/A)
+  ★ [STATS]  blend: H=48.1%  D=21.5%  A=28.1%
+  H2H (243 games): H=50.2%  D=20.6%  A=29.2%  |  Last 5: A,A,H,H,A  (1:4,1:3,2:1,1:0,1:2)
+  ── PICK ── RESULT: HOME (48.1%)   GOALS: OVER 2.5 (60.8%)   GG: GG (63.5%)
+
+  TOTTENHAM vs LIVERPOOL
+  Odds: 2.7 / 3.25 / 2.5  (H/D/A)
+  ★ [STATS]  blend: H=39.5%  D=25.5%  A=41.4%
+  H2H (240 games): H=34.2%  D=23.3%  A=42.5%  |  Last 5: A,D,H,A,D  (1:2,0:0,2:0,0:1,0:0)
+  ── PICK ── RESULT: AWAY (41.4%)   GOALS: OVER 2.5 (51.4%)   GG: GG (55.2%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 21
+─────────────────────────────────────────────────────────────────
+
+  CHELSEA vs FULHAM
+  Odds: 1.3 / 4.65 / 11.25  (H/D/A)
+  ★★★ [STATS]  blend: H=66.5%  D=22.3%  A=10.4%
+  H2H (244 games): H=67.2%  D=24.2%  A=8.6%  |  Last 5: H,H,H,H,H  (3:0,4:1,3:1,1:0,1:0)
+  RANK: Home ranked 10 higher
+  ── PICK ── RESULT: HOME (66.5%)   GOALS: UNDER 2.5 (50.5%)   GG: NG (55.4%)
+
+  LIVERPOOL vs LONDON GUNS
+  Odds: 1.8 / 3.85 / 3.85  (H/D/A)
+  ★★★ SIGNATURE MATCH  83.3% ({'AWAY': 1, 'HOME': 5}) over 6 games
+  H2H (241 games): H=55.2%  D=24.1%  A=20.7%  |  Last 5: A,H,H,H,A  (0:1,4:1,2:1,3:2,0:2)
+  ── PICK ── RESULT: HOME (83.3%)   GOALS: OVER 2.5 (55.0%)   GG: GG (55.2%)
+
+  WOLVERHAMPTON vs BRIGHTON
+  Odds: 2.05 / 3.6 / 3.2  (H/D/A)
+  ★★★ SIGNATURE MATCH  88.9% ({'AWAY': 1, 'HOME': 8}) over 9 games
+  H2H (245 games): H=40.4%  D=29.0%  A=30.6%  |  Last 5: D,H,H,H,D  (1:1,1:0,1:0,5:0,2:2)
+  ── PICK ── RESULT: HOME (88.9%)   GOALS: OVER 2.5 (53.1%)   GG: GG (55.7%)
+
+  MANCHESTER BLUE vs ASTON VILLA
+  Odds: 1.75 / 4.1 / 3.8  (H/D/A)
+  ★★ [STATS]  blend: H=55.5%  D=21.0%  A=29.8%
+  H2H (241 games): H=52.7%  D=18.7%  A=28.6%  |  Last 5: H,H,D,A,A  (4:1,3:1,0:0,0:1,0:1)
+  ── PICK ── RESULT: HOME (55.5%)   GOALS: OVER 2.5 (54.2%)   GG: GG (52.8%)
+
+  EVERTON vs NEWCASTLE
+  Odds: 1.7 / 3.3 / 5.25  (H/D/A)
+  ★ [STATS]  blend: H=51.5%  D=26.9%  A=18.3%
+  H2H (243 games): H=55.1%  D=27.2%  A=17.7%  |  Last 5: H,H,H,H,H  (3:0,2:1,2:0,2:0,3:1)
+  ── PICK ── RESULT: HOME (51.5%)   GOALS: UNDER 2.5 (60.4%)   GG: NG (55.7%)
+
+  MANCHESTER RED vs TOTTENHAM
+  Odds: 1.75 / 3.75 / 4.05  (H/D/A)
+  ★ [STATS]  blend: H=51.2%  D=24.7%  A=29.7%
+  H2H (245 games): H=43.3%  D=25.7%  A=31.0%  |  Last 5: A,D,H,A,H  (0:2,2:2,4:1,0:1,1:0)
+  RANK: Home ranked 5 higher
+  ── PICK ── RESULT: HOME (51.2%)   GOALS: UNDER 2.5 (53.8%)   GG: NG (50.3%)
+
+  CRYSTAL PALACE vs WEST HAM
+  Odds: 3.15 / 3.5 / 2.1  (H/D/A)
+  ★ [STATS]  blend: H=30.6%  D=27.3%  A=37.7%
+  H2H (243 games): H=32.9%  D=30.5%  A=36.6%  |  Last 5: H,D,H,D,A  (4:1,1:1,3:2,1:1,0:1)
+  RANK: Away ranked 5 higher
+  ── PICK ── RESULT: AWAY (37.7%)   GOALS: OVER 2.5 (55.9%)   GG: GG (60.0%)
+
+  LEEDS vs BOURNEMOUTH
+  Odds: 1.85 / 3.2 / 4.35  (H/D/A)
+  ★ [STATS]  blend: H=45.2%  D=26.7%  A=20.6%
+  H2H (242 games): H=51.2%  D=25.6%  A=23.1%  |  Last 5: D,D,A,H,H  (2:2,0:0,1:2,2:1,2:0)
+  ── PICK ── RESULT: HOME (45.2%)   GOALS: UNDER 2.5 (63.3%)   GG: NG (60.1%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 22
+─────────────────────────────────────────────────────────────────
+
+  FULHAM vs LEEDS
+  Odds: 3.0 / 2.8 / 2.6  (H/D/A)
+  ★★★ SIGNATURE MATCH  71.4% ({'AWAY': 5, 'DRAW': 2}) over 7 games
+  H2H (246 games): H=28.0%  D=35.8%  A=36.2%  |  Last 5: D,H,D,D,H  (0:0,1:0,1:1,1:1,2:1)
+  ── PICK ── RESULT: AWAY (71.4%)   GOALS: UNDER 2.5 (65.7%)   GG: NG (60.7%)
+
+  BOURNEMOUTH vs LIVERPOOL
+  Odds: 5.75 / 4.3 / 1.5  (H/D/A)
+  ★★ [STATS]  blend: H=19.7%  D=21.2%  A=58.8%
+  H2H (244 games): H=18.0%  D=18.4%  A=63.5%  |  Last 5: A,D,A,H,A  (0:4,2:2,2:4,1:0,0:1)
+  RANK: Away ranked 10 higher
+  ── PICK ── RESULT: AWAY (58.8%)   GOALS: UNDER 2.5 (53.8%)   GG: NG (55.3%)
+
+  TOTTENHAM vs WOLVERHAMPTON
+  Odds: 1.5 / 4.3 / 5.5  (H/D/A)
+  ★★ [STATS]  blend: H=59.6%  D=21.9%  A=19.2%
+  H2H (243 games): H=60.5%  D=22.6%  A=16.9%  |  Last 5: H,H,H,D,H  (2:0,2:1,5:0,1:1,3:0)
+  RANK: Home ranked 7 higher
+  ── PICK ── RESULT: HOME (59.6%)   GOALS: OVER 2.5 (59.3%)   GG: GG (57.1%)
+
+  BRIGHTON vs CRYSTAL PALACE
+  Odds: 1.7 / 4.05 / 4.1  (H/D/A)
+  ★ [STATS]  blend: H=48.4%  D=24.4%  A=22.6%
+  H2H (246 games): H=48.4%  D=26.0%  A=25.6%  |  Last 5: D,H,D,H,H  (1:1,2:0,1:1,1:0,1:0)
+  RANK: Home ranked 5 higher
+  ── PICK ── RESULT: HOME (48.4%)   GOALS: UNDER 2.5 (53.5%)   GG: GG (51.3%)
+
+  NEWCASTLE vs WEST HAM
+  Odds: 2.75 / 3.55 / 2.3  (H/D/A)
+  ★ [STATS]  blend: H=31.6%  D=25.5%  A=38.9%
+  H2H (244 games): H=29.9%  D=25.8%  A=44.3%  |  Last 5: D,D,A,H,A  (3:3,1:1,0:1,3:1,1:2)
+  ── PICK ── RESULT: AWAY (38.9%)   GOALS: OVER 2.5 (56.9%)   GG: GG (59.4%)
+
+  EVERTON vs MANCHESTER BLUE
+  Odds: 3.35 / 3.5 / 2.05  (H/D/A)
+  ★ [STATS]  blend: H=28.2%  D=27.6%  A=48.5%
+  H2H (244 games): H=18.9%  D=30.3%  A=50.8%  |  Last 5: A,A,D,A,H  (0:2,1:2,0:0,0:5,3:2)
+  RANK: Away ranked 8 higher
+  ── PICK ── RESULT: AWAY (48.5%)   GOALS: UNDER 2.5 (54.2%)   GG: NG (50.0%)
+
+  LONDON GUNS vs MANCHESTER RED
+  Odds: 2.25 / 4.05 / 2.55  (H/D/A)
+  ★ [STATS]  blend: H=43.3%  D=23.3%  A=39.7%
+  H2H (248 games): H=37.1%  D=23.8%  A=39.1%  |  Last 5: H,H,A,A,D  (4:1,2:0,1:4,1:2,2:2)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: HOME (43.3%)   GOALS: OVER 2.5 (52.2%)   GG: GG (52.9%)
+
+  ASTON VILLA vs CHELSEA
+  Odds: 2.45 / 3.3 / 2.7  (H/D/A)
+  ★ [STATS]  blend: H=43.8%  D=26.2%  A=35.6%
+  H2H (243 games): H=44.0%  D=25.9%  A=30.0%  |  Last 5: A,H,H,H,A  (2:3,2:1,2:1,2:1,1:3)
+  ── PICK ── RESULT: HOME (43.8%)   GOALS: UNDER 2.5 (54.8%)   GG: NG (50.3%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 23
+─────────────────────────────────────────────────────────────────
+
+  MANCHESTER BLUE vs NEWCASTLE
+  Odds: 1.3 / 4.9 / 9.5  (H/D/A)
+  ★★★ [STATS]  blend: H=69.6%  D=19.5%  A=11.8%
+  H2H (244 games): H=72.1%  D=19.7%  A=8.2%  |  Last 5: H,H,H,H,H  (3:0,3:1,1:0,3:0,3:0)
+  RANK: Home ranked 9 higher
+  ── PICK ── RESULT: HOME (69.6%)   GOALS: OVER 2.5 (57.7%)   GG: NG (52.0%)
+
+  LIVERPOOL vs FULHAM
+  Odds: 1.3 / 4.6 / 10.25  (H/D/A)
+  ★★★ [STATS]  blend: H=70.2%  D=19.5%  A=10.7%
+  H2H (245 games): H=74.7%  D=16.7%  A=8.6%  |  Last 5: D,H,H,A,H  (0:0,4:0,1:0,0:1,4:0)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: HOME (70.2%)   GOALS: UNDER 2.5 (53.1%)   GG: NG (65.2%)
+
+  LEEDS vs ASTON VILLA
+  Odds: 4.2 / 3.0 / 1.95  (H/D/A)
+  ★★★ SIGNATURE MATCH  85.7% ({'AWAY': 6, 'DRAW': 1}) over 7 games
+  H2H (241 games): H=25.3%  D=28.6%  A=46.1%  |  Last 5: A,A,H,A,A  (0:1,0:1,3:1,0:2,1:3)
+  RANK: Away ranked 11 higher
+  ── PICK ── RESULT: AWAY (85.7%)   GOALS: UNDER 2.5 (68.3%)   GG: NG (64.0%)
+
+  WOLVERHAMPTON vs LONDON GUNS
+  Odds: 2.95 / 3.75 / 2.1  (H/D/A)
+  ★★★ SIGNATURE MATCH  85.7% ({'AWAY': 6, 'HOME': 1}) over 7 games
+  H2H (246 games): H=29.3%  D=23.2%  A=47.6%  |  Last 5: D,A,D,H,D  (0:0,0:1,1:1,1:0,2:2)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: AWAY (85.7%)   GOALS: OVER 2.5 (60.2%)   GG: GG (61.1%)
+
+  MANCHESTER RED vs BOURNEMOUTH
+  Odds: 1.3 / 4.5 / 11.25  (H/D/A)
+  ★★★ [STATS]  blend: H=70.3%  D=20.1%  A=9.2%
+  H2H (243 games): H=76.5%  D=18.1%  A=5.3%  |  Last 5: H,H,H,D,H  (1:0,3:0,1:0,1:1,1:0)
+  RANK: Home ranked 15 higher
+  ── PICK ── RESULT: HOME (70.3%)   GOALS: OVER 2.5 (50.5%)   GG: NG (58.5%)
+
+  WEST HAM vs BRIGHTON
+  Odds: 2.0 / 3.6 / 3.3  (H/D/A)
+  ★ [STATS]  blend: H=45.9%  D=26.2%  A=25.7%
+  H2H (247 games): H=48.6%  D=27.9%  A=23.5%  |  Last 5: D,H,D,D,H  (1:1,1:0,2:2,2:2,1:0)
+  ── PICK ── RESULT: HOME (45.9%)   GOALS: UNDER 2.5 (53.9%)   GG: GG (51.5%)
+
+  CRYSTAL PALACE vs TOTTENHAM
+  Odds: 4.45 / 3.55 / 1.75  (H/D/A)
+  ★ [STATS]  blend: H=23.4%  D=24.3%  A=50.5%
+  H2H (249 games): H=22.1%  D=22.1%  A=55.8%  |  Last 5: A,A,D,A,D  (0:3,0:3,2:2,0:1,1:1)
+  RANK: Away ranked 5 higher
+  ── PICK ── RESULT: AWAY (50.5%)   GOALS: OVER 2.5 (50.3%)   GG: GG (53.4%)
+
+  CHELSEA vs EVERTON
+  Odds: 1.65 / 3.75 / 4.65  (H/D/A)
+  ★ [STATS]  blend: H=53.9%  D=27.9%  A=20.5%
+  H2H (242 games): H=49.6%  D=33.9%  A=16.5%  |  Last 5: H,A,D,A,D  (5:0,0:1,1:1,0:1,1:1)
+  RANK: Home ranked 11 higher
+  ── PICK ── RESULT: HOME (53.9%)   GOALS: UNDER 2.5 (59.9%)   GG: NG (56.8%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 24
+─────────────────────────────────────────────────────────────────
+
+  ASTON VILLA vs LIVERPOOL
+  Odds: 2.45 / 3.4 / 2.65  (H/D/A)
+  ★★★ SIGNATURE MATCH  75.0% ({'AWAY': 9, 'DRAW': 1, 'HOME': 2}) over 12 games
+  H2H (247 games): H=29.1%  D=29.1%  A=41.7%  |  Last 5: H,A,D,D,H  (5:1,0:2,1:1,2:2,1:0)
+  ── PICK ── RESULT: AWAY (75.0%)   GOALS: UNDER 2.5 (57.0%)   GG: NG (52.2%)
+
+  MANCHESTER BLUE vs CHELSEA
+  Odds: 1.8 / 4.25 / 3.4  (H/D/A)
+  ★★★ SIGNATURE MATCH  85.7% ({'DRAW': 1, 'HOME': 6}) over 7 games
+  H2H (243 games): H=52.3%  D=22.2%  A=25.5%  |  Last 5: H,H,D,H,H  (5:1,3:1,2:2,3:1,2:1)
+  ── PICK ── RESULT: HOME (85.7%)   GOALS: OVER 2.5 (61.5%)   GG: GG (63.0%)
+
+  LONDON GUNS vs CRYSTAL PALACE
+  Odds: 1.4 / 4.75 / 6.5  (H/D/A)
+  ★★ [STATS]  blend: H=62.9%  D=21.4%  A=14.8%
+  H2H (242 games): H=64.5%  D=22.7%  A=12.8%  |  Last 5: H,H,H,H,D  (2:1,4:1,3:2,1:0,1:1)
+  RANK: Home ranked 5 higher
+  ── PICK ── RESULT: HOME (62.9%)   GOALS: OVER 2.5 (58.4%)   GG: GG (52.7%)
+
+  TOTTENHAM vs WEST HAM
+  Odds: 1.6 / 3.9 / 4.8  (H/D/A)
+  ★★ [STATS]  blend: H=56.6%  D=24.0%  A=21.3%
+  H2H (245 games): H=56.7%  D=24.9%  A=18.4%  |  Last 5: H,D,H,D,H  (2:1,2:2,2:0,0:0,1:0)
+  ── PICK ── RESULT: HOME (56.6%)   GOALS: OVER 2.5 (56.3%)   GG: GG (55.0%)
+
+  BOURNEMOUTH vs WOLVERHAMPTON
+  Odds: 2.8 / 4.25 / 2.05  (H/D/A)
+  ★ [STATS]  blend: H=31.6%  D=21.4%  A=41.1%
+  H2H (248 games): H=32.7%  D=20.6%  A=46.8%  |  Last 5: D,A,A,H,A  (0:0,1:2,0:3,3:2,0:6)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: AWAY (41.1%)   GOALS: OVER 2.5 (50.9%)   GG: GG (51.5%)
+
+  EVERTON vs LEEDS
+  Odds: 1.95 / 2.85 / 4.65  (H/D/A)
+  ★ [STATS]  blend: H=47.2%  D=30.1%  A=19.6%
+  H2H (244 games): H=50.8%  D=29.9%  A=19.3%  |  Last 5: H,A,H,H,H  (1:0,0:2,2:0,2:0,2:0)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (47.2%)   GOALS: UNDER 2.5 (72.2%)   GG: NG (67.2%)
+
+  NEWCASTLE vs BRIGHTON
+  Odds: 2.45 / 3.2 / 2.8  (H/D/A)
+  ★ [STATS]  blend: H=36.4%  D=25.6%  A=32.9%
+  H2H (245 games): H=38.8%  D=22.9%  A=38.4%  |  Last 5: H,A,D,H,H  (1:0,1:2,0:0,6:0,2:0)
+  RANK: Away ranked 5 higher
+  ── PICK ── RESULT: HOME (36.4%)   GOALS: UNDER 2.5 (59.0%)   GG: NG (53.8%)
+
+  FULHAM vs MANCHESTER RED
+  Odds: 4.9 / 3.65 / 1.65  (H/D/A)
+  ★ [STATS]  blend: H=20.2%  D=25.2%  A=54.3%
+  H2H (241 games): H=17.0%  D=24.5%  A=58.5%  |  Last 5: D,A,A,A,H  (1:1,1:2,1:2,0:3,1:0)
+  RANK: Away ranked 13 higher
+  ── PICK ── RESULT: AWAY (54.3%)   GOALS: UNDER 2.5 (60.0%)   GG: NG (59.7%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 25
+─────────────────────────────────────────────────────────────────
+
+  BRIGHTON vs LONDON GUNS
+  Odds: 3.15 / 3.65 / 2.05  (H/D/A)
+  ★★★★ SIGNATURE MATCH  80.0% ({'AWAY': 4, 'DRAW': 1}) over 5 games
+  H2H (245 games): H=21.6%  D=20.8%  A=57.6%  |  Last 5: A,H,D,A,H  (1:2,1:0,1:1,0:3,1:0)
+  RANK: Away ranked 10 higher
+  ── PICK ── RESULT: AWAY (80.0%)   GOALS: OVER 2.5 (52.1%)   GG: GG (54.6%)
+
+  EVERTON vs MANCHESTER RED
+  Odds: 3.6 / 3.15 / 2.05  (H/D/A)
+  ★★★★ SIGNATURE MATCH  85.7% ({'AWAY': 6, 'DRAW': 1}) over 7 games
+  H2H (245 games): H=22.4%  D=28.2%  A=49.4%  |  Last 5: H,A,H,A,H  (1:0,0:1,2:1,1:3,1:0)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: AWAY (85.7%)   GOALS: UNDER 2.5 (62.1%)   GG: NG (58.0%)
+
+  ASTON VILLA vs CRYSTAL PALACE
+  Odds: 1.35 / 4.35 / 8.5  (H/D/A)
+  ★★★ [STATS]  blend: H=66.4%  D=20.1%  A=12.2%
+  H2H (242 games): H=74.0%  D=16.5%  A=9.5%  |  Last 5: D,H,H,H,H  (1:1,2:1,2:0,2:1,2:0)
+  RANK: Home ranked 10 higher
+  ── PICK ── RESULT: HOME (66.4%)   GOALS: OVER 2.5 (50.2%)   GG: NG (57.6%)
+
+  MANCHESTER BLUE vs CHELSEA
+  Odds: 1.8 / 4.25 / 3.4  (H/D/A)
+  ★★★ SIGNATURE MATCH  85.7% ({'DRAW': 1, 'HOME': 6}) over 7 games
+  H2H (243 games): H=52.3%  D=22.2%  A=25.5%  |  Last 5: H,H,D,H,H  (5:1,3:1,2:2,3:1,2:1)
+  ── PICK ── RESULT: HOME (85.7%)   GOALS: OVER 2.5 (61.7%)   GG: GG (63.0%)
+
+  MANCHESTER RED vs ASTON VILLA
+  Odds: 1.8 / 3.6 / 4.05  (H/D/A)
+  ★★★ SIGNATURE MATCH  83.3% ({'AWAY': 1, 'DRAW': 1, 'HOME': 10}) over 12 games
+  H2H (245 games): H=53.1%  D=24.5%  A=22.4%  |  Last 5: H,H,D,D,H  (5:0,1:0,2:2,1:1,2:0)
+  ── PICK ── RESULT: HOME (83.3%)   GOALS: UNDER 2.5 (56.8%)   GG: NG (56.0%)
+
+  NEWCASTLE vs LIVERPOOL
+  Odds: 5.25 / 3.55 / 1.65  (H/D/A)
+  ★★ [STATS]  blend: H=20.4%  D=24.6%  A=55.6%
+  H2H (247 games): H=16.2%  D=22.7%  A=61.1%  |  Last 5: D,A,A,D,A  (1:1,0:1,0:1,2:2,2:4)
+  RANK: Away ranked 7 higher
+  ── PICK ── RESULT: AWAY (55.6%)   GOALS: UNDER 2.5 (52.3%)   GG: NG (54.3%)
+
+  TOTTENHAM vs WEST HAM
+  Odds: 1.6 / 3.9 / 4.85  (H/D/A)
+  ★★ [STATS]  blend: H=56.6%  D=24.0%  A=21.3%
+  H2H (245 games): H=56.7%  D=24.9%  A=18.4%  |  Last 5: H,D,H,D,H  (2:1,2:2,2:0,0:0,1:0)
+  ── PICK ── RESULT: HOME (56.6%)   GOALS: OVER 2.5 (56.3%)   GG: GG (55.0%)
+
+  LEEDS vs MANCHESTER BLUE
+  Odds: 5.25 / 3.3 / 1.7  (H/D/A)
+  ★★ [STATS]  blend: H=20.9%  D=22.9%  A=57.5%
+  H2H (249 games): H=18.5%  D=15.3%  A=66.3%  |  Last 5: H,D,A,D,A  (2:0,1:1,0:1,1:1,0:1)
+  RANK: Away ranked 11 higher
+  ── PICK ── RESULT: AWAY (57.5%)   GOALS: UNDER 2.5 (57.4%)   GG: NG (56.5%)
+
+  LIVERPOOL vs EVERTON
+  Odds: 1.55 / 3.7 / 6.0  (H/D/A)
+  ★★ [STATS]  blend: H=62.5%  D=22.9%  A=18.2%
+  H2H (248 games): H=65.7%  D=19.4%  A=14.9%  |  Last 5: H,H,D,H,H  (3:0,2:0,0:0,4:1,1:0)
+  RANK: Home ranked 5 higher
+  ── PICK ── RESULT: HOME (62.5%)   GOALS: UNDER 2.5 (57.3%)   GG: NG (60.1%)
+
+  CHELSEA vs NEWCASTLE
+  Odds: 1.3 / 5.5 / 7.0  (H/D/A)
+  ★★ [STATS]  blend: H=63.9%  D=17.9%  A=18.1%
+  H2H (243 games): H=61.3%  D=16.5%  A=22.2%  |  Last 5: H,D,H,H,H  (3:0,0:0,2:0,1:0,4:1)
+  RANK: Home ranked 10 higher
+  ── PICK ── RESULT: HOME (63.9%)   GOALS: OVER 2.5 (57.4%)   GG: NG (50.2%)
+
+  LEEDS vs BOURNEMOUTH
+  Odds: 1.85 / 3.2 / 4.4  (H/D/A)
+  ★ [STATS]  blend: H=45.3%  D=26.7%  A=20.6%
+  H2H (242 games): H=51.2%  D=25.6%  A=23.1%  |  Last 5: D,D,A,H,H  (2:2,0:0,1:2,2:1,2:0)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: HOME (45.3%)   GOALS: UNDER 2.5 (63.5%)   GG: NG (60.1%)
+
+  WOLVERHAMPTON vs FULHAM
+  Odds: 1.8 / 3.5 / 4.25  (H/D/A)
+  ★ [STATS]  blend: H=48.9%  D=26.1%  A=20.1%
+  H2H (245 games): H=52.7%  D=26.5%  A=20.8%  |  Last 5: A,A,H,A,D  (0:1,1:2,4:1,1:3,1:1)
+  RANK: Home ranked 5 higher
+  ── PICK ── RESULT: HOME (48.9%)   GOALS: UNDER 2.5 (50.7%)   GG: GG (50.0%)
+
+  CRYSTAL PALACE vs BOURNEMOUTH
+  Odds: 2.1 / 3.4 / 3.25  (H/D/A)
+  ★ [STATS]  blend: H=38.6%  D=27.4%  A=26.2%
+  H2H (245 games): H=38.8%  D=30.6%  A=30.6%  |  Last 5: H,D,H,D,A  (1:0,0:0,2:1,0:0,1:2)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (38.6%)   GOALS: UNDER 2.5 (52.4%)   GG: NG (50.7%)
+
+  WOLVERHAMPTON vs FULHAM
+  Odds: 1.8 / 3.5 / 4.3  (H/D/A)
+  ★ [STATS]  blend: H=48.9%  D=26.1%  A=20.0%
+  H2H (245 games): H=52.7%  D=26.5%  A=20.8%  |  Last 5: A,A,H,A,D  (0:1,1:2,4:1,1:3,1:1)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (48.9%)   GOALS: UNDER 2.5 (50.7%)   GG: GG (50.0%)
+
+  BRIGHTON vs TOTTENHAM
+  Odds: 3.05 / 3.35 / 2.2  (H/D/A)
+  ★ [STATS]  blend: H=34.5%  D=27.6%  A=38.7%
+  H2H (245 games): H=36.3%  D=29.0%  A=34.7%  |  Last 5: A,A,A,H,H  (0:1,0:3,0:1,2:1,1:0)
+  ── PICK ── RESULT: AWAY (38.7%)   GOALS: UNDER 2.5 (55.1%)   GG: GG (52.0%)
+
+  WEST HAM vs LONDON GUNS
+  Odds: 2.7 / 3.75 / 2.25  (H/D/A)
+  ★ [STATS]  blend: H=35.7%  D=24.1%  A=41.6%
+  H2H (247 games): H=33.2%  D=22.7%  A=44.1%  |  Last 5: A,D,A,A,H  (0:2,1:1,0:3,0:1,2:0)
+  ── PICK ── RESULT: AWAY (41.6%)   GOALS: OVER 2.5 (57.0%)   GG: GG (59.4%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 26
+─────────────────────────────────────────────────────────────────
+
+  MANCHESTER BLUE vs LIVERPOOL
+  Odds: 2.05 / 3.6 / 3.15  (H/D/A)
+  ★★★★★ SIGNATURE MATCH  100.0% ({'HOME': 9}) over 9 games
+  H2H (248 games): H=44.0%  D=21.0%  A=35.1%  |  Last 5: A,H,D,H,H  (0:2,4:1,1:1,3:1,1:0)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (100.0%)   GOALS: OVER 2.5 (57.4%)   GG: GG (58.1%)
+
+  FULHAM vs CRYSTAL PALACE
+  Odds: 2.2 / 3.3 / 3.1  (H/D/A)
+  ★★★★ SIGNATURE MATCH  71.4% ({'AWAY': 5, 'HOME': 2}) over 7 games
+  H2H (240 games): H=44.2%  D=27.1%  A=28.8%  |  Last 5: D,H,A,A,H  (1:1,1:0,0:1,1:2,2:1)
+  ── PICK ── RESULT: AWAY (71.4%)   GOALS: UNDER 2.5 (58.2%)   GG: NG (52.2%)
+
+  EVERTON vs MANCHESTER RED
+  Odds: 3.6 / 3.1 / 2.05  (H/D/A)
+  ★★★★ SIGNATURE MATCH  85.7% ({'AWAY': 6, 'DRAW': 1}) over 7 games
+  H2H (245 games): H=22.4%  D=28.2%  A=49.4%  |  Last 5: H,A,H,A,H  (1:0,0:1,2:1,1:3,1:0)
+  RANK: Away ranked 9 higher
+  ── PICK ── RESULT: AWAY (85.7%)   GOALS: UNDER 2.5 (62.1%)   GG: NG (58.0%)
+
+  ASTON VILLA vs WOLVERHAMPTON
+  Odds: 1.55 / 4.1 / 5.0  (H/D/A)
+  ★★★★ SIGNATURE MATCH  85.7% ({'AWAY': 1, 'HOME': 6}) over 7 games
+  H2H (244 games): H=63.5%  D=23.8%  A=12.7%  |  Last 5: H,H,H,H,H  (3:0,3:1,1:0,2:1,3:0)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: HOME (85.7%)   GOALS: OVER 2.5 (51.1%)   GG: NG (51.2%)
+
+  FULHAM vs WEST HAM
+  Odds: 3.1 / 3.75 / 2.05  (H/D/A)
+  ★★★ SIGNATURE MATCH  71.4% ({'AWAY': 5, 'HOME': 2}) over 7 games
+  H2H (248 games): H=30.6%  D=29.0%  A=40.3%  |  Last 5: H,H,A,D,A  (3:2,3:0,0:2,1:1,0:3)
+  RANK: Away ranked 12 higher
+  ── PICK ── RESULT: AWAY (71.4%)   GOALS: UNDER 2.5 (56.7%)   GG: NG (51.4%)
+
+  LIVERPOOL vs EVERTON
+  Odds: 1.55 / 3.7 / 6.25  (H/D/A)
+  ★★★ SIGNATURE MATCH  70.0% ({'DRAW': 3, 'HOME': 7}) over 10 games
+  H2H (248 games): H=65.7%  D=19.4%  A=14.9%  |  Last 5: H,H,D,H,H  (3:0,2:0,0:0,4:1,1:0)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: HOME (70.0%)   GOALS: UNDER 2.5 (57.3%)   GG: NG (60.1%)
+
+  CHELSEA vs LEEDS
+  Odds: 1.4 / 4.05 / 8.5  (H/D/A)
+  ★★★ [STATS]  blend: H=65.0%  D=22.9%  A=12.1%
+  H2H (244 games): H=69.3%  D=22.5%  A=8.2%  |  Last 5: D,H,H,H,H  (1:1,2:0,1:0,3:1,1:0)
+  RANK: Home ranked 9 higher
+  ── PICK ── RESULT: HOME (65.0%)   GOALS: UNDER 2.5 (55.8%)   GG: NG (58.7%)
+
+  CRYSTAL PALACE vs MANCHESTER BLUE
+  Odds: 4.85 / 4.2 / 1.55  (H/D/A)
+  ★★ [STATS]  blend: H=20.8%  D=23.0%  A=57.0%
+  H2H (245 games): H=16.7%  D=23.7%  A=59.6%  |  Last 5: A,D,A,A,A  (0:2,0:0,0:4,0:3,0:2)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: AWAY (57.0%)   GOALS: OVER 2.5 (55.5%)   GG: GG (53.8%)
+
+  MANCHESTER RED vs BRIGHTON
+  Odds: 1.5 / 3.75 / 6.75  (H/D/A)
+  ★★ [STATS]  blend: H=63.8%  D=23.0%  A=15.2%
+  H2H (242 games): H=69.0%  D=21.1%  A=9.9%  |  Last 5: H,D,H,H,H  (3:0,1:1,3:1,4:1,3:2)
+  RANK: Home ranked 7 higher
+  ── PICK ── RESULT: HOME (63.8%)   GOALS: UNDER 2.5 (51.8%)   GG: NG (54.8%)
+
+  LONDON GUNS vs BRIGHTON
+  Odds: 1.55 / 4.25 / 5.25  (H/D/A)
+  ★★ [STATS]  blend: H=61.7%  D=20.6%  A=18.6%
+  H2H (243 games): H=67.9%  D=17.3%  A=14.8%  |  Last 5: H,A,H,H,A  (4:0,0:2,4:0,3:1,0:2)
+  ── PICK ── RESULT: HOME (61.7%)   GOALS: OVER 2.5 (57.0%)   GG: GG (54.2%)
+
+  BOURNEMOUTH vs NEWCASTLE
+  Odds: 2.5 / 3.05 / 2.85  (H/D/A)
+  ★ [STATS]  blend: H=36.6%  D=25.7%  A=30.4%
+  H2H (246 games): H=42.3%  D=22.4%  A=35.4%  |  Last 5: A,H,D,H,H  (1:3,3:0,1:1,4:1,2:0)
+  RANK: Home ranked 5 higher
+  ── PICK ── RESULT: HOME (36.6%)   GOALS: UNDER 2.5 (59.2%)   GG: NG (55.4%)
+
+  LONDON GUNS vs ASTON VILLA
+  Odds: 2.1 / 3.45 / 3.2  (H/D/A)
+  ★ [STATS]  blend: H=46.7%  D=24.2%  A=34.0%
+  H2H (244 games): H=43.4%  D=21.3%  A=35.2%  |  Last 5: A,D,H,A,A  (0:2,1:1,2:1,0:3,0:2)
+  ── PICK ── RESULT: HOME (46.7%)   GOALS: OVER 2.5 (50.9%)   GG: GG (53.8%)
+
+  CHELSEA vs TOTTENHAM
+  Odds: 2.0 / 3.3 / 3.6  (H/D/A)
+  ★ [STATS]  blend: H=50.2%  D=24.0%  A=30.6%
+  H2H (242 games): H=49.6%  D=20.2%  A=30.2%  |  Last 5: H,H,A,D,H  (1:0,3:1,0:1,2:2,2:1)
+  ── PICK ── RESULT: HOME (50.2%)   GOALS: OVER 2.5 (54.4%)   GG: GG (58.1%)
+
+  WOLVERHAMPTON vs LEEDS
+  Odds: 1.95 / 3.35 / 3.85  (H/D/A)
+  ★ [STATS]  blend: H=47.2%  D=27.6%  A=21.2%
+  H2H (244 games): H=52.0%  D=29.1%  A=18.9%  |  Last 5: H,H,H,H,A  (3:2,2:0,2:1,2:0,1:2)
+  ── PICK ── RESULT: HOME (47.2%)   GOALS: UNDER 2.5 (53.9%)   GG: NG (50.5%)
+
+  NEWCASTLE vs TOTTENHAM
+  Odds: 3.7 / 3.85 / 1.85  (H/D/A)
+  ★ [STATS]  blend: H=26.9%  D=23.2%  A=48.4%
+  H2H (248 games): H=26.2%  D=21.0%  A=52.8%  |  Last 5: D,D,A,H,D  (0:0,1:1,0:1,1:0,1:1)
+  RANK: Away ranked 9 higher
+  ── PICK ── RESULT: AWAY (48.4%)   GOALS: OVER 2.5 (51.5%)   GG: GG (52.8%)
+
+  BOURNEMOUTH vs WEST HAM
+  Odds: 3.45 / 3.3 / 2.05  (H/D/A)
+  ★ [STATS]  blend: H=28.9%  D=24.5%  A=41.7%
+  H2H (239 games): H=32.2%  D=20.9%  A=46.9%  |  Last 5: H,A,A,A,D  (1:0,2:3,0:1,0:3,1:1)
+  RANK: Away ranked 7 higher
+  ── PICK ── RESULT: AWAY (41.7%)   GOALS: UNDER 2.5 (50.9%)   GG: GG (51.2%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 27
+─────────────────────────────────────────────────────────────────
+
+  NEWCASTLE vs WOLVERHAMPTON
+  Odds: 2.55 / 3.55 / 2.45  (H/D/A)
+  ★★★★ SIGNATURE MATCH  70.0% ({'AWAY': 7, 'HOME': 3}) over 10 games
+  H2H (244 games): H=37.7%  D=18.9%  A=43.4%  |  Last 5: D,D,D,H,D  (2:2,1:1,1:1,3:2,2:2)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: AWAY (70.0%)   GOALS: OVER 2.5 (58.1%)   GG: GG (57.7%)
+
+  TOTTENHAM vs CRYSTAL PALACE
+  Odds: 1.4 / 4.8 / 6.25  (H/D/A)
+  ★★★★ SIGNATURE MATCH  72.7% ({'AWAY': 1, 'DRAW': 2, 'HOME': 8}) over 11 games
+  H2H (240 games): H=68.8%  D=24.2%  A=7.1%  |  Last 5: H,D,H,H,H  (2:0,1:1,2:1,3:1,2:0)
+  RANK: Home ranked 7 higher
+  ── PICK ── RESULT: HOME (72.7%)   GOALS: OVER 2.5 (51.0%)   GG: NG (52.6%)
+
+  LEEDS vs FULHAM
+  Odds: 2.15 / 2.95 / 3.7  (H/D/A)
+  ★★★ SIGNATURE MATCH  83.3% ({'DRAW': 5, 'HOME': 1}) over 6 games
+  H2H (244 games): H=29.5%  D=39.3%  A=31.1%  |  Last 5: D,H,D,A,H  (1:1,1:0,0:0,0:1,1:0)
+  ── PICK ── RESULT: DRAW (83.3%)   GOALS: UNDER 2.5 (70.5%)   GG: NG (64.4%)
+
+  MANCHESTER BLUE vs LONDON GUNS
+  Odds: 1.65 / 4.5 / 3.95  (H/D/A)
+  ★★ [STATS]  blend: H=57.9%  D=20.3%  A=27.8%
+  H2H (241 games): H=56.0%  D=19.1%  A=24.9%  |  Last 5: H,H,A,A,A  (2:1,2:0,0:2,0:1,1:2)
+  RANK: Away ranked 7 higher
+  ── PICK ── RESULT: HOME (57.9%)   GOALS: OVER 2.5 (64.5%)   GG: GG (62.8%)
+
+  WEST HAM vs FULHAM
+  Odds: 1.65 / 3.45 / 5.5  (H/D/A)
+  ★★ [STATS]  blend: H=55.1%  D=26.0%  A=14.8%
+  H2H (242 games): H=63.6%  D=25.2%  A=11.2%  |  Last 5: H,H,H,H,D  (1:0,2:0,3:1,3:0,0:0)
+  RANK: Home ranked 6 higher
+  ── PICK ── RESULT: HOME (55.1%)   GOALS: UNDER 2.5 (52.7%)   GG: NG (52.7%)
+
+  BRIGHTON vs LIVERPOOL
+  Odds: 3.85 / 3.55 / 1.85  (H/D/A)
+  ★ [STATS]  blend: H=28.4%  D=28.5%  A=45.8%
+  H2H (240 games): H=26.2%  D=33.3%  A=40.4%  |  Last 5: D,A,D,A,A  (0:0,1:3,1:1,1:3,0:1)
+  RANK: Away ranked 7 higher
+  ── PICK ── RESULT: AWAY (45.8%)   GOALS: UNDER 2.5 (55.6%)   GG: GG (51.7%)
+
+  EVERTON vs BOURNEMOUTH
+  Odds: 1.7 / 3.4 / 5.0  (H/D/A)
+  ★ [STATS]  blend: H=51.5%  D=27.6%  A=16.6%
+  H2H (241 games): H=55.2%  D=30.3%  A=14.5%  |  Last 5: H,D,D,H,D  (3:1,1:1,1:1,2:1,1:1)
+  RANK: Home ranked 7 higher
+  ── PICK ── RESULT: HOME (51.5%)   GOALS: UNDER 2.5 (61.4%)   GG: NG (61.0%)
+
+  WEST HAM vs CHELSEA
+  Odds: 3.2 / 4.0 / 1.95  (H/D/A)
+  ★ [STATS]  blend: H=31.0%  D=25.8%  A=46.0%
+  H2H (244 games): H=25.8%  D=29.9%  A=44.3%  |  Last 5: D,A,D,H,D  (1:1,1:2,1:1,2:1,0:0)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: AWAY (46.0%)   GOALS: OVER 2.5 (56.9%)   GG: GG (60.9%)
+
+  ASTON VILLA vs MANCHESTER RED
+  Odds: 2.3 / 3.85 / 2.6  (H/D/A)
+  ★ [STATS]  blend: H=42.9%  D=26.1%  A=36.8%
+  H2H (243 games): H=38.7%  D=29.6%  A=31.7%  |  Last 5: A,D,A,H,H  (0:3,0:0,0:2,1:0,2:1)
+  RANK: Home ranked 6 higher
+  ── PICK ── RESULT: HOME (42.9%)   GOALS: UNDER 2.5 (56.7%)   GG: NG (52.2%)
+
+  LIVERPOOL vs CHELSEA
+  Odds: 2.05 / 4.15 / 2.85  (H/D/A)
+  ★ [STATS]  blend: H=51.4%  D=21.7%  A=34.4%
+  H2H (242 games): H=50.4%  D=21.1%  A=28.5%  |  Last 5: H,A,A,H,H  (2:1,1:2,2:3,1:0,1:0)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: HOME (51.4%)   GOALS: OVER 2.5 (54.3%)   GG: GG (56.8%)
+
+  WOLVERHAMPTON vs EVERTON
+  Odds: 2.5 / 3.25 / 2.7  (H/D/A)
+  ★ [STATS]  blend: H=40.7%  D=28.2%  A=29.4%
+  H2H (246 games): H=45.9%  D=28.9%  A=25.2%  |  Last 5: A,H,A,A,H  (0:1,2:1,0:3,1:2,2:1)
+  ── PICK ── RESULT: HOME (40.7%)   GOALS: UNDER 2.5 (53.4%)   GG: GG (50.6%)
+
+  MANCHESTER RED vs MANCHESTER BLUE
+  Odds: 2.1 / 3.7 / 2.95  (H/D/A)
+  ★ [STATS]  blend: H=45.9%  D=24.7%  A=37.6%
+  H2H (244 games): H=38.1%  D=25.8%  A=36.1%  |  Last 5: A,A,A,D,A  (0:1,1:2,0:4,2:2,1:2)
+  ── PICK ── RESULT: HOME (45.9%)   GOALS: OVER 2.5 (53.7%)   GG: GG (56.1%)
+
+  TOTTENHAM vs LONDON GUNS
+  Odds: 1.95 / 3.6 / 3.5  (H/D/A)
+  ★ [STATS]  blend: H=47.2%  D=26.3%  A=30.8%
+  H2H (250 games): H=41.2%  D=28.8%  A=30.0%  |  Last 5: H,H,H,H,H  (3:1,2:0,3:0,2:0,3:0)
+  ── PICK ── RESULT: HOME (47.2%)   GOALS: OVER 2.5 (55.0%)   GG: GG (57.9%)
+
+  BRIGHTON vs BOURNEMOUTH
+  Odds: 1.75 / 3.45 / 4.7  (H/D/A)
+  ★ [STATS]  blend: H=50.2%  D=25.3%  A=19.2%
+  H2H (239 games): H=55.2%  D=24.3%  A=20.5%  |  Last 5: A,H,H,H,D  (0:1,1:0,2:0,4:1,1:1)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: HOME (50.2%)   GOALS: UNDER 2.5 (57.3%)   GG: NG (55.8%)
+
+  CRYSTAL PALACE vs ASTON VILLA
+  Odds: 4.15 / 3.65 / 1.75  (H/D/A)
+  ★ [STATS]  blend: H=22.8%  D=24.6%  A=51.2%
+  H2H (245 games): H=18.8%  D=23.7%  A=57.6%  |  Last 5: H,A,A,A,H  (2:0,2:4,0:3,0:2,2:0)
+  RANK: Away ranked 9 higher
+  ── PICK ── RESULT: AWAY (51.2%)   GOALS: OVER 2.5 (53.3%)   GG: GG (53.1%)
+
+  LEEDS vs NEWCASTLE
+  Odds: 2.1 / 3.1 / 3.5  (H/D/A)
+  ★ [STATS]  blend: H=37.4%  D=29.0%  A=27.1%
+  H2H (246 games): H=35.8%  D=31.3%  A=32.9%  |  Last 5: A,D,H,H,H  (0:3,0:0,3:2,3:1,4:0)
+  ── PICK ── RESULT: HOME (37.4%)   GOALS: UNDER 2.5 (64.0%)   GG: NG (57.5%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 28
+─────────────────────────────────────────────────────────────────
+
+  MANCHESTER BLUE vs WOLVERHAMPTON
+  Odds: 1.35 / 5.5 / 6.75  (H/D/A)
+  ★★★ [STATS]  blend: H=70.9%  D=15.2%  A=16.1%
+  H2H (243 games): H=78.2%  D=10.3%  A=11.5%  |  Last 5: H,H,H,A,A  (2:1,2:1,3:0,0:2,2:3)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: HOME (70.9%)   GOALS: OVER 2.5 (71.8%)   GG: GG (58.7%)
+
+  FULHAM vs CHELSEA
+  Odds: 5.75 / 4.35 / 1.5  (H/D/A)
+  ★★ [STATS]  blend: H=19.7%  D=22.8%  A=57.0%
+  H2H (242 games): H=18.6%  D=22.3%  A=59.1%  |  Last 5: A,D,A,A,D  (0:1,1:1,0:1,1:2,1:1)
+  RANK: Away ranked 8 higher
+  ── PICK ── RESULT: AWAY (57.0%)   GOALS: UNDER 2.5 (53.7%)   GG: NG (56.0%)
+
+  LEEDS vs NEWCASTLE
+  Odds: 2.1 / 3.1 / 3.5  (H/D/A)
+  ★ [STATS]  blend: H=37.4%  D=29.0%  A=27.1%
+  H2H (246 games): H=35.8%  D=31.3%  A=32.9%  |  Last 5: A,D,H,H,H  (0:3,0:0,3:2,3:1,4:0)
+  ── PICK ── RESULT: HOME (37.4%)   GOALS: UNDER 2.5 (64.0%)   GG: NG (57.5%)
+
+  LONDON GUNS vs TOTTENHAM
+  Odds: 2.0 / 3.85 / 3.2  (H/D/A)
+  ★ [STATS]  blend: H=50.8%  D=24.3%  A=29.4%
+  H2H (240 games): H=52.1%  D=25.0%  A=22.9%  |  Last 5: H,H,H,H,A  (3:1,3:1,3:0,1:0,1:2)
+  ── PICK ── RESULT: HOME (50.8%)   GOALS: OVER 2.5 (55.4%)   GG: GG (57.7%)
+
+  LIVERPOOL vs ASTON VILLA
+  Odds: 1.75 / 3.65 / 4.15  (H/D/A)
+  ★ [STATS]  blend: H=54.3%  D=26.0%  A=26.1%
+  H2H (245 games): H=50.2%  D=29.4%  A=20.4%  |  Last 5: D,A,H,D,A  (1:1,0:1,3:1,2:2,1:3)
+  ── PICK ── RESULT: HOME (54.3%)   GOALS: UNDER 2.5 (55.5%)   GG: NG (51.4%)
+
+  BOURNEMOUTH vs BRIGHTON
+  Odds: 2.95 / 3.25 / 2.35  (H/D/A)
+  ★ [STATS]  blend: H=29.9%  D=27.3%  A=36.9%
+  H2H (244 games): H=29.5%  D=28.3%  A=42.2%  |  Last 5: A,A,D,D,A  (0:3,2:4,0:0,0:0,0:2)
+  ── PICK ── RESULT: AWAY (36.9%)   GOALS: UNDER 2.5 (61.6%)   GG: NG (55.2%)
+
+  MANCHESTER RED vs MANCHESTER BLUE
+  Odds: 2.1 / 3.7 / 3.0  (H/D/A)
+  ★ [STATS]  blend: H=46.0%  D=24.7%  A=37.5%
+  H2H (244 games): H=38.1%  D=25.8%  A=36.1%  |  Last 5: A,A,A,D,A  (0:1,1:2,0:4,2:2,1:2)
+  ── PICK ── RESULT: HOME (46.0%)   GOALS: OVER 2.5 (53.7%)   GG: GG (56.1%)
+
+  CRYSTAL PALACE vs WEST HAM
+  Odds: 3.15 / 3.5 / 2.1  (H/D/A)
+  ★ [STATS]  blend: H=30.6%  D=27.3%  A=37.7%
+  H2H (243 games): H=32.9%  D=30.5%  A=36.6%  |  Last 5: H,D,H,D,A  (4:1,1:1,3:2,1:1,0:1)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: AWAY (37.7%)   GOALS: OVER 2.5 (55.9%)   GG: GG (60.0%)
+
+  WOLVERHAMPTON vs EVERTON
+  Odds: 2.55 / 3.25 / 2.65  (H/D/A)
+  ★ [STATS]  blend: H=40.4%  D=28.2%  A=29.6%
+  H2H (246 games): H=45.9%  D=28.9%  A=25.2%  |  Last 5: A,H,A,A,H  (0:1,2:1,0:3,1:2,2:1)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: HOME (40.4%)   GOALS: UNDER 2.5 (53.4%)   GG: GG (50.6%)
+
+  ASTON VILLA vs WEST HAM
+  Odds: 1.65 / 4.0 / 4.45  (H/D/A)
+  ★ [STATS]  blend: H=54.2%  D=23.6%  A=23.8%
+  H2H (248 games): H=52.8%  D=23.8%  A=23.4%  |  Last 5: H,A,D,D,A  (2:1,1:2,0:0,3:3,0:1)
+  RANK: Home ranked 5 higher
+  ── PICK ── RESULT: HOME (54.2%)   GOALS: UNDER 2.5 (52.4%)   GG: GG (50.7%)
+
+  BOURNEMOUTH vs TOTTENHAM
+  Odds: 4.6 / 3.9 / 1.65  (H/D/A)
+  ★ [STATS]  blend: H=21.3%  D=25.0%  A=51.3%
+  H2H (247 games): H=18.2%  D=27.1%  A=54.7%  |  Last 5: H,A,A,A,H  (1:0,2:4,2:3,0:2,3:2)
+  RANK: Away ranked 9 higher
+  ── PICK ── RESULT: AWAY (51.3%)   GOALS: UNDER 2.5 (55.6%)   GG: NG (54.2%)
+
+  CHELSEA vs MANCHESTER RED
+  Odds: 2.55 / 3.65 / 2.4  (H/D/A)
+  ★ [STATS]  blend: H=43.6%  D=23.9%  A=39.0%
+  H2H (248 games): H=42.3%  D=23.0%  A=34.7%  |  Last 5: H,H,D,D,A  (2:1,2:0,0:0,2:2,1:2)
+  ── PICK ── RESULT: HOME (43.6%)   GOALS: OVER 2.5 (52.7%)   GG: GG (56.0%)
+
+  NEWCASTLE vs LONDON GUNS
+  Odds: 3.25 / 3.85 / 1.95  (H/D/A)
+  ★ [STATS]  blend: H=27.6%  D=24.2%  A=46.8%
+  H2H (240 games): H=24.2%  D=24.2%  A=51.7%  |  Last 5: A,H,D,A,H  (0:2,2:1,2:2,0:3,2:0)
+  RANK: Away ranked 7 higher
+  ── PICK ── RESULT: AWAY (46.8%)   GOALS: OVER 2.5 (51.2%)   GG: GG (52.0%)
+
+  LEEDS vs LIVERPOOL
+  Odds: 5.75 / 3.4 / 1.65  (H/D/A)
+  ★ [STATS]  blend: H=20.0%  D=26.5%  A=54.1%
+  H2H (245 games): H=17.6%  D=25.7%  A=56.7%  |  Last 5: D,A,A,A,H  (1:1,0:4,0:2,0:2,1:0)
+  RANK: Away ranked 9 higher
+  ── PICK ── RESULT: AWAY (54.1%)   GOALS: UNDER 2.5 (64.0%)   GG: NG (62.1%)
+
+  FULHAM vs BRIGHTON
+  Odds: 3.1 / 3.0 / 2.35  (H/D/A)
+  ★ [STATS]  blend: H=29.6%  D=27.7%  A=37.1%
+  H2H (241 games): H=31.1%  D=25.7%  A=43.2%  |  Last 5: D,H,A,D,A  (1:1,1:0,1:5,1:1,0:1)
+  RANK: Away ranked 7 higher
+  ── PICK ── RESULT: AWAY (37.1%)   GOALS: UNDER 2.5 (65.7%)   GG: NG (62.1%)
+
+  EVERTON vs CRYSTAL PALACE
+  Odds: 1.6 / 3.6 / 5.75  (H/D/A)
+  ★ [STATS]  blend: H=54.8%  D=26.2%  A=15.2%
+  H2H (246 games): H=60.6%  D=27.6%  A=11.8%  |  Last 5: H,D,H,H,H  (5:0,2:2,4:2,2:0,1:0)
+  ── PICK ── RESULT: HOME (54.8%)   GOALS: UNDER 2.5 (59.1%)   GG: NG (59.9%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 29
+─────────────────────────────────────────────────────────────────
+
+  MANCHESTER BLUE vs LIVERPOOL
+  Odds: 2.05 / 3.6 / 3.15  (H/D/A)
+  ★★★★★ SIGNATURE MATCH  100.0% ({'HOME': 9}) over 9 games
+  H2H (248 games): H=44.0%  D=21.0%  A=35.1%  |  Last 5: A,H,D,H,H  (0:2,4:1,1:1,3:1,1:0)
+  RANK: Away ranked 5 higher
+  ── PICK ── RESULT: HOME (100.0%)   GOALS: OVER 2.5 (57.4%)   GG: GG (58.1%)
+
+  BRIGHTON vs WOLVERHAMPTON
+  Odds: 1.95 / 3.65 / 3.4  (H/D/A)
+  ★★★★ SIGNATURE MATCH  100.0% ({'HOME': 11}) over 11 games
+  H2H (243 games): H=51.0%  D=20.6%  A=28.4%  |  Last 5: A,D,A,H,A  (1:2,1:1,0:1,1:0,1:3)
+  ── PICK ── RESULT: HOME (100.0%)   GOALS: OVER 2.5 (52.0%)   GG: GG (55.5%)
+
+  TOTTENHAM vs FULHAM
+  Odds: 1.4 / 3.95 / 8.75  (H/D/A)
+  ★★★★ SIGNATURE MATCH  81.8% ({'AWAY': 1, 'DRAW': 1, 'HOME': 9}) over 11 games
+  H2H (243 games): H=72.4%  D=20.2%  A=7.4%  |  Last 5: D,A,H,D,H  (1:1,0:1,2:1,0:0,4:1)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: HOME (81.8%)   GOALS: UNDER 2.5 (53.5%)   GG: NG (58.9%)
+
+  CHELSEA vs CRYSTAL PALACE
+  Odds: 1.25 / 5.5 / 9.0  (H/D/A)
+  ★★★ [STATS]  blend: H=69.3%  D=17.2%  A=12.8%
+  H2H (241 games): H=73.4%  D=14.5%  A=12.0%  |  Last 5: H,H,H,H,H  (3:0,1:0,3:0,3:0,4:0)
+  RANK: Home ranked 5 higher
+  ── PICK ── RESULT: HOME (69.3%)   GOALS: OVER 2.5 (60.1%)   GG: NG (52.1%)
+
+  TOTTENHAM vs MANCHESTER RED
+  Odds: 2.4 / 3.65 / 2.55  (H/D/A)
+  ★★★ SIGNATURE MATCH  70.0% ({'AWAY': 7, 'DRAW': 1, 'HOME': 2}) over 10 games
+  H2H (243 games): H=44.4%  D=26.3%  A=29.2%  |  Last 5: H,H,A,H,D  (2:0,3:0,0:4,5:1,1:1)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: AWAY (70.0%)   GOALS: UNDER 2.5 (51.6%)   GG: GG (51.5%)
+
+  LIVERPOOL vs NEWCASTLE
+  Odds: 1.3 / 5.0 / 9.25  (H/D/A)
+  ★★★ [STATS]  blend: H=68.4%  D=19.0%  A=13.6%
+  H2H (239 games): H=69.0%  D=18.0%  A=13.0%  |  Last 5: H,D,A,H,H  (3:0,0:0,0:1,4:1,3:2)
+  RANK: Home ranked 7 higher
+  ── PICK ── RESULT: HOME (68.4%)   GOALS: OVER 2.5 (54.2%)   GG: NG (54.4%)
+
+  LONDON GUNS vs BOURNEMOUTH
+  Odds: 1.35 / 4.55 / 8.0  (H/D/A)
+  ★★★ [STATS]  blend: H=66.1%  D=19.9%  A=12.5%
+  H2H (240 games): H=71.2%  D=17.9%  A=10.8%  |  Last 5: H,H,H,H,H  (1:0,3:0,2:0,2:1,3:1)
+  RANK: Home ranked 11 higher
+  ── PICK ── RESULT: HOME (66.1%)   GOALS: OVER 2.5 (53.3%)   GG: NG (54.2%)
+
+  BRIGHTON vs ASTON VILLA
+  Odds: 3.15 / 3.35 / 2.15  (H/D/A)
+  ★★★ SIGNATURE MATCH  83.3% ({'AWAY': 5, 'HOME': 1}) over 6 games
+  H2H (245 games): H=27.3%  D=24.1%  A=48.6%  |  Last 5: H,D,D,D,D  (1:0,2:2,2:2,1:1,1:1)
+  RANK: Away ranked 5 higher
+  ── PICK ── RESULT: AWAY (83.3%)   GOALS: UNDER 2.5 (59.5%)   GG: NG (54.2%)
+
+  MANCHESTER RED vs LEEDS
+  Odds: 1.35 / 4.35 / 10.0  (H/D/A)
+  ★★★ [STATS]  blend: H=67.3%  D=22.5%  A=11.1%
+  H2H (240 games): H=70.4%  D=22.5%  A=7.1%  |  Last 5: H,H,H,H,H  (3:0,3:1,3:0,2:0,3:1)
+  RANK: Home ranked 13 higher
+  ── PICK ── RESULT: HOME (67.3%)   GOALS: UNDER 2.5 (55.4%)   GG: NG (59.1%)
+
+  ASTON VILLA vs BOURNEMOUTH
+  Odds: 1.4 / 4.15 / 8.0  (H/D/A)
+  ★★ [STATS]  blend: H=63.6%  D=21.6%  A=13.0%
+  H2H (245 games): H=68.2%  D=19.6%  A=12.2%  |  Last 5: H,H,D,A,H  (4:0,1:0,1:1,0:1,2:1)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: HOME (63.6%)   GOALS: UNDER 2.5 (55.7%)   GG: NG (60.8%)
+
+  CRYSTAL PALACE vs MANCHESTER BLUE
+  Odds: 4.8 / 4.25 / 1.55  (H/D/A)
+  ★★ [STATS]  blend: H=20.8%  D=22.9%  A=57.1%
+  H2H (245 games): H=16.7%  D=23.7%  A=59.6%  |  Last 5: A,D,A,A,A  (0:2,0:0,0:4,0:3,0:2)
+  RANK: Away ranked 8 higher
+  ── PICK ── RESULT: AWAY (57.1%)   GOALS: OVER 2.5 (55.5%)   GG: GG (53.8%)
+
+  NEWCASTLE vs FULHAM
+  Odds: 1.85 / 3.55 / 3.9  (H/D/A)
+  ★ [STATS]  blend: H=42.5%  D=27.9%  A=22.7%
+  H2H (247 games): H=42.1%  D=32.0%  A=25.9%  |  Last 5: D,H,H,A,H  (2:2,1:0,3:1,0:1,1:0)
+  ── PICK ── RESULT: HOME (42.5%)   GOALS: UNDER 2.5 (58.8%)   GG: NG (55.4%)
+
+  WEST HAM vs LONDON GUNS
+  Odds: 2.7 / 3.8 / 2.2  (H/D/A)
+  ★ [STATS]  blend: H=35.6%  D=23.9%  A=41.9%
+  H2H (247 games): H=33.2%  D=22.7%  A=44.1%  |  Last 5: A,D,A,A,H  (0:2,1:1,0:3,0:1,2:0)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: AWAY (41.9%)   GOALS: OVER 2.5 (57.0%)   GG: GG (59.4%)
+
+  EVERTON vs LEEDS
+  Odds: 1.95 / 2.85 / 4.7  (H/D/A)
+  ★ [STATS]  blend: H=47.2%  D=30.1%  A=19.6%
+  H2H (244 games): H=50.8%  D=29.9%  A=19.3%  |  Last 5: H,A,H,H,H  (1:0,0:2,2:0,2:0,2:0)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: HOME (47.2%)   GOALS: UNDER 2.5 (72.2%)   GG: NG (67.2%)
+
+  WEST HAM vs EVERTON
+  Odds: 2.2 / 3.2 / 3.25  (H/D/A)
+  ★ [STATS]  blend: H=40.9%  D=28.5%  A=29.6%
+  H2H (247 games): H=38.9%  D=28.7%  A=32.4%  |  Last 5: H,H,H,D,A  (2:0,2:0,2:1,1:1,0:1)
+  ── PICK ── RESULT: HOME (40.9%)   GOALS: UNDER 2.5 (57.6%)   GG: NG (50.4%)
+
+  WOLVERHAMPTON vs CHELSEA
+  Odds: 3.55 / 4.15 / 1.8  (H/D/A)
+  ★ [STATS]  blend: H=27.9%  D=26.6%  A=47.6%
+  H2H (242 games): H=21.9%  D=33.5%  A=44.6%  |  Last 5: A,A,A,H,A  (1:2,0:1,0:2,4:1,0:2)
+  RANK: Away ranked 8 higher
+  ── PICK ── RESULT: AWAY (47.6%)   GOALS: OVER 2.5 (61.5%)   GG: GG (62.4%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 3
+─────────────────────────────────────────────────────────────────
+
+  FULHAM vs MANCHESTER BLUE
+  Odds: 5.25 / 4.3 / 1.5  (H/D/A)
+  ★★★★★ SIGNATURE MATCH  100.0% ({'AWAY': 5}) over 5 games
+  H2H (246 games): H=20.3%  D=15.9%  A=63.8%  |  Last 5: A,H,A,H,A  (0:1,2:1,0:3,2:0,0:1)
+  ── PICK ── RESULT: AWAY (100.0%)   GOALS: UNDER 2.5 (52.5%)   GG: NG (55.9%)
+
+  LEEDS vs BRIGHTON
+  Odds: 3.2 / 2.8 / 2.45  (H/D/A)
+  ★★★ SIGNATURE MATCH  80.0% ({'AWAY': 1, 'DRAW': 4}) over 5 games
+  H2H (246 games): H=32.5%  D=28.0%  A=39.4%  |  Last 5: D,H,H,A,A  (3:3,1:0,3:1,1:4,0:2)
+  ── PICK ── RESULT: DRAW (80.0%)   GOALS: UNDER 2.5 (69.5%)   GG: NG (63.8%)
+
+  LIVERPOOL vs WEST HAM
+  Odds: 1.4 / 4.9 / 5.75  (H/D/A)
+  ★★★ SIGNATURE MATCH  80.0% ({'DRAW': 1, 'HOME': 4}) over 5 games
+  H2H (245 games): H=63.3%  D=18.8%  A=18.0%  |  Last 5: H,H,A,H,H  (2:0,2:0,0:2,3:0,3:1)
+  ── PICK ── RESULT: HOME (80.0%)   GOALS: OVER 2.5 (57.2%)   GG: NG (51.0%)
+
+  MANCHESTER RED vs CRYSTAL PALACE
+  Odds: 1.3 / 4.95 / 10.5  (H/D/A)
+  ★★★ [STATS]  blend: H=68.9%  D=18.5%  A=12.7%
+  H2H (243 games): H=71.6%  D=15.2%  A=13.2%  |  Last 5: H,H,H,H,H  (1:0,3:0,2:0,1:0,2:0)
+  ── PICK ── RESULT: HOME (68.9%)   GOALS: OVER 2.5 (53.8%)   GG: NG (54.2%)
+
+  MANCHESTER RED vs CRYSTAL PALACE
+  Odds: 1.3 / 4.95 / 10.5  (H/D/A)
+  ★★★ [STATS]  blend: H=68.9%  D=18.5%  A=12.7%
+  H2H (243 games): H=71.6%  D=15.2%  A=13.2%  |  Last 5: H,H,H,H,H  (1:0,3:0,2:0,1:0,2:0)
+  ── PICK ── RESULT: HOME (68.9%)   GOALS: OVER 2.5 (53.8%)   GG: NG (54.2%)
+
+  LIVERPOOL vs BRIGHTON
+  Odds: 1.4 / 4.95 / 6.5  (H/D/A)
+  ★★★ [STATS]  blend: H=67.6%  D=18.6%  A=16.3%
+  H2H (246 games): H=72.0%  D=15.9%  A=12.2%  |  Last 5: H,H,H,H,H  (2:0,2:0,4:0,4:2,5:1)
+  ── PICK ── RESULT: HOME (67.6%)   GOALS: OVER 2.5 (51.0%)   GG: NG (57.1%)
+
+  MANCHESTER BLUE vs LONDON GUNS
+  Odds: 1.65 / 4.5 / 3.95  (H/D/A)
+  ★★ [STATS]  blend: H=57.9%  D=20.3%  A=27.8%
+  H2H (241 games): H=56.0%  D=19.1%  A=24.9%  |  Last 5: H,H,A,A,A  (2:1,2:0,0:2,0:1,1:2)
+  ── PICK ── RESULT: HOME (57.9%)   GOALS: OVER 2.5 (64.5%)   GG: GG (62.8%)
+
+  ASTON VILLA vs FULHAM
+  Odds: 1.45 / 3.7 / 9.0  (H/D/A)
+  ★★ [STATS]  blend: H=62.5%  D=24.7%  A=11.4%
+  H2H (242 games): H=66.9%  D=24.0%  A=9.1%  |  Last 5: H,D,H,H,D  (2:0,0:0,6:0,2:1,0:0)
+  ── PICK ── RESULT: HOME (62.5%)   GOALS: UNDER 2.5 (59.5%)   GG: NG (60.3%)
+
+  EVERTON vs BOURNEMOUTH
+  Odds: 1.7 / 3.4 / 5.25  (H/D/A)
+  ★ [STATS]  blend: H=51.7%  D=27.7%  A=16.3%
+  H2H (241 games): H=55.2%  D=30.3%  A=14.5%  |  Last 5: H,D,D,H,D  (3:1,1:1,1:1,2:1,1:1)
+  ── PICK ── RESULT: HOME (51.7%)   GOALS: UNDER 2.5 (61.2%)   GG: NG (61.0%)
+
+  CHELSEA vs TOTTENHAM
+  Odds: 2.0 / 3.25 / 3.6  (H/D/A)
+  ★ [STATS]  blend: H=50.1%  D=24.2%  A=30.5%
+  H2H (242 games): H=49.6%  D=20.2%  A=30.2%  |  Last 5: H,H,A,D,H  (1:0,3:1,0:1,2:2,2:1)
+  ── PICK ── RESULT: HOME (50.1%)   GOALS: OVER 2.5 (54.4%)   GG: GG (58.3%)
+
+  WOLVERHAMPTON vs NEWCASTLE
+  Odds: 1.85 / 3.85 / 3.65  (H/D/A)
+  ★ [STATS]  blend: H=50.8%  D=22.2%  A=22.6%
+  H2H (246 games): H=59.8%  D=19.1%  A=21.1%  |  Last 5: D,H,H,H,H  (2:2,5:0,3:0,3:1,3:1)
+  ── PICK ── RESULT: HOME (50.8%)   GOALS: OVER 2.5 (55.5%)   GG: GG (53.8%)
+
+  BOURNEMOUTH vs EVERTON
+  Odds: 3.3 / 3.2 / 2.15  (H/D/A)
+  ★ [STATS]  blend: H=26.9%  D=28.7%  A=39.7%
+  H2H (248 games): H=25.0%  D=30.2%  A=44.8%  |  Last 5: H,A,A,H,D  (3:2,0:3,0:1,1:0,0:0)
+  ── PICK ── RESULT: AWAY (39.7%)   GOALS: UNDER 2.5 (65.6%)   GG: NG (59.5%)
+
+  NEWCASTLE vs LONDON GUNS
+  Odds: 3.25 / 3.85 / 1.95  (H/D/A)
+  ★ [STATS]  blend: H=27.6%  D=24.2%  A=46.8%
+  H2H (240 games): H=24.2%  D=24.2%  A=51.7%  |  Last 5: A,H,D,A,H  (0:2,2:1,2:2,0:3,2:0)
+  ── PICK ── RESULT: AWAY (46.8%)   GOALS: OVER 2.5 (50.9%)   GG: GG (52.0%)
+
+  ASTON VILLA vs CHELSEA
+  Odds: 2.5 / 3.3 / 2.7  (H/D/A)
+  ★ [STATS]  blend: H=43.6%  D=26.3%  A=35.7%
+  H2H (243 games): H=44.0%  D=25.9%  A=30.0%  |  Last 5: A,H,H,H,A  (2:3,2:1,2:1,2:1,1:3)
+  ── PICK ── RESULT: HOME (43.6%)   GOALS: UNDER 2.5 (54.8%)   GG: NG (50.3%)
+
+  WOLVERHAMPTON vs TOTTENHAM
+  Odds: 2.7 / 4.5 / 2.05  (H/D/A)
+  ★ [STATS]  blend: H=36.4%  D=20.8%  A=43.5%
+  H2H (241 games): H=36.9%  D=18.3%  A=44.8%  |  Last 5: A,A,D,D,H  (1:3,1:4,2:2,2:2,2:0)
+  ── PICK ── RESULT: AWAY (43.5%)   GOALS: OVER 2.5 (56.2%)   GG: GG (57.1%)
+
+  LEEDS vs WEST HAM
+  Odds: 2.95 / 3.35 / 2.25  (H/D/A)
+  ★ [STATS]  blend: H=30.5%  D=30.2%  A=35.3%
+  H2H (239 games): H=30.5%  D=36.4%  A=33.1%  |  Last 5: D,H,H,A,H  (0:0,2:1,1:0,0:3,3:1)
+  ── PICK ── RESULT: AWAY (35.3%)   GOALS: UNDER 2.5 (57.4%)   GG: NG (52.2%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 30
+─────────────────────────────────────────────────────────────────
+
+  FULHAM vs CRYSTAL PALACE
+  Odds: 2.2 / 3.3 / 3.15  (H/D/A)
+  ★★★★ SIGNATURE MATCH  71.4% ({'AWAY': 5, 'HOME': 2}) over 7 games
+  H2H (240 games): H=44.2%  D=27.1%  A=28.8%  |  Last 5: D,H,A,A,H  (1:1,1:0,0:1,1:2,2:1)
+  ── PICK ── RESULT: AWAY (71.4%)   GOALS: UNDER 2.5 (58.0%)   GG: NG (52.2%)
+
+  LEEDS vs WOLVERHAMPTON
+  Odds: 2.4 / 3.45 / 2.65  (H/D/A)
+  ★★★★ SIGNATURE MATCH  71.4% ({'AWAY': 5, 'DRAW': 2}) over 7 games
+  H2H (240 games): H=42.9%  D=22.5%  A=34.6%  |  Last 5: A,D,A,H,D  (1:2,0:0,0:3,1:0,1:1)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: AWAY (71.4%)   GOALS: UNDER 2.5 (55.6%)   GG: NG (53.7%)
+
+  LEEDS vs BRIGHTON
+  Odds: 3.2 / 2.8 / 2.4  (H/D/A)
+  ★★★ SIGNATURE MATCH  80.0% ({'AWAY': 1, 'DRAW': 4}) over 5 games
+  H2H (246 games): H=32.5%  D=28.0%  A=39.4%  |  Last 5: D,H,H,A,A  (3:3,1:0,3:1,1:4,0:2)
+  ── PICK ── RESULT: DRAW (80.0%)   GOALS: UNDER 2.5 (69.5%)   GG: NG (63.8%)
+
+  LONDON GUNS vs CHELSEA
+  Odds: 2.2 / 3.65 / 2.8  (H/D/A)
+  ★★★ SIGNATURE MATCH  87.5% ({'DRAW': 1, 'HOME': 7}) over 8 games
+  H2H (244 games): H=45.5%  D=25.4%  A=29.1%  |  Last 5: A,H,D,D,D  (0:1,4:2,1:1,1:1,1:1)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: HOME (87.5%)   GOALS: OVER 2.5 (57.8%)   GG: GG (59.2%)
+
+  NEWCASTLE vs BOURNEMOUTH
+  Odds: 1.9 / 3.45 / 3.75  (H/D/A)
+  ★★★ SIGNATURE MATCH  83.3% ({'DRAW': 1, 'HOME': 5}) over 6 games
+  H2H (244 games): H=50.4%  D=30.7%  A=18.9%  |  Last 5: D,H,D,H,D  (0:0,2:0,0:0,2:0,2:2)
+  ── PICK ── RESULT: HOME (83.3%)   GOALS: UNDER 2.5 (54.2%)   GG: NG (53.4%)
+
+  CHELSEA vs CRYSTAL PALACE
+  Odds: 1.25 / 5.5 / 9.0  (H/D/A)
+  ★★★ [STATS]  blend: H=69.3%  D=17.2%  A=12.8%
+  H2H (241 games): H=73.4%  D=14.5%  A=12.0%  |  Last 5: H,H,H,H,H  (3:0,1:0,3:0,3:0,4:0)
+  RANK: Home ranked 9 higher
+  ── PICK ── RESULT: HOME (69.3%)   GOALS: OVER 2.5 (60.1%)   GG: NG (52.1%)
+
+  BOURNEMOUTH vs MANCHESTER BLUE
+  Odds: 5.25 / 4.55 / 1.5  (H/D/A)
+  ★★ [STATS]  blend: H=20.8%  D=19.9%  A=59.6%
+  H2H (244 games): H=19.3%  D=16.8%  A=63.9%  |  Last 5: D,A,H,A,A  (0:0,0:4,1:0,1:3,1:2)
+  ── PICK ── RESULT: AWAY (59.6%)   GOALS: OVER 2.5 (54.2%)   GG: GG (51.8%)
+
+  MANCHESTER RED vs WEST HAM
+  Odds: 1.45 / 4.55 / 6.0  (H/D/A)
+  ★★ [STATS]  blend: H=64.8%  D=20.1%  A=18.1%
+  H2H (243 games): H=69.1%  D=17.7%  A=13.2%  |  Last 5: A,H,H,H,H  (1:2,2:0,3:0,3:2,4:1)
+  ── PICK ── RESULT: HOME (64.8%)   GOALS: OVER 2.5 (57.7%)   GG: GG (54.5%)
+
+  LIVERPOOL vs TOTTENHAM
+  Odds: 1.7 / 4.45 / 3.8  (H/D/A)
+  ★★ [STATS]  blend: H=58.8%  D=19.3%  A=27.9%
+  H2H (247 games): H=60.7%  D=15.4%  A=23.9%  |  Last 5: H,H,D,H,H  (3:0,4:0,0:0,2:1,2:0)
+  ── PICK ── RESULT: HOME (58.8%)   GOALS: OVER 2.5 (51.4%)   GG: NG (51.5%)
+
+  MANCHESTER BLUE vs WEST HAM
+  Odds: 1.4 / 5.75 / 5.5  (H/D/A)
+  ★★ [STATS]  blend: H=64.4%  D=20.0%  A=19.1%
+  H2H (244 games): H=62.3%  D=23.4%  A=14.3%  |  Last 5: H,H,H,H,H  (2:1,4:0,6:0,6:1,2:1)
+  RANK: Home ranked 7 higher
+  ── PICK ── RESULT: HOME (64.4%)   GOALS: OVER 2.5 (66.2%)   GG: GG (57.8%)
+
+  WOLVERHAMPTON vs ASTON VILLA
+  Odds: 3.4 / 3.5 / 2.0  (H/D/A)
+  ★ [STATS]  blend: H=30.4%  D=25.9%  A=44.8%
+  H2H (242 games): H=27.7%  D=26.0%  A=46.3%  |  Last 5: A,A,A,D,A  (0:1,1:3,0:1,0:0,0:2)
+  RANK: Away ranked 9 higher
+  ── PICK ── RESULT: AWAY (44.8%)   GOALS: OVER 2.5 (51.9%)   GG: GG (57.4%)
+
+  NEWCASTLE vs EVERTON
+  Odds: 3.15 / 3.05 / 2.3  (H/D/A)
+  ★ [STATS]  blend: H=30.8%  D=28.2%  A=37.1%
+  H2H (244 games): H=32.4%  D=27.0%  A=40.6%  |  Last 5: H,A,H,H,H  (1:0,0:3,2:1,1:0,1:0)
+  RANK: Away ranked 7 higher
+  ── PICK ── RESULT: AWAY (37.1%)   GOALS: UNDER 2.5 (63.3%)   GG: NG (57.5%)
+
+  EVERTON vs BRIGHTON
+  Odds: 2.1 / 2.85 / 4.0  (H/D/A)
+  ★ [STATS]  blend: H=45.7%  D=28.6%  A=23.8%
+  H2H (243 games): H=50.2%  D=26.3%  A=23.5%  |  Last 5: D,D,H,H,A  (0:0,0:0,2:0,2:0,0:1)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: HOME (45.7%)   GOALS: UNDER 2.5 (67.7%)   GG: NG (62.1%)
+
+  LIVERPOOL vs MANCHESTER RED
+  Odds: 1.85 / 3.9 / 3.55  (H/D/A)
+  ★ [STATS]  blend: H=52.8%  D=21.7%  A=33.2%
+  H2H (242 games): H=48.8%  D=19.0%  A=32.2%  |  Last 5: H,A,A,D,H  (2:1,1:3,0:1,0:0,3:2)
+  RANK: Away ranked 5 higher
+  ── PICK ── RESULT: HOME (52.8%)   GOALS: UNDER 2.5 (50.9%)   GG: GG (50.8%)
+
+  FULHAM vs LONDON GUNS
+  Odds: 3.85 / 3.55 / 1.85  (H/D/A)
+  ★ [STATS]  blend: H=23.7%  D=26.9%  A=47.5%
+  H2H (244 games): H=20.9%  D=28.3%  A=50.8%  |  Last 5: A,A,D,D,D  (0:3,1:3,0:0,1:1,1:1)
+  RANK: Away ranked 10 higher
+  ── PICK ── RESULT: AWAY (47.5%)   GOALS: UNDER 2.5 (56.2%)   GG: NG (50.3%)
+
+  ASTON VILLA vs TOTTENHAM
+  Odds: 2.15 / 3.1 / 3.45  (H/D/A)
+  ★ [STATS]  blend: H=46.3%  D=27.8%  A=30.0%
+  H2H (238 games): H=45.0%  D=27.7%  A=27.3%  |  Last 5: H,H,D,A,H  (2:0,2:0,0:0,1:2,1:0)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (46.3%)   GOALS: UNDER 2.5 (57.8%)   GG: NG (55.1%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 4
+─────────────────────────────────────────────────────────────────
+
+  MANCHESTER BLUE vs LIVERPOOL
+  Odds: 2.05 / 3.65 / 3.1  (H/D/A)
+  ★★★★★ SIGNATURE MATCH  100.0% ({'HOME': 9}) over 9 games
+  H2H (248 games): H=44.0%  D=21.0%  A=35.1%  |  Last 5: A,H,D,H,H  (0:2,4:1,1:1,3:1,1:0)
+  RANK: Away ranked 5 higher
+  ── PICK ── RESULT: HOME (100.0%)   GOALS: OVER 2.5 (57.4%)   GG: GG (58.1%)
+
+  WEST HAM vs NEWCASTLE
+  Odds: 1.6 / 4.55 / 4.15  (H/D/A)
+  ★★★★ SIGNATURE MATCH  100.0% ({'HOME': 6}) over 6 games
+  H2H (246 games): H=58.1%  D=19.9%  A=22.0%  |  Last 5: A,A,H,D,H  (0:4,2:4,2:0,1:1,2:0)
+  ── PICK ── RESULT: HOME (100.0%)   GOALS: OVER 2.5 (55.5%)   GG: GG (50.5%)
+
+  BRIGHTON vs MANCHESTER RED
+  Odds: 3.5 / 3.6 / 1.95  (H/D/A)
+  ★★★★ SIGNATURE MATCH  100.0% ({'AWAY': 8}) over 8 games
+  H2H (246 games): H=22.4%  D=26.4%  A=51.2%  |  Last 5: A,D,H,D,A  (1:2,0:0,3:1,2:2,0:1)
+  ── PICK ── RESULT: AWAY (100.0%)   GOALS: UNDER 2.5 (53.4%)   GG: NG (51.2%)
+
+  LONDON GUNS vs CHELSEA
+  Odds: 2.25 / 3.65 / 2.8  (H/D/A)
+  ★★★ SIGNATURE MATCH  87.5% ({'DRAW': 1, 'HOME': 7}) over 8 games
+  H2H (244 games): H=45.5%  D=25.4%  A=29.1%  |  Last 5: A,H,D,D,D  (0:1,4:2,1:1,1:1,1:1)
+  RANK: Away ranked 10 higher
+  ── PICK ── RESULT: HOME (87.5%)   GOALS: OVER 2.5 (57.8%)   GG: GG (59.2%)
+
+  CHELSEA vs LEEDS
+  Odds: 1.4 / 4.0 / 8.5  (H/D/A)
+  ★★★ [STATS]  blend: H=65.0%  D=23.0%  A=12.1%
+  H2H (244 games): H=69.3%  D=22.5%  A=8.2%  |  Last 5: D,H,H,H,H  (1:1,2:0,1:0,3:1,1:0)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: HOME (65.0%)   GOALS: UNDER 2.5 (55.8%)   GG: NG (58.7%)
+
+  CRYSTAL PALACE vs BOURNEMOUTH
+  Odds: 2.1 / 3.45 / 3.2  (H/D/A)
+  ★★★ SIGNATURE MATCH  80.0% ({'AWAY': 4, 'HOME': 1}) over 5 games
+  H2H (245 games): H=38.8%  D=30.6%  A=30.6%  |  Last 5: H,D,H,D,A  (1:0,0:0,2:1,0:0,1:2)
+  ── PICK ── RESULT: AWAY (80.0%)   GOALS: UNDER 2.5 (52.4%)   GG: NG (50.7%)
+
+  TOTTENHAM vs LEEDS
+  Odds: 1.5 / 4.0 / 6.5  (H/D/A)
+  ★★ [STATS]  blend: H=62.2%  D=23.2%  A=14.4%
+  H2H (243 games): H=67.1%  D=22.2%  A=10.7%  |  Last 5: H,H,H,H,H  (2:0,1:0,4:1,3:2,1:0)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (62.2%)   GOALS: UNDER 2.5 (54.5%)   GG: NG (58.8%)
+
+  BOURNEMOUTH vs MANCHESTER BLUE
+  Odds: 5.25 / 4.5 / 1.5  (H/D/A)
+  ★★ [STATS]  blend: H=20.7%  D=20.0%  A=59.6%
+  H2H (244 games): H=19.3%  D=16.8%  A=63.9%  |  Last 5: D,A,H,A,A  (0:0,0:4,1:0,1:3,1:2)
+  ── PICK ── RESULT: AWAY (59.6%)   GOALS: OVER 2.5 (54.2%)   GG: GG (52.1%)
+
+  LONDON GUNS vs FULHAM
+  Odds: 1.35 / 4.35 / 9.25  (H/D/A)
+  ★★ [STATS]  blend: H=64.0%  D=22.2%  A=12.7%
+  H2H (244 games): H=64.8%  D=22.1%  A=13.1%  |  Last 5: H,D,D,D,A  (3:1,2:2,1:1,1:1,1:2)
+  RANK: Away ranked 11 higher
+  ── PICK ── RESULT: HOME (64.0%)   GOALS: OVER 2.5 (50.1%)   GG: NG (52.6%)
+
+  BRIGHTON vs LIVERPOOL
+  Odds: 3.85 / 3.5 / 1.85  (H/D/A)
+  ★ [STATS]  blend: H=28.4%  D=28.6%  A=45.8%
+  H2H (240 games): H=26.2%  D=33.3%  A=40.4%  |  Last 5: D,A,D,A,A  (0:0,1:3,1:1,1:3,0:1)
+  RANK: Away ranked 8 higher
+  ── PICK ── RESULT: AWAY (45.8%)   GOALS: UNDER 2.5 (55.6%)   GG: GG (52.0%)
+
+  NEWCASTLE vs ASTON VILLA
+  Odds: 3.9 / 3.5 / 1.85  (H/D/A)
+  ★ [STATS]  blend: H=25.6%  D=24.4%  A=48.9%
+  H2H (244 games): H=24.2%  D=21.7%  A=54.1%  |  Last 5: A,A,D,A,D  (0:2,2:4,0:0,1:3,1:1)
+  RANK: Away ranked 14 higher
+  ── PICK ── RESULT: AWAY (48.9%)   GOALS: UNDER 2.5 (57.4%)   GG: NG (58.0%)
+
+  WEST HAM vs MANCHESTER RED
+  Odds: 3.8 / 3.5 / 1.9  (H/D/A)
+  ★ [STATS]  blend: H=28.4%  D=28.5%  A=46.3%
+  H2H (242 games): H=23.6%  D=33.1%  A=43.4%  |  Last 5: H,D,D,A,A  (2:1,1:1,2:2,1:2,1:2)
+  RANK: Away ranked 10 higher
+  ── PICK ── RESULT: AWAY (46.3%)   GOALS: OVER 2.5 (50.2%)   GG: GG (58.4%)
+
+  CRYSTAL PALACE vs WOLVERHAMPTON
+  Odds: 2.35 / 4.25 / 2.4  (H/D/A)
+  ★ [STATS]  blend: H=36.3%  D=21.6%  A=36.6%
+  H2H (250 games): H=37.6%  D=20.8%  A=41.6%  |  Last 5: H,D,A,A,H  (2:1,3:3,1:3,1:2,2:1)
+  RANK: Home ranked 9 higher
+  ── PICK ── RESULT: AWAY (36.6%)   GOALS: OVER 2.5 (61.5%)   GG: GG (61.0%)
+
+  FULHAM vs EVERTON
+  Odds: 4.55 / 2.85 / 1.95  (H/D/A)
+  ★ [STATS]  blend: H=22.5%  D=31.1%  A=42.1%
+  H2H (244 games): H=21.7%  D=31.6%  A=46.7%  |  Last 5: A,D,H,A,H  (1:3,1:1,1:0,0:3,1:0)
+  ── PICK ── RESULT: AWAY (42.1%)   GOALS: UNDER 2.5 (69.2%)   GG: NG (62.4%)
+
+  TOTTENHAM vs ASTON VILLA
+  Odds: 2.2 / 3.35 / 3.1  (H/D/A)
+  ★ [STATS]  blend: H=45.4%  D=25.1%  A=34.4%
+  H2H (247 games): H=42.1%  D=22.7%  A=35.2%  |  Last 5: A,A,H,D,A  (0:3,1:2,2:1,0:0,1:2)
+  ── PICK ── RESULT: HOME (45.4%)   GOALS: UNDER 2.5 (56.6%)   GG: NG (53.7%)
+
+  EVERTON vs WOLVERHAMPTON
+  Odds: 1.85 / 3.85 / 3.65  (H/D/A)
+  ★ [STATS]  blend: H=46.8%  D=24.0%  A=27.1%
+  H2H (241 games): H=46.5%  D=24.1%  A=29.5%  |  Last 5: D,H,H,A,D  (0:0,2:1,3:1,2:3,1:1)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (46.8%)   GOALS: UNDER 2.5 (52.7%)   GG: NG (52.7%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 5
+─────────────────────────────────────────────────────────────────
+
+  MANCHESTER BLUE vs FULHAM
+  Odds: 1.22 / 6.75 / 9.25  (H/D/A)
+  ★★★★ SIGNATURE MATCH  71.4% ({'DRAW': 2, 'HOME': 5}) over 7 games
+  H2H (245 games): H=78.8%  D=15.9%  A=5.3%  |  Last 5: H,H,H,D,D  (4:0,4:0,4:1,0:0,1:1)
+  RANK: Home ranked 7 higher
+  ── PICK ── RESULT: HOME (71.4%)   GOALS: OVER 2.5 (58.9%)   GG: NG (54.7%)
+
+  CRYSTAL PALACE vs NEWCASTLE
+  Odds: 2.3 / 3.45 / 2.85  (H/D/A)
+  ★★★★ SIGNATURE MATCH  100.0% ({'AWAY': 8}) over 8 games
+  H2H (246 games): H=42.7%  D=31.3%  A=26.0%  |  Last 5: D,H,D,A,A  (0:0,2:0,1:1,0:2,0:1)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: AWAY (100.0%)   GOALS: UNDER 2.5 (53.5%)   GG: GG (52.2%)
+
+  ASTON VILLA vs WOLVERHAMPTON
+  Odds: 1.55 / 4.1 / 5.0  (H/D/A)
+  ★★★★ SIGNATURE MATCH  85.7% ({'AWAY': 1, 'HOME': 6}) over 7 games
+  H2H (244 games): H=63.5%  D=23.8%  A=12.7%  |  Last 5: H,H,H,H,H  (3:0,3:1,1:0,2:1,3:0)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: HOME (85.7%)   GOALS: OVER 2.5 (51.1%)   GG: NG (51.0%)
+
+  CHELSEA vs BOURNEMOUTH
+  Odds: 1.22 / 6.25 / 10.25  (H/D/A)
+  ★★★ [STATS]  blend: H=70.1%  D=15.8%  A=13.0%
+  H2H (247 games): H=72.5%  D=12.6%  A=15.0%  |  Last 5: H,H,A,A,A  (5:0,4:0,0:2,1:2,1:4)
+  ── PICK ── RESULT: HOME (70.1%)   GOALS: OVER 2.5 (54.5%)   GG: NG (55.1%)
+
+  FULHAM vs WEST HAM
+  Odds: 3.15 / 3.75 / 2.05  (H/D/A)
+  ★★★ SIGNATURE MATCH  71.4% ({'AWAY': 5, 'HOME': 2}) over 7 games
+  H2H (248 games): H=30.6%  D=29.0%  A=40.3%  |  Last 5: H,H,A,D,A  (3:2,3:0,0:2,1:1,0:3)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: AWAY (71.4%)   GOALS: UNDER 2.5 (56.7%)   GG: NG (51.4%)
+
+  LIVERPOOL vs LONDON GUNS
+  Odds: 1.75 / 3.9 / 3.85  (H/D/A)
+  ★★★ SIGNATURE MATCH  83.3% ({'AWAY': 1, 'HOME': 5}) over 6 games
+  H2H (241 games): H=55.2%  D=24.1%  A=20.7%  |  Last 5: A,H,H,H,A  (0:1,4:1,2:1,3:2,0:2)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (83.3%)   GOALS: OVER 2.5 (55.2%)   GG: GG (55.2%)
+
+  LIVERPOOL vs TOTTENHAM
+  Odds: 1.7 / 4.45 / 3.8  (H/D/A)
+  ★★ [STATS]  blend: H=58.8%  D=19.3%  A=27.9%
+  H2H (247 games): H=60.7%  D=15.4%  A=23.9%  |  Last 5: H,H,D,H,H  (3:0,4:0,0:0,2:1,2:0)
+  RANK: Home ranked 11 higher
+  ── PICK ── RESULT: HOME (58.8%)   GOALS: OVER 2.5 (51.4%)   GG: NG (51.5%)
+
+  MANCHESTER RED vs BRIGHTON
+  Odds: 1.5 / 3.75 / 7.0  (H/D/A)
+  ★★ [STATS]  blend: H=63.9%  D=23.0%  A=15.0%
+  H2H (242 games): H=69.0%  D=21.1%  A=9.9%  |  Last 5: H,D,H,H,H  (3:0,1:1,3:1,4:1,3:2)
+  ── PICK ── RESULT: HOME (63.9%)   GOALS: UNDER 2.5 (51.8%)   GG: NG (54.8%)
+
+  NEWCASTLE vs CHELSEA
+  Odds: 5.25 / 4.2 / 1.55  (H/D/A)
+  ★★ [STATS]  blend: H=20.9%  D=22.4%  A=56.7%
+  H2H (244 games): H=17.6%  D=21.7%  A=60.7%  |  Last 5: A,A,H,A,A  (0:3,1:3,1:0,0:3,0:2)
+  RANK: Home ranked 11 higher
+  ── PICK ── RESULT: AWAY (56.7%)   GOALS: OVER 2.5 (52.1%)   GG: NG (50.4%)
+
+  LEEDS vs LONDON GUNS
+  Odds: 4.2 / 3.1 / 1.9  (H/D/A)
+  ★ [STATS]  blend: H=25.8%  D=26.4%  A=46.4%
+  H2H (246 games): H=27.6%  D=22.8%  A=49.6%  |  Last 5: D,H,H,H,A  (1:1,3:1,4:1,1:0,0:1)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: AWAY (46.4%)   GOALS: UNDER 2.5 (61.8%)   GG: NG (58.5%)
+
+  EVERTON vs ASTON VILLA
+  Odds: 3.1 / 3.0 / 2.35  (H/D/A)
+  ★ [STATS]  blend: H=35.4%  D=27.4%  A=39.2%
+  H2H (243 games): H=37.4%  D=24.3%  A=38.3%  |  Last 5: A,H,A,A,D  (2:3,2:1,0:1,0:1,0:0)
+  RANK: Away ranked 8 higher
+  ── PICK ── RESULT: AWAY (39.2%)   GOALS: UNDER 2.5 (66.8%)   GG: NG (60.7%)
+
+  WOLVERHAMPTON vs WEST HAM
+  Odds: 2.1 / 4.35 / 2.65  (H/D/A)
+  ★ [STATS]  blend: H=43.7%  D=20.4%  A=34.0%
+  H2H (245 games): H=46.5%  D=16.7%  A=36.7%  |  Last 5: H,H,H,A,A  (1:0,4:0,2:1,1:2,1:4)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: HOME (43.7%)   GOALS: OVER 2.5 (61.1%)   GG: GG (62.0%)
+
+  MANCHESTER RED vs MANCHESTER BLUE
+  Odds: 2.1 / 3.7 / 2.95  (H/D/A)
+  ★ [STATS]  blend: H=45.9%  D=24.7%  A=37.6%
+  H2H (244 games): H=38.1%  D=25.8%  A=36.1%  |  Last 5: A,A,A,D,A  (0:1,1:2,0:4,2:2,1:2)
+  ── PICK ── RESULT: HOME (45.9%)   GOALS: OVER 2.5 (53.5%)   GG: GG (56.1%)
+
+  CRYSTAL PALACE vs EVERTON
+  Odds: 2.8 / 3.25 / 2.4  (H/D/A)
+  ★ [STATS]  blend: H=31.8%  D=27.5%  A=36.5%
+  H2H (240 games): H=32.1%  D=27.1%  A=40.8%  |  Last 5: A,A,D,H,A  (0:1,1:3,0:0,1:0,1:2)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: AWAY (36.5%)   GOALS: UNDER 2.5 (58.2%)   GG: NG (53.7%)
+
+  BOURNEMOUTH vs BRIGHTON
+  Odds: 2.95 / 3.25 / 2.35  (H/D/A)
+  ★ [STATS]  blend: H=29.9%  D=27.3%  A=36.9%
+  H2H (244 games): H=29.5%  D=28.3%  A=42.2%  |  Last 5: A,A,D,D,A  (0:3,2:4,0:0,0:0,0:2)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: AWAY (36.9%)   GOALS: UNDER 2.5 (61.9%)   GG: NG (55.2%)
+
+  LEEDS vs TOTTENHAM
+  Odds: 4.1 / 3.5 / 1.8  (H/D/A)
+  ★ [STATS]  blend: H=24.9%  D=27.2%  A=46.5%
+  H2H (245 games): H=24.5%  D=29.0%  A=46.5%  |  Last 5: A,A,H,A,H  (2:3,1:4,1:0,1:2,1:0)
+  RANK: Away ranked 10 higher
+  ── PICK ── RESULT: AWAY (46.5%)   GOALS: UNDER 2.5 (63.5%)   GG: NG (58.9%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 6
+─────────────────────────────────────────────────────────────────
+
+  BOURNEMOUTH vs LEEDS
+  Odds: 2.65 / 2.95 / 2.75  (H/D/A)
+  ★★★★ SIGNATURE MATCH  100.0% ({'HOME': 5}) over 5 games
+  H2H (248 games): H=35.5%  D=30.6%  A=33.9%  |  Last 5: H,A,D,A,A  (1:0,1:2,1:1,0:2,2:3)
+  RANK: Home ranked 13 higher
+  ── PICK ── RESULT: HOME (100.0%)   GOALS: UNDER 2.5 (63.3%)   GG: NG (56.3%)
+
+  ASTON VILLA vs MANCHESTER BLUE
+  Odds: 2.4 / 3.8 / 2.5  (H/D/A)
+  ★★★★ SIGNATURE MATCH  88.9% ({'DRAW': 1, 'HOME': 8}) over 9 games
+  H2H (249 games): H=26.5%  D=22.5%  A=51.0%  |  Last 5: A,A,H,H,A  (0:2,2:3,2:1,2:1,2:3)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: HOME (88.9%)   GOALS: OVER 2.5 (50.3%)   GG: GG (53.1%)
+
+  BRIGHTON vs WOLVERHAMPTON
+  Odds: 1.95 / 3.65 / 3.4  (H/D/A)
+  ★★★★ SIGNATURE MATCH  100.0% ({'HOME': 11}) over 11 games
+  H2H (243 games): H=51.0%  D=20.6%  A=28.4%  |  Last 5: A,D,A,H,A  (1:2,1:1,0:1,1:0,1:3)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (100.0%)   GOALS: OVER 2.5 (52.0%)   GG: GG (55.5%)
+
+  TOTTENHAM vs MANCHESTER RED
+  Odds: 2.4 / 3.7 / 2.55  (H/D/A)
+  ★★★ SIGNATURE MATCH  70.0% ({'AWAY': 7, 'DRAW': 1, 'HOME': 2}) over 10 games
+  H2H (243 games): H=44.4%  D=26.3%  A=29.2%  |  Last 5: H,H,A,H,D  (2:0,3:0,0:4,5:1,1:1)
+  RANK: Away ranked 10 higher
+  ── PICK ── RESULT: AWAY (70.0%)   GOALS: UNDER 2.5 (51.6%)   GG: GG (51.5%)
+
+  LONDON GUNS vs LIVERPOOL
+  Odds: 2.4 / 4.05 / 2.4  (H/D/A)
+  ★★★ SIGNATURE MATCH  71.4% ({'AWAY': 1, 'DRAW': 3, 'HOME': 10}) over 14 games
+  H2H (246 games): H=34.6%  D=29.3%  A=36.2%  |  Last 5: D,D,H,A,A  (1:1,1:1,2:1,1:2,1:2)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: HOME (71.4%)   GOALS: OVER 2.5 (56.2%)   GG: GG (60.6%)
+
+  MANCHESTER BLUE vs BOURNEMOUTH
+  Odds: 1.25 / 5.75 / 9.25  (H/D/A)
+  ★★★ [STATS]  blend: H=72.1%  D=16.5%  A=11.4%
+  H2H (243 games): H=76.1%  D=14.4%  A=9.5%  |  Last 5: H,H,H,H,H  (4:1,2:1,2:1,4:0,3:0)
+  RANK: Away ranked 7 higher
+  ── PICK ── RESULT: HOME (72.1%)   GOALS: OVER 2.5 (57.6%)   GG: NG (54.1%)
+
+  CHELSEA vs FULHAM
+  Odds: 1.3 / 4.65 / 10.75  (H/D/A)
+  ★★★ [STATS]  blend: H=66.4%  D=22.3%  A=10.5%
+  H2H (244 games): H=67.2%  D=24.2%  A=8.6%  |  Last 5: H,H,H,H,H  (3:0,4:1,3:1,1:0,1:0)
+  RANK: Away ranked 14 higher
+  ── PICK ── RESULT: HOME (66.4%)   GOALS: UNDER 2.5 (50.8%)   GG: NG (55.4%)
+
+  TOTTENHAM vs NEWCASTLE
+  Odds: 1.4 / 5.0 / 6.5  (H/D/A)
+  ★★★ [STATS]  blend: H=66.7%  D=17.5%  A=15.2%
+  H2H (246 games): H=74.8%  D=12.6%  A=12.6%  |  Last 5: H,H,H,H,H  (3:1,1:0,2:0,4:1,1:0)
+  ── PICK ── RESULT: HOME (66.7%)   GOALS: OVER 2.5 (54.6%)   GG: NG (53.7%)
+
+  WEST HAM vs LIVERPOOL
+  Odds: 3.4 / 3.8 / 1.9  (H/D/A)
+  ★★★ SIGNATURE MATCH  80.0% ({'AWAY': 8, 'DRAW': 1, 'HOME': 1}) over 10 games
+  H2H (240 games): H=27.1%  D=26.7%  A=46.2%  |  Last 5: H,A,H,H,A  (2:1,0:2,2:1,3:1,0:1)
+  ── PICK ── RESULT: AWAY (80.0%)   GOALS: OVER 2.5 (51.7%)   GG: GG (55.2%)
+
+  FULHAM vs CHELSEA
+  Odds: 5.75 / 4.35 / 1.5  (H/D/A)
+  ★★ [STATS]  blend: H=19.7%  D=22.8%  A=57.0%
+  H2H (242 games): H=18.6%  D=22.3%  A=59.1%  |  Last 5: A,D,A,A,D  (0:1,1:1,0:1,1:2,1:1)
+  RANK: Away ranked 7 higher
+  ── PICK ── RESULT: AWAY (57.0%)   GOALS: UNDER 2.5 (53.7%)   GG: NG (55.7%)
+
+  WEST HAM vs CRYSTAL PALACE
+  Odds: 1.7 / 3.85 / 4.4  (H/D/A)
+  ★ [STATS]  blend: H=51.8%  D=25.8%  A=18.4%
+  H2H (247 games): H=55.9%  D=28.7%  A=15.4%  |  Last 5: A,D,D,D,D  (0:1,1:1,0:0,1:1,2:2)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (51.8%)   GOALS: OVER 2.5 (53.9%)   GG: GG (55.5%)
+
+  NEWCASTLE vs EVERTON
+  Odds: 3.15 / 3.05 / 2.3  (H/D/A)
+  ★ [STATS]  blend: H=30.8%  D=28.2%  A=37.1%
+  H2H (244 games): H=32.4%  D=27.0%  A=40.6%  |  Last 5: H,A,H,H,H  (1:0,0:3,2:1,1:0,1:0)
+  ── PICK ── RESULT: AWAY (37.1%)   GOALS: UNDER 2.5 (63.3%)   GG: NG (57.5%)
+
+  EVERTON vs ASTON VILLA
+  Odds: 3.1 / 3.0 / 2.35  (H/D/A)
+  ★ [STATS]  blend: H=35.4%  D=27.4%  A=39.2%
+  H2H (243 games): H=37.4%  D=24.3%  A=38.3%  |  Last 5: A,H,A,A,D  (2:3,2:1,0:1,0:1,0:0)
+  RANK: Away ranked 13 higher
+  ── PICK ── RESULT: AWAY (39.2%)   GOALS: UNDER 2.5 (66.8%)   GG: NG (60.7%)
+
+  WOLVERHAMPTON vs LEEDS
+  Odds: 1.95 / 3.3 / 3.85  (H/D/A)
+  ★ [STATS]  blend: H=47.1%  D=27.7%  A=21.1%
+  H2H (244 games): H=52.0%  D=29.1%  A=18.9%  |  Last 5: H,H,H,H,A  (3:2,2:0,2:1,2:0,1:2)
+  ── PICK ── RESULT: HOME (47.1%)   GOALS: UNDER 2.5 (53.6%)   GG: NG (50.5%)
+
+  BRIGHTON vs CRYSTAL PALACE
+  Odds: 1.7 / 4.05 / 4.1  (H/D/A)
+  ★ [STATS]  blend: H=48.4%  D=24.4%  A=22.6%
+  H2H (246 games): H=48.4%  D=26.0%  A=25.6%  |  Last 5: D,H,D,H,H  (1:1,2:0,1:1,1:0,1:0)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: HOME (48.4%)   GOALS: UNDER 2.5 (53.5%)   GG: GG (51.3%)
+
+  LONDON GUNS vs MANCHESTER RED
+  Odds: 2.25 / 4.05 / 2.55  (H/D/A)
+  ★ [STATS]  blend: H=43.3%  D=23.3%  A=39.7%
+  H2H (248 games): H=37.1%  D=23.8%  A=39.1%  |  Last 5: H,H,A,A,D  (4:1,2:0,1:4,1:2,2:2)
+  RANK: Home ranked 5 higher
+  ── PICK ── RESULT: HOME (43.3%)   GOALS: OVER 2.5 (52.2%)   GG: GG (52.9%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 7
+─────────────────────────────────────────────────────────────────
+
+  WEST HAM vs NEWCASTLE
+  Odds: 1.6 / 4.55 / 4.1  (H/D/A)
+  ★★★★ SIGNATURE MATCH  100.0% ({'HOME': 6}) over 6 games
+  H2H (246 games): H=58.1%  D=19.9%  A=22.0%  |  Last 5: A,A,H,D,H  (0:4,2:4,2:0,1:1,2:0)
+  RANK: Home ranked 13 higher
+  ── PICK ── RESULT: HOME (100.0%)   GOALS: OVER 2.5 (55.8%)   GG: GG (50.7%)
+
+  MANCHESTER RED vs LONDON GUNS
+  Odds: 1.8 / 4.05 / 3.55  (H/D/A)
+  ★★★★ SIGNATURE MATCH  91.7% ({'AWAY': 11, 'DRAW': 1}) over 12 games
+  H2H (243 games): H=51.0%  D=30.5%  A=18.5%  |  Last 5: D,D,H,H,H  (2:2,1:1,3:1,3:2,4:3)
+  ── PICK ── RESULT: AWAY (91.7%)   GOALS: OVER 2.5 (52.6%)   GG: GG (55.5%)
+
+  LEEDS vs FULHAM
+  Odds: 2.15 / 2.95 / 3.65  (H/D/A)
+  ★★★ SIGNATURE MATCH  83.3% ({'DRAW': 5, 'HOME': 1}) over 6 games
+  H2H (244 games): H=29.5%  D=39.3%  A=31.1%  |  Last 5: D,H,D,A,H  (1:1,1:0,0:0,0:1,1:0)
+  ── PICK ── RESULT: DRAW (83.3%)   GOALS: UNDER 2.5 (70.1%)   GG: NG (64.3%)
+
+  CRYSTAL PALACE vs BRIGHTON
+  Odds: 2.5 / 3.35 / 2.6  (H/D/A)
+  ★★★ SIGNATURE MATCH  71.4% ({'AWAY': 1, 'DRAW': 1, 'HOME': 5}) over 7 games
+  H2H (248 games): H=36.3%  D=26.6%  A=37.1%  |  Last 5: D,A,D,D,D  (1:1,0:2,1:1,2:2,0:0)
+  ── PICK ── RESULT: HOME (71.4%)   GOALS: UNDER 2.5 (52.0%)   GG: GG (52.2%)
+
+  LIVERPOOL vs BOURNEMOUTH
+  Odds: 1.3 / 5.0 / 9.5  (H/D/A)
+  ★★★ [STATS]  blend: H=73.0%  D=17.0%  A=10.0%
+  H2H (244 games): H=82.0%  D=12.3%  A=5.7%  |  Last 5: H,H,H,H,H  (4:1,4:0,2:0,3:0,3:0)
+  ── PICK ── RESULT: HOME (73.0%)   GOALS: OVER 2.5 (55.1%)   GG: NG (58.2%)
+
+  MANCHESTER BLUE vs EVERTON
+  Odds: 1.4 / 4.7 / 6.25  (H/D/A)
+  ★★ [STATS]  blend: H=63.8%  D=20.6%  A=19.3%
+  H2H (240 games): H=61.7%  D=19.6%  A=18.8%  |  Last 5: H,H,A,A,H  (4:1,3:0,0:1,0:2,2:1)
+  RANK: Home ranked 11 higher
+  ── PICK ── RESULT: HOME (63.8%)   GOALS: OVER 2.5 (53.1%)   GG: NG (51.7%)
+
+  WOLVERHAMPTON vs TOTTENHAM
+  Odds: 2.7 / 4.5 / 2.05  (H/D/A)
+  ★ [STATS]  blend: H=36.4%  D=20.8%  A=43.5%
+  H2H (241 games): H=36.9%  D=18.3%  A=44.8%  |  Last 5: A,A,D,D,H  (1:3,1:4,2:2,2:2,2:0)
+  ── PICK ── RESULT: AWAY (43.5%)   GOALS: OVER 2.5 (55.9%)   GG: GG (57.1%)
+
+  CHELSEA vs ASTON VILLA
+  Odds: 1.9 / 3.6 / 3.6  (H/D/A)
+  ★ [STATS]  blend: H=50.3%  D=25.5%  A=29.3%
+  H2H (245 games): H=47.3%  D=26.9%  A=25.7%  |  Last 5: H,A,H,D,A  (2:1,0:1,1:0,0:0,0:1)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: HOME (50.3%)   GOALS: UNDER 2.5 (50.2%)   GG: GG (51.5%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 8
+─────────────────────────────────────────────────────────────────
+
+  TOTTENHAM vs CRYSTAL PALACE
+  Odds: 1.4 / 4.8 / 6.25  (H/D/A)
+  ★★★★ SIGNATURE MATCH  72.7% ({'AWAY': 1, 'DRAW': 2, 'HOME': 8}) over 11 games
+  H2H (240 games): H=68.8%  D=24.2%  A=7.1%  |  Last 5: H,D,H,H,H  (2:0,1:1,2:1,3:1,2:0)
+  ── PICK ── RESULT: HOME (72.7%)   GOALS: OVER 2.5 (51.0%)   GG: NG (52.6%)
+
+  FULHAM vs LIVERPOOL
+  Odds: 5.5 / 3.5 / 1.65  (H/D/A)
+  ★★★★ SIGNATURE MATCH  80.0% ({'AWAY': 4, 'DRAW': 1}) over 5 games
+  H2H (244 games): H=14.8%  D=32.4%  A=52.9%  |  Last 5: D,D,A,D,D  (0:0,0:0,0:4,0:0,1:1)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: AWAY (80.0%)   GOALS: UNDER 2.5 (59.6%)   GG: NG (58.9%)
+
+  BRIGHTON vs WEST HAM
+  Odds: 2.15 / 3.45 / 3.05  (H/D/A)
+  ★★★ SIGNATURE MATCH  80.0% ({'AWAY': 1, 'DRAW': 4}) over 5 games
+  H2H (240 games): H=40.8%  D=25.0%  A=34.2%  |  Last 5: H,A,H,H,H  (2:0,1:3,1:0,1:0,1:0)
+  RANK: Away ranked 7 higher
+  ── PICK ── RESULT: DRAW (80.0%)   GOALS: UNDER 2.5 (51.2%)   GG: GG (53.1%)
+
+  ASTON VILLA vs LEEDS
+  Odds: 1.55 / 3.45 / 7.25  (H/D/A)
+  ★★★ SIGNATURE MATCH  71.4% ({'AWAY': 1, 'DRAW': 1, 'HOME': 5}) over 7 games
+  H2H (245 games): H=56.3%  D=26.1%  A=17.6%  |  Last 5: A,D,D,D,A  (1:2,1:1,0:0,1:1,0:1)
+  RANK: Home ranked 14 higher
+  ── PICK ── RESULT: HOME (71.4%)   GOALS: UNDER 2.5 (63.5%)   GG: NG (62.8%)
+
+  LONDON GUNS vs WOLVERHAMPTON
+  Odds: 1.55 / 4.55 / 4.75  (H/D/A)
+  ★★ [STATS]  blend: H=59.8%  D=19.9%  A=21.2%
+  H2H (240 games): H=62.5%  D=18.3%  A=19.2%  |  Last 5: H,A,D,A,H  (1:0,0:3,2:2,1:2,2:0)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: HOME (59.8%)   GOALS: OVER 2.5 (63.5%)   GG: GG (59.5%)
+
+  BOURNEMOUTH vs MANCHESTER RED
+  Odds: 6.75 / 3.65 / 1.5  (H/D/A)
+  ★★ [STATS]  blend: H=18.6%  D=23.0%  A=57.8%
+  H2H (247 games): H=17.8%  D=19.8%  A=62.3%  |  Last 5: D,A,A,D,D  (1:1,0:1,0:3,1:1,1:1)
+  ── PICK ── RESULT: AWAY (57.8%)   GOALS: UNDER 2.5 (53.3%)   GG: NG (54.3%)
+
+  NEWCASTLE vs MANCHESTER BLUE
+  Odds: 5.0 / 3.8 / 1.6  (H/D/A)
+  ★★ [STATS]  blend: H=21.7%  D=23.5%  A=55.9%
+  H2H (243 games): H=18.9%  D=22.6%  A=58.4%  |  Last 5: A,A,H,A,D  (0:1,1:2,1:0,2:3,0:0)
+  RANK: Away ranked 14 higher
+  ── PICK ── RESULT: AWAY (55.9%)   GOALS: OVER 2.5 (55.4%)   GG: GG (54.6%)
+
+  EVERTON vs CHELSEA
+  Odds: 3.35 / 3.4 / 2.05  (H/D/A)
+  ★ [STATS]  blend: H=31.4%  D=27.3%  A=44.3%
+  H2H (249 games): H=28.5%  D=28.9%  A=42.6%  |  Last 5: A,A,D,H,A  (1:3,0:2,1:1,2:1,0:1)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: AWAY (44.3%)   GOALS: UNDER 2.5 (59.7%)   GG: NG (54.3%)
+
+─────────────────────────────────────────────────────────────────
+  MATCH DAY 9
+─────────────────────────────────────────────────────────────────
+
+  BRIGHTON vs NEWCASTLE
+  Odds: 1.9 / 3.3 / 4.1  (H/D/A)
+  ★★★★ SIGNATURE MATCH  90.0% ({'DRAW': 1, 'HOME': 9}) over 10 games
+  H2H (242 games): H=48.3%  D=32.6%  A=19.0%  |  Last 5: D,D,H,D,A  (1:1,1:1,1:0,1:1,1:2)
+  RANK: Home ranked 4 higher
+  ── PICK ── RESULT: HOME (90.0%)   GOALS: UNDER 2.5 (54.9%)   GG: GG (50.6%)
+
+  MANCHESTER RED vs FULHAM
+  Odds: 1.35 / 4.4 / 9.0  (H/D/A)
+  ★★★ [STATS]  blend: H=66.3%  D=22.1%  A=11.6%
+  H2H (248 games): H=68.1%  D=22.2%  A=9.7%  |  Last 5: H,A,D,H,A  (6:0,0:1,0:0,4:0,0:2)
+  RANK: Home ranked 8 higher
+  ── PICK ── RESULT: HOME (66.3%)   GOALS: UNDER 2.5 (53.3%)   GG: NG (62.7%)
+
+  LIVERPOOL vs ASTON VILLA
+  Odds: 1.75 / 3.65 / 4.15  (H/D/A)
+  ★ [STATS]  blend: H=54.3%  D=26.0%  A=26.1%
+  H2H (245 games): H=50.2%  D=29.4%  A=20.4%  |  Last 5: D,A,H,D,A  (1:1,0:1,3:1,2:2,1:3)
+  RANK: Away ranked 8 higher
+  ── PICK ── RESULT: HOME (54.3%)   GOALS: UNDER 2.5 (55.5%)   GG: NG (51.4%)
+
+  WOLVERHAMPTON vs BOURNEMOUTH
+  Odds: 1.55 / 4.65 / 4.65  (H/D/A)
+  ★ [STATS]  blend: H=54.3%  D=22.1%  A=18.2%
+  H2H (244 games): H=58.6%  D=23.8%  A=17.6%  |  Last 5: A,H,H,D,A  (2:3,2:0,4:1,0:0,0:1)
+  RANK: Away ranked 4 higher
+  ── PICK ── RESULT: HOME (54.3%)   GOALS: OVER 2.5 (53.4%)   GG: GG (50.2%)
+
+  LEEDS vs EVERTON
+  Odds: 3.2 / 2.65 / 2.55  (H/D/A)
+  ★ [STATS]  blend: H=26.2%  D=34.9%  A=35.1%
+  H2H (249 games): H=20.9%  D=39.8%  A=39.4%  |  Last 5: H,D,D,A,H  (1:0,0:0,2:2,1:2,1:0)
+  ── PICK ── RESULT: AWAY (35.1%)   GOALS: UNDER 2.5 (72.0%)   GG: NG (62.3%)
+
+  CRYSTAL PALACE vs LONDON GUNS
+  Odds: 3.9 / 3.7 / 1.8  (H/D/A)
+  ★ [STATS]  blend: H=26.4%  D=23.1%  A=48.8%
+  H2H (243 games): H=27.2%  D=19.8%  A=53.1%  |  Last 5: A,D,D,A,H  (1:2,1:1,0:0,0:2,2:0)
+  RANK: Away ranked 6 higher
+  ── PICK ── RESULT: AWAY (48.8%)   GOALS: OVER 2.5 (57.9%)   GG: GG (56.7%)
+
+  CHELSEA vs MANCHESTER BLUE
+  Odds: 2.1 / 4.25 / 2.7  (H/D/A)
+  ★ [STATS]  blend: H=47.0%  D=21.5%  A=38.9%
+  H2H (242 games): H=43.0%  D=20.7%  A=36.4%  |  Last 5: H,H,D,H,H  (3:2,2:1,1:1,2:0,4:1)
+  ── PICK ── RESULT: HOME (47.0%)   GOALS: OVER 2.5 (60.2%)   GG: GG (59.8%)
+
+  WEST HAM vs TOTTENHAM
+  Odds: 2.9 / 3.45 / 2.25  (H/D/A)
+  ★ [STATS]  blend: H=33.6%  D=28.2%  A=39.6%
+  H2H (243 games): H=30.0%  D=31.7%  A=38.3%  |  Last 5: A,D,H,A,H  (0:3,1:1,1:0,1:3,2:0)
+  RANK: Home ranked 6 higher
+  ── PICK ── RESULT: AWAY (39.6%)   GOALS: OVER 2.5 (51.2%)   GG: GG (55.4%)
+
+=================================================================
+  TOTAL FIXTURES: 336
+  HIGH CONFIDENCE (4-5 stars): 44
+
+  BEST BETS (4+ stars):
+    ★★★★★  MD29  MANCHESTER BLUE vs LIVERPOOL  →  HOME @ odds 2.05
+    ★★★★★  MD2  WEST HAM vs LEEDS  →  HOME @ odds 1.8
+    ★★★★★  MD12  NEWCASTLE vs LEEDS  →  DRAW @ odds 3.1
+    ★★★★★  MD20  FULHAM vs MANCHESTER BLUE  →  AWAY @ odds 1.5
+    ★★★★★  MD26  MANCHESTER BLUE vs LIVERPOOL  →  HOME @ odds 2.05
+    ★★★★★  MD3  FULHAM vs MANCHESTER BLUE  →  AWAY @ odds 1.5
+    ★★★★★  MD4  MANCHESTER BLUE vs LIVERPOOL  →  HOME @ odds 2.05
+    ★★★★  MD25  BRIGHTON vs LONDON GUNS  →  AWAY @ odds 2.05
+    ★★★★  MD25  EVERTON vs MANCHESTER RED  →  AWAY @ odds 2.05
+    ★★★★  MD27  NEWCASTLE vs WOLVERHAMPTON  →  AWAY @ odds 2.45
+    ★★★★  MD27  TOTTENHAM vs CRYSTAL PALACE  →  HOME @ odds 1.4
+    ★★★★  MD29  BRIGHTON vs WOLVERHAMPTON  →  HOME @ odds 1.95
+    ★★★★  MD30  FULHAM vs CRYSTAL PALACE  →  AWAY @ odds 3.15
+    ★★★★  MD5  MANCHESTER BLUE vs FULHAM  →  HOME @ odds 1.22
+    ★★★★  MD5  CRYSTAL PALACE vs NEWCASTLE  →  AWAY @ odds 2.85
+    ★★★★  MD6  BOURNEMOUTH vs LEEDS  →  HOME @ odds 2.65
+    ★★★★  MD6  ASTON VILLA vs MANCHESTER BLUE  →  HOME @ odds 2.4
+    ★★★★  MD6  BRIGHTON vs WOLVERHAMPTON  →  HOME @ odds 1.95
+    ★★★★  MD7  WEST HAM vs NEWCASTLE  →  HOME @ odds 1.6
+    ★★★★  MD7  MANCHESTER RED vs LONDON GUNS  →  AWAY @ odds 3.55
+    ★★★★  MD8  TOTTENHAM vs CRYSTAL PALACE  →  HOME @ odds 1.4
+    ★★★★  MD8  FULHAM vs LIVERPOOL  →  AWAY @ odds 1.65
+    ★★★★  MD9  BRIGHTON vs NEWCASTLE  →  HOME @ odds 1.9
+    ★★★★  MD11  BRIGHTON vs LONDON GUNS  →  AWAY @ odds 2.05
+    ★★★★  MD13  LONDON GUNS vs NEWCASTLE  →  HOME @ odds 1.5
+    ★★★★  MD14  ASTON VILLA vs BRIGHTON  →  HOME @ odds 1.7
+    ★★★★  MD14  BOURNEMOUTH vs LONDON GUNS  →  AWAY @ odds 1.9
+    ★★★★  MD15  WEST HAM vs MANCHESTER BLUE  →  HOME @ odds 3.9
+    ★★★★  MD16  BOURNEMOUTH vs FULHAM  →  HOME @ odds 2.35
+    ★★★★  MD17  MANCHESTER BLUE vs TOTTENHAM  →  HOME @ odds 1.7
+    ★★★★  MD18  NEWCASTLE vs WOLVERHAMPTON  →  AWAY @ odds 2.45
+    ★★★★  MD18  CRYSTAL PALACE vs MANCHESTER RED  →  AWAY @ odds 1.5
+    ★★★★  MD19  CHELSEA vs LONDON GUNS  →  AWAY @ odds 3.55
+    ★★★★  MD20  BOURNEMOUTH vs CHELSEA  →  AWAY @ odds 1.5
+    ★★★★  MD20  BRIGHTON vs MANCHESTER RED  →  AWAY @ odds 1.95
+    ★★★★  MD26  FULHAM vs CRYSTAL PALACE  →  AWAY @ odds 3.1
+    ★★★★  MD26  EVERTON vs MANCHESTER RED  →  AWAY @ odds 2.05
+    ★★★★  MD26  ASTON VILLA vs WOLVERHAMPTON  →  HOME @ odds 1.55
+    ★★★★  MD29  TOTTENHAM vs FULHAM  →  HOME @ odds 1.4
+    ★★★★  MD30  LEEDS vs WOLVERHAMPTON  →  AWAY @ odds 2.65
+    ★★★★  MD1  FULHAM vs CRYSTAL PALACE  →  AWAY @ odds 3.1
+    ★★★★  MD4  WEST HAM vs NEWCASTLE  →  HOME @ odds 1.6
+    ★★★★  MD4  BRIGHTON vs MANCHESTER RED  →  AWAY @ odds 1.95
+    ★★★★  MD5  ASTON VILLA vs WOLVERHAMPTON  →  HOME @ odds 1.55
+=================================================================
+```

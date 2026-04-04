@@ -1,0 +1,52 @@
+========================================================================
+  SCORED TEST: 2026-04-04_17-16_www.msport3
+  Scored: 2026-04-04 17:17
+========================================================================
+  High-confidence picks : 33
+  Matched to results    : 33
+  No result data found  : 0
+
+  RESULT  accuracy : 18/33 = 54.5%
+  GOALS   accuracy : 20/33 = 60.6%
+  GG/NG   accuracy : 17/33 = 51.5%
+
+  ***** picks: 5/6 = 83.3%
+  **** picks: 13/27 = 48.1%
+
+------------------------------------------------------------------------
+  #   Match                            Stars  Pred  Actual  Score Goals Pred   Goals Act 
+  --- -------------------------------- ------ ----- ------- ----- ------------ ----------
+  1   MD1: LIVERPOOL v LONDON GUNS     ****   HOME  HOME    HIT   OVER 2.5     UNDER(X)
+  2   MD2: ASTON VILLA v CRYSTAL PALAC ****   HOME  DRAW    MISS  UNDER 2.5    UNDER(OK)
+  3   MD2: MANCHESTER RE v LEEDS       ****   HOME  HOME    HIT   UNDER 2.5    OVER(X)
+  4   MD3: LEEDS v LONDON GUNS         *****  AWAY  AWAY    HIT   UNDER 2.5    OVER(X)
+  5   MD11: LONDON GUNS v WOLVERHAMPTON ****   HOME  HOME    HIT   OVER 2.5     OVER(OK)
+  6   MD13: LIVERPOOL v WOLVERHAMPTON  ****   HOME  HOME    HIT   OVER 2.5     OVER(OK)
+  7   MD13: TOTTENHAM v EVERTON        ****   DRAW  HOME    MISS  UNDER 2.5    OVER(X)
+  8   MD13: ASTON VILLA v LEEDS        ****   HOME  DRAW    MISS  UNDER 2.5    UNDER(OK)
+  9   MD14: LEEDS v FULHAM             ****   DRAW  HOME    MISS  UNDER 2.5    UNDER(OK)
+  10  MD14: MANCHESTER BL v LIVERPOOL  ****   HOME  DRAW    MISS  OVER 2.5     UNDER(X)
+  11  MD15: BRIGHTON v LONDON GUNS     *****  AWAY  AWAY    HIT   OVER 2.5     UNDER(X)
+  12  MD15: MANCHESTER RE v LEEDS      ****   HOME  HOME    HIT   UNDER 2.5    OVER(X)
+  13  MD15: FULHAM v WOLVERHAMPTON     ****   AWAY  AWAY    HIT   UNDER 2.5    UNDER(OK)
+  14  MD16: MANCHESTER RE v WOLVERHAMPTON ****   HOME  AWAY    MISS  OVER 2.5     OVER(OK)
+  15  MD18: MANCHESTER RE v WEST HAM   *****  HOME  HOME    HIT   OVER 2.5     OVER(OK)
+  16  MD19: NEWCASTLE v CRYSTAL PALAC  ****   HOME  AWAY    MISS  UNDER 2.5    UNDER(OK)
+  17  MD19: MANCHESTER BL v CHELSEA    ****   DRAW  HOME    MISS  OVER 2.5     OVER(OK)
+  18  MD21: LONDON GUNS v CHELSEA      ****   HOME  AWAY    MISS  OVER 2.5     UNDER(X)
+  19  MD21: LIVERPOOL v MANCHESTER RE  ****   HOME  DRAW    MISS  UNDER 2.5    UNDER(OK)
+  20  MD21: WOLVERHAMPTON v NEWCASTLE  ****   HOME  HOME    HIT   OVER 2.5     OVER(OK)
+  21  MD24: WOLVERHAMPTON v MANCHESTER BL ****   AWAY  AWAY    HIT   OVER 2.5     OVER(OK)
+  22  MD25: BRIGHTON v NEWCASTLE       ****   HOME  HOME    HIT   UNDER 2.5    OVER(X)
+  23  MD25: FULHAM v CHELSEA           ****   DRAW  DRAW    HIT   UNDER 2.5    UNDER(OK)
+  24  MD25: LONDON GUNS v LEEDS        ****   HOME  HOME    HIT   UNDER 2.5    OVER(X)
+  25  MD26: LEEDS v BRIGHTON           ****   DRAW  HOME    MISS  UNDER 2.5    UNDER(OK)
+  26  MD26: WOLVERHAMPTON v LONDON GUNS ****   AWAY  HOME    MISS  OVER 2.5     UNDER(X)
+  27  MD27: ASTON VILLA v NEWCASTLE    *****  HOME  HOME    HIT   UNDER 2.5    UNDER(OK)
+  28  MD27: BRIGHTON v WOLVERHAMPTON   ****   HOME  HOME    HIT   OVER 2.5     OVER(OK)
+  29  MD28: LEEDS v ASTON VILLA        ****   DRAW  HOME    MISS  UNDER 2.5    UNDER(OK)
+  30  MD29: MANCHESTER RE v NEWCASTLE  *****  HOME  HOME    HIT   OVER 2.5     OVER(OK)
+  31  MD29: FULHAM v LEEDS             ****   AWAY  DRAW    MISS  UNDER 2.5    OVER(X)
+  32  MD30: WOLVERHAMPTON v FULHAM     *****  HOME  DRAW    MISS  UNDER 2.5    UNDER(OK)
+  33  MD30: NEWCASTLE v TOTTENHAM      ****   DRAW  DRAW    HIT   OVER 2.5     UNDER(X)
+========================================================================

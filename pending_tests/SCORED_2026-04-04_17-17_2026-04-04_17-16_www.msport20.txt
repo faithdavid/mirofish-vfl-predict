@@ -1,0 +1,32 @@
+========================================================================
+  SCORED TEST: 2026-04-04_17-16_www.msport20
+  Scored: 2026-04-04 17:17
+========================================================================
+  High-confidence picks : 13
+  Matched to results    : 13
+  No result data found  : 0
+
+  RESULT  accuracy : 6/13 = 46.2%
+  GOALS   accuracy : 8/13 = 61.5%
+  GG/NG   accuracy : 9/13 = 69.2%
+
+  ***** picks: 1/2 = 50.0%
+  **** picks: 5/11 = 45.5%
+
+------------------------------------------------------------------------
+  #   Match                            Stars  Pred  Actual  Score Goals Pred   Goals Act 
+  --- -------------------------------- ------ ----- ------- ----- ------------ ----------
+  1   MD2: MANCHESTER RE v WEST HAM    *****  HOME  AWAY    MISS  OVER 2.5     OVER(OK)
+  2   MD4: BOURNEMOUTH v WEST HAM      ****   HOME  DRAW    MISS  UNDER 2.5    UNDER(OK)
+  3   MD5: CRYSTAL PALAC v BRIGHTON    ****   HOME  DRAW    MISS  UNDER 2.5    UNDER(OK)
+  4   MD5: MANCHESTER BL v CHELSEA     ****   HOME  DRAW    MISS  OVER 2.5     UNDER(X)
+  5   MD6: ASTON VILLA v FULHAM        ****   HOME  DRAW    MISS  UNDER 2.5    UNDER(OK)
+  6   MD10: LONDON GUNS v FULHAM       ****   HOME  AWAY    MISS  UNDER 2.5    OVER(X)
+  7   MD10: MANCHESTER BL v TOTTENHAM  ****   HOME  HOME    HIT   OVER 2.5     OVER(OK)
+  8   MD22: LIVERPOOL v WEST HAM       ****   HOME  HOME    HIT   OVER 2.5     UNDER(X)
+  9   MD23: MANCHESTER BL v WOLVERHAMPTON ****   HOME  HOME    HIT   OVER 2.5     OVER(OK)
+  10  MD24: LIVERPOOL v MANCHESTER RE  *****  HOME  HOME    HIT   UNDER 2.5    OVER(X)
+  11  MD25: MANCHESTER RE v WEST HAM   ****   HOME  HOME    HIT   OVER 2.5     UNDER(X)
+  12  MD25: MANCHESTER BL v LIVERPOOL  ****   HOME  AWAY    MISS  OVER 2.5     OVER(OK)
+  13  MD27: MANCHESTER BL v CHELSEA    ****   HOME  HOME    HIT   OVER 2.5     OVER(OK)
+========================================================================
