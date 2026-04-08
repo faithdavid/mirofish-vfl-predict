@@ -1,6 +1,6 @@
 """
-MSport VFL API Client — V2
-━━━━━━━━━━━━━━━━━━━━━━━━━━
+MSport VFL API Client - V2
+==========================
 Endpoints:
   Heartbeat : GET /virtual/current/match/day/info
   Odds      : GET /virtual/match/day/event/list?seasonId=X&matchDay=Y
@@ -43,7 +43,7 @@ class MSportClient:
         """
         url = f"{self.base_url}/current/match/day/info"
         if self.verbose:
-            print(f"[MSPORT] Heartbeat → {url}")
+            print(f"[MSPORT] Heartbeat -> {url}")
         try:
             r = requests.get(url, headers=self.headers, cookies=self.cookies, timeout=10)
             if r.status_code == 200:
@@ -51,7 +51,7 @@ class MSportClient:
                 if body.get('bizCode') == 10000:
                     return body.get('data', {})
                 else:
-                    print(f"[MSPORT] Heartbeat bizCode: {body.get('bizCode')} — {body.get('message','')}")
+                    print(f"[MSPORT] Heartbeat bizCode: {body.get('bizCode')} - {body.get('message','')}")
             else:
                 print(f"[MSPORT] Heartbeat HTTP {r.status_code}")
         except Exception as e:
@@ -70,7 +70,7 @@ class MSportClient:
         url = f"{self.base_url}/match/day/event/list"
         params = {"seasonId": season_id, "matchDay": match_day}
         if self.verbose:
-            print(f"[MSPORT] Odds → MD {match_day} | {season_id}")
+            print(f"[MSPORT] Odds -> MD {match_day} | {season_id}")
         try:
             r = requests.get(url, headers=self.headers, cookies=self.cookies, params=params, timeout=10)
             if r.status_code == 200:
@@ -90,7 +90,7 @@ class MSportClient:
         url = f"{self.base_url}/result"
         params = {"seasonId": season_id, "matchDay": match_day}
         if self.verbose:
-            print(f"[MSPORT] Results → MD {match_day} | {season_id}")
+            print(f"[MSPORT] Results -> MD {match_day} | {season_id}")
         try:
             r = requests.get(url, headers=self.headers, cookies=self.cookies, params=params, timeout=10)
             if r.status_code == 200:
@@ -108,7 +108,7 @@ class MSportClient:
 
 if __name__ == "__main__":
     client = MSportClient()
-    print("─── MSport Client Self-Test ───")
+    print("--- MSport Client Self-Test ---")
     hb = client.heartbeat()
     if hb:
         md   = hb.get('matchDay')
@@ -135,4 +135,4 @@ if __name__ == "__main__":
             else:
                 print(f"  ⚠️  Results not available yet")
     else:
-        print("  ❌ Heartbeat failed — check network/auth")
+        print("  [FAIL] Heartbeat failed - check network/auth")

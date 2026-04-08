@@ -43,7 +43,7 @@ class MSportClient:
     def __init__(self, auth_path: Path = None):
         # Locate msport_auth.json (two levels up from lib/)
         if auth_path is None:
-            auth_path = Path(__file__).parent.parent / "msport_auth.json"
+            auth_path = Path(__file__).parent.parent / "data" / "msport_auth.json"
         self.headers = dict(DEFAULT_HEADERS)
         self.cookies = {}
         self._load_auth(auth_path)
@@ -65,7 +65,7 @@ class MSportClient:
     def reload_auth(self, auth_path: Path = None):
         """Hot-reload credentials without restarting the daemon."""
         if auth_path is None:
-            auth_path = Path(__file__).parent.parent / "msport_auth.json"
+            auth_path = Path(__file__).parent.parent / "data" / "msport_auth.json"
         self.headers = dict(DEFAULT_HEADERS)
         self.cookies = {}
         self._load_auth(auth_path)

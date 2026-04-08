@@ -12,19 +12,19 @@ import os, sys, json, sqlite3
 
 # ── 1. Paths (must be first) ──────────────────────────────────────────────────
 ROOT         = Path(__file__).parent.parent
-sys.path.append(str(ROOT / "lib"))
+sys.path.append(str(ROOT))
 
-import vfl_oracle_v6 as oracle
-from supabase_rest import db as supabase_db
+import core.oracle as oracle
+from core.supabase import db as supabase_db
 from dotenv import load_dotenv
 load_dotenv(ROOT / ".env")
 
 # ── 2. Constants ──────────────────────────────────────────────────────────────
-DASHBOARD_DIR = ROOT / "dashboard"
-DB_PATH       = ROOT / "sovereign_vbf.db"
-HISTORY_DB    = ROOT / "vfl_history.db"
-AUTH_FILE     = ROOT / "msport_auth.json"
-LOG_DIR       = ROOT / "ANalysis" / "logs"
+DASHBOARD_DIR = ROOT / "web" / "static" / "dashboard"
+DB_PATH       = ROOT / "data" / "databases" / "sovereign.db"
+HISTORY_DB    = ROOT / "data" / "databases" / "history.db"
+AUTH_FILE     = ROOT / "data" / "msport_auth.json"
+LOG_DIR       = ROOT / "logs"
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 app = Flask(__name__)
@@ -57,6 +57,13 @@ _DAEMON_STATUS = {
     "last_sync": None,
     "last_settle_md": None,
     "last_settle_profit": None,
+}
+
+# --- 6. Raw Data Cache (for dashboard inspector) -------------------------------
+_RAW_CACHE = {
+    "odds":    None,
+    "results": None,
+    "last_updated": None
 }
 
 # ── 5. DB helpers ─────────────────────────────────────────────────────────────
@@ -148,8 +155,11 @@ def _settle_results(results_list, season, matchday):
         ch = conn_h.cursor()
 
         for res in results_list:
-            match_id = res.get("id", "")
+            match_id = res.get("id")
+            home     = res.get("homeTeam", "")
+            away     = res.get("awayTeam", "")
             score    = res.get("fullTime", "0:0")
+            
             try:
                 h_score, a_score = map(int, score.split(":"))
             except ValueError:
@@ -159,15 +169,25 @@ def _settle_results(results_list, season, matchday):
             if h_score > a_score: outcome = "H"
             elif a_score > h_score: outcome = "A"
 
-            # ── Compute P&L ───────────────────────────────────────────────────
-            cm.execute(
-                "SELECT prediction, stake, odds_h, odds_d, odds_a FROM master_ledger WHERE match_id = ?",
-                (match_id,)
-            )
+            # ── Compute P&L (Match by ID or composite key) ───────────────────
+            if match_id:
+                cm.execute(
+                    "SELECT prediction, stake, odds_h, odds_d, odds_a, match_id FROM master_ledger WHERE match_id = ?",
+                    (match_id,)
+                )
+            else:
+                cm.execute("""
+                    SELECT prediction, stake, odds_h, odds_d, odds_a, match_id FROM master_ledger 
+                    WHERE home_team = ? AND away_team = ? AND season_id = ? AND match_day = ?
+                """, (home, away, season, matchday))
+            
             row = cm.fetchone()
             p_l = 0.0
+            oh, od, oa = 0.0, 0.0, 0.0
+            real_match_id = match_id
+            
             if row:
-                pred, stake, oh, od, oa = row
+                pred, stake, oh, od, oa, real_match_id = row
                 if stake and stake > 0:
                     odds_used = oh if pred == "H" else (od if pred == "D" else oa)
                     won = (pred == outcome)
@@ -175,28 +195,37 @@ def _settle_results(results_list, season, matchday):
                     total_profit += p_l
 
             # ── Update master_ledger ──────────────────────────────────────────
-            cm.execute("""
-                UPDATE master_ledger SET
-                    full_time = ?, actual_h = ?, actual_a = ?, outcome = ?,
-                    p_l = ?, settled_at = CURRENT_TIMESTAMP, status = 'SETTLED'
-                WHERE match_id = ?
-            """, (score, h_score, a_score, outcome, p_l, match_id))
+            if real_match_id:
+                cm.execute("""
+                    UPDATE master_ledger SET
+                        full_time = ?, actual_h = ?, actual_a = ?, outcome = ?,
+                        p_l = ?, settled_at = CURRENT_TIMESTAMP, status = 'SETTLED'
+                    WHERE match_id = ?
+                """, (score, h_score, a_score, outcome, p_l, real_match_id))
 
             # ── Persist to vfl_history for oracle self-learning ───────────────
+            # Schema: id (INTEGER), season, day, home, away, oh, od, oa, outcome
+            try:
+                h_id = int(real_match_id)
+            except (ValueError, TypeError):
+                # Fallback to a stable integer hash of the composite key
+                h_id = hash(f"vf:{season}:{matchday}:{home}:{away}") & 0x7FFFFFFFFFFFFFFF
+
             ch.execute("""
                 INSERT OR REPLACE INTO matches (
                     id, season, day, home, away,
-                    outcome, half_time, first_goal
-                ) VALUES (?,?,?,?,?,?,?,?)
+                    oh, od, oa, outcome
+                ) VALUES (?,?,?,?,?,?,?,?,?)
             """, (
-                match_id, season, matchday,
-                res.get("homeTeam", ""), res.get("awayTeam", ""),
-                outcome, res.get("halfTime"), res.get("firstGoal"),
+                h_id, season, matchday,
+                home, away,
+                oh, od, oa,
+                outcome
             ))
 
             # ── Push to Supabase ──────────────────────────────────────────────
-            if supabase_db.active:
-                supabase_db.settle_fixture(match_id, {
+            if supabase_db.active and real_match_id:
+                supabase_db.settle_fixture(real_match_id, {
                     "full_time": score, "actual_h": h_score, "actual_a": a_score,
                     "outcome": outcome, "p_l": p_l, "status": "SETTLED"
                 })
@@ -241,6 +270,13 @@ def api_status():
         "auth": "ACTIVE" if auth_ok else "AUTH_REQUIRED",
         "server": "ONLINE",
     })
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# GET /api/last_raw — Raw JSON inspector for dashboard
+# ═══════════════════════════════════════════════════════════════════════════════
+@app.route("/api/last_raw")
+def get_last_raw():
+    return jsonify(_RAW_CACHE)
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -455,6 +491,11 @@ def sync_matchday():
 
         events = odds_data.get("events", [])
         raw    = _parse_odds_events(events)
+
+        # Update cache
+        _RAW_CACHE["odds"] = odds_data
+        _RAW_CACHE["last_updated"] = datetime.now().isoformat()
+
         if not raw:
             return jsonify({"error": "No parseable fixtures in odds data"}), 400
 
@@ -516,6 +557,10 @@ def sync_settle():
         results_list = data.get("results", [])
         if not results_list:
             return jsonify({"error": "No results provided"}), 400
+
+        # Update cache
+        _RAW_CACHE["results"] = data
+        _RAW_CACHE["last_updated"] = datetime.now().isoformat()
 
         settled, profit = _settle_results(results_list, season, matchday)
 
