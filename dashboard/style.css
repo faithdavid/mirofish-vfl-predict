@@ -1,0 +1,504 @@
+/* ══════════════════════════════════════════════════════
+   MIROFISH SOVEREIGN V7 — Dashboard Style System
+   ══════════════════════════════════════════════════════ */
+
+/* ── 1. Design Tokens ──────────────────────────────────── */
+:root {
+  --bg:         #070a11;
+  --bg2:        #0d1220;
+  --bg3:        #111827;
+  --surface:    rgba(255,255,255,0.04);
+  --surface2:   rgba(255,255,255,0.07);
+  --border:     rgba(255,255,255,0.08);
+  --border2:    rgba(255,255,255,0.14);
+
+  --primary:    #00d4ff;
+  --primary-glow: rgba(0,212,255,0.18);
+  --gold:       #f5c842;
+  --gold-glow:  rgba(245,200,66,0.22);
+  --green:      #00ff88;
+  --green-glow: rgba(0,255,136,0.15);
+  --amber:      #ffaa00;
+  --red:        #ff4466;
+  --purple:     #9b6dff;
+
+  --text:       #f0f4ff;
+  --text2:      #8ca0bc;
+  --text3:      #4a5f7a;
+
+  --bar-h:      52px;
+  --sidebar-w:  200px;
+  --radius:     12px;
+  --radius-lg:  18px;
+
+  --font:       'Inter', sans-serif;
+  --mono:       'JetBrains Mono', monospace;
+
+  /* Tier colours */
+  --lock:   #f5c842;
+  --signal: #00d4ff;
+  --mod:    #ffaa00;
+  --wall:   #ff4466;
+}
+
+/* ── 2. Reset + Base ───────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 14px; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Subtle grid background */
+body::before {
+  content: '';
+  position: fixed; inset: 0;
+  background-image:
+    linear-gradient(rgba(0,212,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,212,255,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none; z-index: 0;
+}
+
+/* ── 3. App Shell ──────────────────────────────────────── */
+#app {
+  display: grid;
+  grid-template-areas:
+    "top top"
+    "side main";
+  grid-template-columns: var(--sidebar-w) 1fr;
+  grid-template-rows: var(--bar-h) 1fr;
+  min-height: 100vh;
+  position: relative; z-index: 1;
+}
+
+/* ── 4. Top Bar ────────────────────────────────────────── */
+#top-bar {
+  grid-area: top;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background: rgba(7,10,17,0.95);
+  border-bottom: 1px solid var(--border2);
+  backdrop-filter: blur(20px);
+  padding: 0 20px 0 0;
+  position: sticky; top: 0; z-index: 100;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  width: var(--sidebar-w);
+  padding: 0 20px;
+  border-right: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.brand-miro { font-size: 1.15rem; font-weight: 900; color: var(--primary); letter-spacing: 1px; }
+.brand-fish { font-size: 1.15rem; font-weight: 900; color: var(--gold); letter-spacing: 1px; }
+.brand-ver  { font-size: 0.65rem; color: var(--text3); margin-left: 8px; margin-top: 2px; letter-spacing: 1px; }
+
+#ticker {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  flex: 1;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+#ticker::-webkit-scrollbar { display: none; }
+
+.tick-item {
+  display: flex; flex-direction: column;
+  align-items: center;
+  padding: 0 18px;
+  gap: 2px;
+}
+.tick-label { font-size: 0.6rem; color: var(--text3); letter-spacing: 1.5px; font-weight: 600; text-transform: uppercase; }
+.tick-val   { font-size: 0.85rem; font-weight: 700; color: var(--text); font-family: var(--mono); }
+.tick-sep   { width: 1px; height: 28px; background: var(--border); flex-shrink: 0; }
+
+.tick-val.positive { color: var(--green); }
+.tick-val.negative { color: var(--red); }
+.tick-val.online   { color: var(--green); }
+.tick-val.offline  { color: var(--red); }
+
+.pulse-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 8px var(--green);
+  margin-left: auto;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 4px var(--green); opacity: 1; }
+  50%       { box-shadow: 0 0 16px var(--green); opacity: 0.7; }
+}
+.pulse-dot.offline {
+  background: var(--red); box-shadow: 0 0 8px var(--red);
+  animation: none;
+}
+
+/* ── 5. Sidebar ────────────────────────────────────────── */
+#sidebar {
+  grid-area: side;
+  background: var(--bg2);
+  border-right: 1px solid var(--border);
+  display: flex; flex-direction: column;
+  padding: 16px 0;
+  position: sticky; top: var(--bar-h);
+  height: calc(100vh - var(--bar-h));
+  overflow: hidden;
+}
+
+nav { display: flex; flex-direction: column; gap: 2px; padding: 0 10px; }
+
+.nav-link {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: var(--text2);
+  font-size: 0.82rem; font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.nav-link svg { width: 16px; height: 16px; fill: currentColor; flex-shrink: 0; }
+.nav-link:hover { background: var(--surface2); color: var(--text); }
+.nav-link.active {
+  background: var(--primary-glow);
+  color: var(--primary);
+  font-weight: 600;
+}
+
+#sidebar-status {
+  margin-top: auto;
+  padding: 14px 16px;
+  border-top: 1px solid var(--border);
+  display: flex; flex-direction: column; gap: 8px;
+}
+.ss-row { display: flex; justify-content: space-between; align-items: center; }
+.ss-label { font-size: 0.6rem; color: var(--text3); letter-spacing: 1px; text-transform: uppercase; }
+.ss-val   { font-size: 0.72rem; font-family: var(--mono); font-weight: 600; color: var(--text2); }
+.ss-val.online  { color: var(--green); }
+.ss-val.offline { color: var(--red); }
+.ss-val.active  { color: var(--gold); }
+
+/* ── 6. Main + Views ───────────────────────────────────── */
+#main {
+  grid-area: main;
+  padding: 24px;
+  overflow-y: auto;
+  max-height: calc(100vh - var(--bar-h));
+}
+
+.view { display: none; }
+.view.active { display: block; animation: fadeIn 0.25s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+.section-title {
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 2px;
+  color: var(--text3); text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+/* ── 7. Command Cards ──────────────────────────────────── */
+#command-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.cmd-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px 22px;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.cmd-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, var(--primary), transparent);
+  opacity: 0.5;
+}
+.lock-glow {
+  border-color: rgba(245,200,66,0.3);
+  box-shadow: 0 0 30px rgba(245,200,66,0.08) inset, 0 0 0 1px rgba(245,200,66,0.15);
+}
+.lock-glow::before { background: linear-gradient(90deg, var(--gold), transparent); opacity: 0.7; }
+
+.cmd-tier {
+  font-size: 0.65rem; font-weight: 800; letter-spacing: 2px;
+  text-transform: uppercase; margin-bottom: 6px; color: var(--gold);
+}
+.cmd-fixture {
+  font-size: 1.05rem; font-weight: 700;
+  color: var(--text); margin-bottom: 6px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.cmd-pred {
+  font-size: 0.78rem; color: var(--text2); margin-bottom: 10px;
+}
+.cmd-row {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 8px;
+}
+.cmd-odds {
+  font-family: var(--mono); font-size: 1.1rem; font-weight: 700; color: var(--primary);
+}
+.cmd-cert {
+  font-family: var(--mono); font-size: 0.9rem; font-weight: 600; color: var(--green);
+}
+.cmd-stake {
+  font-size: 0.8rem; font-weight: 600; color: var(--gold); margin-bottom: 4px;
+}
+.cmd-ev {
+  font-size: 0.7rem; color: var(--text3); font-family: var(--mono);
+}
+
+/* ── 8. Stat Row ───────────────────────────────────────── */
+#stat-row, #hist-stat-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 28px;
+}
+#hist-stat-row { grid-template-columns: repeat(3, 1fr); }
+
+.stat-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+}
+.stat-label {
+  font-size: 0.63rem; font-weight: 600; letter-spacing: 1.5px;
+  text-transform: uppercase; color: var(--text3); margin-bottom: 8px;
+}
+.stat-val {
+  font-size: 1.3rem; font-weight: 800;
+  color: var(--text); font-family: var(--mono);
+  margin-bottom: 4px;
+}
+.stat-val.positive { color: var(--green); }
+.stat-val.negative { color: var(--red); }
+.stat-sub { font-size: 0.7rem; color: var(--text3); }
+
+/* Draw quota bar */
+.stat-quota-wrap { margin: 6px 0; }
+.quota-bar-bg {
+  height: 6px; background: var(--surface2); border-radius: 3px;
+  overflow: hidden; margin-bottom: 6px;
+}
+.quota-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary), var(--green));
+  border-radius: 3px;
+  transition: width 0.8s ease;
+}
+.quota-text { font-size: 0.78rem; font-family: var(--mono); color: var(--text2); }
+
+/* ── 9. EV Radar Table ─────────────────────────────────── */
+#radar-table, #hist-table, #pending-table {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.radar-header {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 1.2fr 0.8fr 0.8fr 0.8fr 1fr;
+  padding: 10px 16px;
+  background: rgba(255,255,255,0.03);
+  border-bottom: 1px solid var(--border);
+  font-size: 0.62rem; font-weight: 700; letter-spacing: 1.5px;
+  text-transform: uppercase; color: var(--text3);
+}
+
+.radar-row {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 1.2fr 0.8fr 0.8fr 0.8fr 1fr;
+  padding: 11px 16px;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+  font-size: 0.82rem;
+}
+.radar-row:last-child { border-bottom: none; }
+.radar-row:hover { background: var(--surface); }
+
+.radar-empty {
+  padding: 32px 20px; text-align: center;
+  color: var(--text3); font-size: 0.82rem;
+}
+
+.fixture-name { font-weight: 600; color: var(--text); }
+
+/* Certainty cell with coloured number */
+.cert-cell { font-family: var(--mono); font-weight: 700; }
+.cert-lock   { color: var(--gold); }
+.cert-signal { color: var(--primary); }
+.cert-mod    { color: var(--amber); }
+.cert-weak   { color: var(--red); }
+
+/* Tier badge */
+.tier-badge {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.6rem; font-weight: 800; letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.tier-LOCK   { background: rgba(245,200,66,0.15); color: var(--gold); border: 1px solid rgba(245,200,66,0.3); }
+.tier-SIGNAL { background: rgba(0,212,255,0.12); color: var(--primary); border: 1px solid rgba(0,212,255,0.25); }
+.tier-MOD    { background: rgba(255,170,0,0.12); color: var(--amber); border: 1px solid rgba(255,170,0,0.25); }
+.tier-WALL   { background: rgba(255,68,102,0.12); color: var(--red); border: 1px solid rgba(255,68,102,0.25); }
+
+/* History outcome badges */
+.outcome-win  { display:inline-block; padding:2px 7px; border-radius:4px; font-size:0.65rem; font-weight:800; background:rgba(0,255,136,0.12); color:var(--green); border:1px solid rgba(0,255,136,0.3); }
+.outcome-loss { display:inline-block; padding:2px 7px; border-radius:4px; font-size:0.65rem; font-weight:800; background:rgba(255,68,102,0.12); color:var(--red); border:1px solid rgba(255,68,102,0.3); }
+.outcome-pending { display:inline-block; padding:2px 7px; border-radius:4px; font-size:0.65rem; font-weight:800; background:rgba(255,170,0,0.12); color:var(--amber); border:1px solid rgba(255,170,0,0.3); }
+
+.ev-positive { color: var(--green); font-family: var(--mono); font-weight: 600; }
+.ev-negative { color: var(--red);   font-family: var(--mono); font-weight: 600; }
+.ev-zero     { color: var(--text3); font-family: var(--mono); }
+
+/* Settle buttons */
+.settle-btns { display: flex; gap: 6px; }
+.btn-win, .btn-loss {
+  padding: 4px 10px; border: none; border-radius: 5px;
+  font-size: 0.68rem; font-weight: 700; cursor: pointer;
+  transition: all 0.15s;
+}
+.btn-win  { background: rgba(0,255,136,0.15); color: var(--green); border: 1px solid rgba(0,255,136,0.3); }
+.btn-loss { background: rgba(255,68,102,0.12); color: var(--red);   border: 1px solid rgba(255,68,102,0.25); }
+.btn-win:hover  { background: var(--green); color: #000; }
+.btn-loss:hover { background: var(--red);   color: #fff; }
+.btn-win.active  { background: var(--green); color: #000; box-shadow: 0 0 10px var(--green-glow); }
+.btn-loss.active { background: var(--red);   color: #fff; }
+
+/* ── 10. Manual Injection ──────────────────────────────── */
+.inject-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.glass-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px 22px;
+}
+.glass-card h3 {
+  font-size: 0.9rem; font-weight: 700; margin-bottom: 6px;
+}
+.card-desc {
+  font-size: 0.78rem; color: var(--text3); margin-bottom: 14px;
+}
+
+.json-area {
+  width: 100%; height: 160px;
+  background: var(--bg3); border: 1px solid var(--border2);
+  border-radius: 8px; padding: 10px 12px;
+  color: var(--text); font-family: var(--mono); font-size: 0.72rem;
+  resize: vertical; outline: none;
+  transition: border-color 0.2s;
+}
+.json-area:focus { border-color: var(--primary); }
+
+.btn-primary, .btn-secondary {
+  margin-top: 12px; width: 100%;
+  padding: 11px; border: none; border-radius: 8px;
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.5px;
+  cursor: pointer; transition: all 0.2s;
+}
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary), #0099bb);
+  color: #000;
+}
+.btn-primary:hover { box-shadow: 0 0 20px var(--primary-glow); transform: translateY(-1px); }
+.btn-primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+.btn-secondary {
+  background: rgba(155,109,255,0.15);
+  color: var(--purple);
+  border: 1px solid rgba(155,109,255,0.3);
+}
+.btn-secondary:hover { background: rgba(155,109,255,0.25); }
+.btn-secondary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* ── 11. Settings ──────────────────────────────────────── */
+.settings-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.82rem;
+}
+.settings-row:last-child { border-bottom: none; }
+.mono { font-family: var(--mono); color: var(--primary); }
+
+/* ── 12. Prediction badge ──────────────────────────────── */
+.pred-badge {
+  display: inline-block; padding: 2px 7px;
+  border-radius: 4px; font-weight: 700; font-size: 0.72rem;
+}
+.pred-H { background: rgba(0,212,255,0.12); color: var(--primary); }
+.pred-D { background: rgba(245,200,66,0.12); color: var(--gold); }
+.pred-A { background: rgba(155,109,255,0.12); color: var(--purple); }
+
+/* ── 13. History Pending rows ──────────────────────────── */
+#pending-table .radar-header { grid-template-columns: 2fr 1fr 1fr 1fr 1fr; }
+.pending-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.82rem;
+  border-left: 3px solid var(--amber);
+  opacity: 0.85;
+}
+.hist-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.82rem;
+  align-items: center;
+}
+.hist-row:hover { background: var(--surface); }
+.hist-row.win-row  { border-left: 3px solid var(--green); }
+.hist-row.loss-row { border-left: 3px solid var(--red); }
+
+/* ── 14. Inject Output ─────────────────────────────────── */
+#inject-output { margin-top: 14px; }
+#inject-out-body { font-family: var(--mono); font-size: 0.76rem; color: var(--text2); }
+
+/* ── 15. Scrollbar ─────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text3); }
+
+/* ── 16. Responsive ────────────────────────────────────── */
+@media (max-width: 900px) {
+  #command-grid { grid-template-columns: 1fr; }
+  #stat-row     { grid-template-columns: 1fr 1fr; }
+  .inject-grid  { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  :root { --sidebar-w: 60px; }
+  .nav-link span { display: none; }
+  .brand-ver { display: none; }
+  #stat-row { grid-template-columns: 1fr; }
+}

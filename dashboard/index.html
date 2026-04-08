@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiroFish Sovereign | VFL Command Center</title>
+    <meta name="description" content="Autonomous VFL trading dashboard with real-time oracle predictions, P&L tracking and Kelly staking.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+
+        <!-- ── Top Status Bar ──────────────────────────────────────────────── -->
+        <header id="top-bar">
+            <div class="brand">
+                <span class="brand-miro">MIRO</span><span class="brand-fish">FISH</span>
+                <span class="brand-ver">SOVEREIGN V7</span>
+            </div>
+            <div id="ticker">
+                <div class="tick-item">
+                    <span class="tick-label">MD</span>
+                    <span class="tick-val" id="hdr-md">—</span>
+                </div>
+                <div class="tick-sep"></div>
+                <div class="tick-item">
+                    <span class="tick-label">SEASON</span>
+                    <span class="tick-val" id="hdr-season">—</span>
+                </div>
+                <div class="tick-sep"></div>
+                <div class="tick-item">
+                    <span class="tick-label">ENGINE</span>
+                    <span class="tick-val" id="hdr-status">OFFLINE</span>
+                </div>
+                <div class="tick-sep"></div>
+                <div class="tick-item">
+                    <span class="tick-label">SYNC</span>
+                    <span class="tick-val" id="hdr-sync">—</span>
+                </div>
+                <div class="tick-sep"></div>
+                <div class="tick-item">
+                    <span class="tick-label">P&L</span>
+                    <span class="tick-val" id="hdr-pnl">NGN 0.00</span>
+                </div>
+            </div>
+            <div class="pulse-dot" id="pulse-dot"></div>
+        </header>
+
+        <!-- ── Sidebar Nav ─────────────────────────────────────────────────── -->
+        <aside id="sidebar">
+            <nav>
+                <a class="nav-link active" data-view="dashboard" href="#">
+                    <svg viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>
+                    Dashboard
+                </a>
+                <a class="nav-link" data-view="history" href="#">
+                    <svg viewBox="0 0 24 24"><path d="M13 3a9 9 0 0 0-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42A8.954 8.954 0 0 0 13 21a9 9 0 0 0 0-18zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"/></svg>
+                    History
+                </a>
+                <a class="nav-link" data-view="inject" href="#">
+                    <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"/></svg>
+                    Manual
+                </a>
+                <a class="nav-link" data-view="settings" href="#">
+                    <svg viewBox="0 0 24 24"><path d="M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z"/></svg>
+                    Settings
+                </a>
+            </nav>
+            <div id="sidebar-status">
+                <div class="ss-row">
+                    <span class="ss-label">DAEMON</span>
+                    <span class="ss-val" id="ss-daemon">OFFLINE</span>
+                </div>
+                <div class="ss-row">
+                    <span class="ss-label">AUTH</span>
+                    <span class="ss-val" id="ss-auth">CHECK</span>
+                </div>
+                <div class="ss-row">
+                    <span class="ss-label">LAST MD</span>
+                    <span class="ss-val" id="ss-last-settle">—</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- ── Main Content ────────────────────────────────────────────────── -->
+        <main id="main">
+
+            <!-- ══ Dashboard View ══════════════════════════════════════════════ -->
+            <section id="view-dashboard" class="view active">
+
+                <!-- Signal Command -->
+                <div class="section-title">⚡ SOVEREIGN COMMAND</div>
+                <div id="command-grid">
+                    <div class="cmd-card lock-glow" id="cmd-1">
+                        <div class="cmd-tier" id="cmd-1-tier">—</div>
+                        <div class="cmd-fixture" id="cmd-1-fixture">SCANNING...</div>
+                        <div class="cmd-pred" id="cmd-1-pred">ORACLE</div>
+                        <div class="cmd-row">
+                            <span class="cmd-odds" id="cmd-1-odds">—</span>
+                            <span class="cmd-cert" id="cmd-1-cert">—%</span>
+                        </div>
+                        <div class="cmd-stake" id="cmd-1-stake">NGN —</div>
+                        <div class="cmd-ev" id="cmd-1-ev">EV: —</div>
+                    </div>
+                    <div class="cmd-card" id="cmd-2">
+                        <div class="cmd-tier" id="cmd-2-tier">—</div>
+                        <div class="cmd-fixture" id="cmd-2-fixture">SCANNING...</div>
+                        <div class="cmd-pred" id="cmd-2-pred">ORACLE</div>
+                        <div class="cmd-row">
+                            <span class="cmd-odds" id="cmd-2-odds">—</span>
+                            <span class="cmd-cert" id="cmd-2-cert">—%</span>
+                        </div>
+                        <div class="cmd-stake" id="cmd-2-stake">NGN —</div>
+                        <div class="cmd-ev" id="cmd-2-ev">EV: —</div>
+                    </div>
+                </div>
+
+                <!-- Stat Row -->
+                <div id="stat-row">
+                    <div class="stat-card">
+                        <div class="stat-label">Total P&L</div>
+                        <div class="stat-val" id="stat-pnl">NGN 0.00</div>
+                        <div class="stat-sub" id="stat-strike">—% strike rate</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Win / Loss</div>
+                        <div class="stat-val" id="stat-wl">— / —</div>
+                        <div class="stat-sub" id="stat-settled">0 settled</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Draw Quota</div>
+                        <div class="stat-quota-wrap">
+                            <div class="quota-bar-bg">
+                                <div class="quota-bar-fill" id="quota-bar" style="width:0%"></div>
+                            </div>
+                            <div class="quota-text" id="quota-text">0 / 57.3</div>
+                        </div>
+                        <div class="stat-sub" id="quota-force">FORCE 1.0x</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Matchday</div>
+                        <div class="stat-val" id="stat-md">MD —</div>
+                        <div class="stat-sub" id="stat-season">SEASON —</div>
+                    </div>
+                </div>
+
+                <!-- EV Radar -->
+                <div class="section-title">🎯 EV RADAR — ALL FIXTURES</div>
+                <div id="radar-table">
+                    <div class="radar-header">
+                        <span>Fixture</span>
+                        <span>Pick</span>
+                        <span>Certainty</span>
+                        <span>Odds</span>
+                        <span>EV</span>
+                        <span>Stake</span>
+                        <span>Settle</span>
+                    </div>
+                    <div id="radar-body">
+                        <div class="radar-empty">Awaiting live data from daemon...</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ══ History View ═════════════════════════════════════════════════ -->
+            <section id="view-history" class="view">
+                <div class="section-title">📋 PERFORMANCE LEDGER</div>
+                <div id="hist-stat-row">
+                    <div class="stat-card">
+                        <div class="stat-label">Strike Rate</div>
+                        <div class="stat-val" id="hist-strike">--%</div>
+                        <div class="stat-sub" id="hist-wl">— / —</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Total P&L</div>
+                        <div class="stat-val" id="hist-pnl">NGN —</div>
+                        <div class="stat-sub" id="hist-count">0 settled bets</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Best Tier</div>
+                        <div class="stat-val" id="hist-tier">—</div>
+                        <div class="stat-sub">highest win tier</div>
+                    </div>
+                </div>
+
+                <!-- Pending section -->
+                <div class="section-title" style="margin-top:20px">⏳ PENDING PREDICTIONS</div>
+                <div id="pending-table">
+                    <div class="radar-header" style="grid-template-columns:2fr 1fr 1fr 1fr 1fr">
+                        <span>Fixture</span><span>MD</span><span>Pick</span><span>Odds</span><span>Stake</span>
+                    </div>
+                    <div id="pending-body"><div class="radar-empty">No pending predictions.</div></div>
+                </div>
+
+                <!-- Settled section -->
+                <div class="section-title" style="margin-top:20px">✅ SETTLED BETS</div>
+                <div id="hist-table">
+                    <div class="radar-header" style="grid-template-columns:2fr 1fr 1fr 1fr 1fr 1fr 1fr">
+                        <span>Fixture</span><span>MD</span><span>Pick</span><span>Actual</span><span>Odds</span><span>Stake</span><span>P&L</span>
+                    </div>
+                    <div id="hist-body"><div class="radar-empty">No settled bets yet.</div></div>
+                </div>
+            </section>
+
+            <!-- ══ Manual Injection View ════════════════════════════════════════ -->
+            <section id="view-inject" class="view">
+                <div class="section-title">🔌 MANUAL INJECTION</div>
+                <div class="inject-grid">
+                    <div class="glass-card">
+                        <h3>Odds Injection</h3>
+                        <p class="card-desc">Paste MSport Events JSON to generate Oracle predictions.</p>
+                        <textarea id="odds-input" class="json-area" placeholder='{"data": {"events": [...], "matchDay": 1, "seasonId": "..."} }'></textarea>
+                        <button id="btn-predict" class="btn-primary">⚡ DECODE &amp; PREDICT</button>
+                    </div>
+                    <div class="glass-card">
+                        <h3>Result Audit</h3>
+                        <p class="card-desc">Paste MSport Results JSON to instantly settle all bets.</p>
+                        <textarea id="results-input" class="json-area" placeholder='{"data": {"results": [...], "current": {"matchDay": 5}}}'></textarea>
+                        <button id="btn-audit" class="btn-secondary">📥 SETTLE MATCHDAY</button>
+                    </div>
+                </div>
+                <div id="inject-output" class="glass-card" style="display:none">
+                    <h3 id="inject-out-title">Result</h3>
+                    <div id="inject-out-body"></div>
+                </div>
+            </section>
+
+            <!-- ══ Settings View ════════════════════════════════════════════════ -->
+            <section id="view-settings" class="view">
+                <div class="section-title">⚙️ ENGINE SETTINGS</div>
+                <div class="inject-grid">
+                    <div class="glass-card">
+                        <h3>MSport Live Sync Auth</h3>
+                        <p class="card-desc">Paste fresh headers/cookies JSON from DevTools to keep scraper alive.</p>
+                        <textarea id="auth-input" class="json-area" style="height:150px" placeholder='{"headers": {...}, "cookies": {...}}'></textarea>
+                        <button id="btn-auth" class="btn-primary">🔐 UPDATE AUTH</button>
+                    </div>
+                    <div class="glass-card">
+                        <h3>Staking Configuration</h3>
+                        <div class="settings-row"><span>Kelly Fraction</span><span class="mono">0.25x (default)</span></div>
+                        <div class="settings-row"><span>Min EV Threshold</span><span class="mono">5.0%</span></div>
+                        <div class="settings-row"><span>LOCK Stake Floor</span><span class="mono">NGN 30</span></div>
+                        <div class="settings-row"><span>DB Path</span><span class="mono">sovereign_vbf.db</span></div>
+                        <div class="settings-row"><span>Supabase Sync</span><span class="mono" id="set-supabase">CHECKING...</span></div>
+                        <div class="settings-row"><span>Server Version</span><span class="mono">V7.0</span></div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -8,10 +8,7 @@ venv/
 ENV/
 .env
 
-# Database and Large Data (handled by Git LFS)
-# We track them via tracking logic, but exclude generic temp files
-tmp/
-*.log
+node_modules/
 
 # System/IDE
 .DS_Store
@@ -23,7 +20,6 @@ tmp/
 ANalysis/results* # Usually big, already handled or redundant
 extracted_odds/
 extracted_results/
-node_modules/
 backend/data/
 backend/uploads/
 backend/test_api.py
