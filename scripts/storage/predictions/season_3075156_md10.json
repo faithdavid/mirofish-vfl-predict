@@ -1,0 +1,18 @@
+{
+    "season": "vf:season:3075156",
+    "matchday": 10,
+    "timestamp": "2026-04-07T21:08:01.045619",
+    "predictions": [
+        {
+            "fixture": "Tottenham vs Manchester Red",
+            "home": "Tottenham",
+            "away": "Manchester Red",
+            "prediction": "AWAY",
+            "odds": 2.55,
+            "stake": 30.0,
+            "certainty": 70,
+            "tier": "SIGNAL",
+            "label": "AWAY | SIG 70% (10 samples)"
+        }
+    ]
+}

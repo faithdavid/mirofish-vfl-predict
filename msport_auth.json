@@ -1,0 +1,25 @@
+{
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "Accept": "*/*",
+        "Accept-Language": "en-NG,en-US;q=0.9,en-GB;q=0.8,en;q=0.7",
+        "apilevel": "2",
+        "clientid": "WEB",
+        "deviceid": "f7aa2d97-a435-4375-ad21-9d45e12c0524",
+        "operid": "2",
+        "platform": "WEB",
+        "referer": "https://www.msport.com/ng/web/virtual",
+        "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin"
+    },
+    "cookies": {
+        "device-id": "b473b5f1-7758-4f49-bad0-b1942b35b1bb",
+        "deviceId": "b473b5f1-7758-4f49-bad0-b1942b35b1bb",
+        "__zlcmid": "1WOoKpCZD6bfRap",
+        "__cf_bm": "1oI3kJ72tsNRAPl2EdmZ5P0.h0xdCLlUN6eWRNS._Ww-1775513650.3767786-1.0.1.1-VzQUN.AoQ7H_MzS58z.PI8CaDLLBXJa35P60u6APH0eNJYSb83kPwu0IbMGiaeVZ03IH6.zeU8ydd2apHQnX.1R.Jcbq4uDxcMte7RFOojEMZ7Uiwt7dMXvMIjoPtgOj"
+    }
+}

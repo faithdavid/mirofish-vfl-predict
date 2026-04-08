@@ -1,0 +1,8 @@
+[2026-03-24 05:16:12] INFO [mirofish.create_app:40] ==================================================
+[2026-03-24 05:16:12] INFO [mirofish.create_app:41] MiroFish Backend starting...
+[2026-03-24 05:16:12] INFO [mirofish.create_app:42] ==================================================
+[2026-03-24 05:16:13] INFO [mirofish.create_app:57] Simulation process cleanup registered
+[2026-03-24 05:16:13] INFO [mirofish.create_app:58] Graph storage backend: KuzuDBStorage
+[2026-03-24 05:16:17] INFO [mirofish.create_app:105] MiroFish Backend started successfully
+[2026-03-24 15:57:11] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-24 15:57:11] DEBUG [mirofish.request.log_response:71] Response: 200

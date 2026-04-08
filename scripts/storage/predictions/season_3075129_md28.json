@@ -1,0 +1,95 @@
+{
+    "season": "vf:season:3075129",
+    "matchday": 28,
+    "timestamp": "2026-04-07T20:22:02.363002",
+    "predictions": [
+        {
+            "fixture": "Crystal Palace vs Leeds",
+            "home": "Crystal Palace",
+            "away": "Leeds",
+            "prediction": "D",
+            "odds": 3.3,
+            "stake": 15.0,
+            "certainty": 62,
+            "tier": "WALL",
+            "label": "DRAW (X) | GLOBAL DRAW SURGE (53 draws due)"
+        },
+        {
+            "fixture": "Bournemouth vs Fulham",
+            "home": "Bournemouth",
+            "away": "Fulham",
+            "prediction": "D",
+            "odds": 3.0,
+            "stake": 15.0,
+            "certainty": 62,
+            "tier": "WALL",
+            "label": "DRAW (X) | GLOBAL DRAW SURGE (53 draws due)"
+        },
+        {
+            "fixture": "Brighton vs Liverpool",
+            "home": "Brighton",
+            "away": "Liverpool",
+            "prediction": "D",
+            "odds": 3.55,
+            "stake": 15.0,
+            "certainty": 62,
+            "tier": "WALL",
+            "label": "DRAW (X) | GLOBAL DRAW SURGE (53 draws due)"
+        },
+        {
+            "fixture": "London Guns vs Manchester Red",
+            "home": "London Guns",
+            "away": "Manchester Red",
+            "prediction": "D",
+            "odds": 4.1,
+            "stake": 15.0,
+            "certainty": 62,
+            "tier": "WALL",
+            "label": "DRAW (X) | GLOBAL DRAW SURGE (53 draws due)"
+        },
+        {
+            "fixture": "Wolverhampton vs Aston Villa",
+            "home": "Wolverhampton",
+            "away": "Aston Villa",
+            "prediction": "D",
+            "odds": 3.4,
+            "stake": 15.0,
+            "certainty": 62,
+            "tier": "WALL",
+            "label": "DRAW (X) | GLOBAL DRAW SURGE (53 draws due)"
+        },
+        {
+            "fixture": "Chelsea vs Everton",
+            "home": "Chelsea",
+            "away": "Everton",
+            "prediction": "D",
+            "odds": 3.75,
+            "stake": 15.0,
+            "certainty": 62,
+            "tier": "WALL",
+            "label": "DRAW (X) | GLOBAL DRAW SURGE (53 draws due)"
+        },
+        {
+            "fixture": "Tottenham vs Newcastle",
+            "home": "Tottenham",
+            "away": "Newcastle",
+            "prediction": "D",
+            "odds": 4.9,
+            "stake": 15.0,
+            "certainty": 62,
+            "tier": "WALL",
+            "label": "DRAW (X) | GLOBAL DRAW SURGE (53 draws due)"
+        },
+        {
+            "fixture": "Manchester Blue vs West Ham",
+            "home": "Manchester Blue",
+            "away": "West Ham",
+            "prediction": "D",
+            "odds": 5.5,
+            "stake": 15.0,
+            "certainty": 62,
+            "tier": "WALL",
+            "label": "DRAW (X) | GLOBAL DRAW SURGE (53 draws due)"
+        }
+    ]
+}

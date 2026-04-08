@@ -1,0 +1,18 @@
+{
+    "season": "vf:season:3075156",
+    "matchday": 12,
+    "timestamp": "2026-04-07T21:15:52.307955",
+    "predictions": [
+        {
+            "fixture": "Everton vs Manchester Red",
+            "home": "Everton",
+            "away": "Manchester Red",
+            "prediction": "AWAY",
+            "odds": 2.1,
+            "stake": 15.0,
+            "certainty": 67,
+            "tier": "SIGNAL",
+            "label": "AWAY | SIG 78% (9 samples)"
+        }
+    ]
+}

@@ -1,0 +1,497 @@
+[2026-03-23 00:13:57] INFO [mirofish.create_app:40] ==================================================
+[2026-03-23 00:13:57] INFO [mirofish.create_app:41] MiroFish Backend starting...
+[2026-03-23 00:13:57] INFO [mirofish.create_app:42] ==================================================
+[2026-03-23 00:13:58] ERROR [mirofish.graph_storage.__init__:199] Failed to initialize KuzuDB storage at C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\data\kuzu_db\graph.kuzu: IO exception: Could not set lock on file : C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\data\kuzu_db\graph.kuzu
+See the docs: https://docs.kuzudb.com/concurrency for more information.
+[2026-03-23 00:14:11] INFO [mirofish.create_app:40] ==================================================
+[2026-03-23 00:14:11] INFO [mirofish.create_app:41] MiroFish Backend starting...
+[2026-03-23 00:14:11] INFO [mirofish.create_app:42] ==================================================
+[2026-03-23 00:14:14] INFO [mirofish.create_app:57] Simulation process cleanup registered
+[2026-03-23 00:14:14] INFO [mirofish.create_app:58] Graph storage backend: KuzuDBStorage
+[2026-03-23 00:14:18] INFO [mirofish.create_app:105] MiroFish Backend started successfully
+[2026-03-23 00:32:02] INFO [mirofish.create_app:40] ==================================================
+[2026-03-23 00:32:02] INFO [mirofish.create_app:41] MiroFish Backend starting...
+[2026-03-23 00:32:02] INFO [mirofish.create_app:42] ==================================================
+[2026-03-23 00:32:05] INFO [mirofish.create_app:57] Simulation process cleanup registered
+[2026-03-23 00:32:05] INFO [mirofish.create_app:58] Graph storage backend: KuzuDBStorage
+[2026-03-23 00:32:08] INFO [mirofish.create_app:105] MiroFish Backend started successfully
+[2026-03-23 00:38:52] INFO [mirofish.create_app:40] ==================================================
+[2026-03-23 00:38:52] INFO [mirofish.create_app:41] MiroFish Backend starting...
+[2026-03-23 00:38:52] INFO [mirofish.create_app:42] ==================================================
+[2026-03-23 00:38:54] INFO [mirofish.create_app:57] Simulation process cleanup registered
+[2026-03-23 00:38:54] INFO [mirofish.create_app:58] Graph storage backend: KuzuDBStorage
+[2026-03-23 00:38:59] INFO [mirofish.create_app:105] MiroFish Backend started successfully
+[2026-03-23 01:28:28] INFO [mirofish.create_app:40] ==================================================
+[2026-03-23 01:28:28] INFO [mirofish.create_app:41] MiroFish Backend starting...
+[2026-03-23 01:28:28] INFO [mirofish.create_app:42] ==================================================
+[2026-03-23 01:28:30] INFO [mirofish.create_app:57] Simulation process cleanup registered
+[2026-03-23 01:28:30] INFO [mirofish.create_app:58] Graph storage backend: KuzuDBStorage
+[2026-03-23 01:28:34] INFO [mirofish.create_app:105] MiroFish Backend started successfully
+[2026-03-23 01:28:39] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 01:28:39] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 01:51:04] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 01:51:04] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 01:52:00] ERROR [mirofish.api.generate_ontology:166] Failed to generate ontology: Traceback (most recent call last):
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\api\graph.py", line 145, in generate_ontology
+    result = session.generate_ontology(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\core\workbench_session.py", line 118, in generate_ontology
+    result = self.generate_ontology_tool.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\tools\generate_ontology.py", line 98, in execute
+    ontology = OntologyGenerator().generate(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\services\ontology_generator.py", line 197, in generate
+    result = self.llm_client.chat_json(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 332, in chat_json
+    response = self.chat(
+               ^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 117, in chat
+    return self._chat_openai(messages, temperature, max_tokens, response_format)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 174, in _chat_openai
+    return self._clean_content(content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 94, in _clean_content
+    content = re.sub(r'<think>[\s\S]*?</think>', '', content).strip()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\re\__init__.py", line 186, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+
+[2026-03-23 01:52:00] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 01:53:11] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 01:53:11] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 01:53:55] ERROR [mirofish.api.generate_ontology:166] Failed to generate ontology: Traceback (most recent call last):
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\api\graph.py", line 145, in generate_ontology
+    result = session.generate_ontology(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\core\workbench_session.py", line 118, in generate_ontology
+    result = self.generate_ontology_tool.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\tools\generate_ontology.py", line 98, in execute
+    ontology = OntologyGenerator().generate(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\services\ontology_generator.py", line 197, in generate
+    result = self.llm_client.chat_json(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 332, in chat_json
+    response = self.chat(
+               ^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 117, in chat
+    return self._chat_openai(messages, temperature, max_tokens, response_format)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 174, in _chat_openai
+    return self._clean_content(content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 94, in _clean_content
+    content = re.sub(r'<think>[\s\S]*?</think>', '', content).strip()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\re\__init__.py", line 186, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+
+[2026-03-23 01:53:55] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 01:54:31] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 01:54:31] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 01:55:21] ERROR [mirofish.api.generate_ontology:166] Failed to generate ontology: Traceback (most recent call last):
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\api\graph.py", line 145, in generate_ontology
+    result = session.generate_ontology(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\core\workbench_session.py", line 118, in generate_ontology
+    result = self.generate_ontology_tool.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\tools\generate_ontology.py", line 98, in execute
+    ontology = OntologyGenerator().generate(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\services\ontology_generator.py", line 197, in generate
+    result = self.llm_client.chat_json(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 332, in chat_json
+    response = self.chat(
+               ^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 117, in chat
+    return self._chat_openai(messages, temperature, max_tokens, response_format)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 174, in _chat_openai
+    return self._clean_content(content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 94, in _clean_content
+    content = re.sub(r'<think>[\s\S]*?</think>', '', content).strip()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\re\__init__.py", line 186, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+
+[2026-03-23 01:55:21] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 01:56:39] INFO [mirofish.create_app:40] ==================================================
+[2026-03-23 01:56:39] INFO [mirofish.create_app:41] MiroFish Backend starting...
+[2026-03-23 01:56:39] INFO [mirofish.create_app:42] ==================================================
+[2026-03-23 01:56:42] INFO [mirofish.create_app:57] Simulation process cleanup registered
+[2026-03-23 01:56:42] INFO [mirofish.create_app:58] Graph storage backend: KuzuDBStorage
+[2026-03-23 01:56:47] INFO [mirofish.create_app:105] MiroFish Backend started successfully
+[2026-03-23 01:56:51] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 01:56:51] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 01:56:52] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 01:56:52] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 01:58:11] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 01:58:11] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 01:58:14] ERROR [mirofish.llm_client._chat_openai:164] OpenRouter API Error: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"stepfun/step-3.5-flash:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"StepFun","is_byok":false}},"user_id":"user_39YHXk0BFKr6ktxpKgNUKIueLbU"}
+[2026-03-23 01:58:14] ERROR [mirofish.api.generate_ontology:166] Failed to generate ontology: Traceback (most recent call last):
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\api\graph.py", line 145, in generate_ontology
+    result = session.generate_ontology(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\core\workbench_session.py", line 118, in generate_ontology
+    result = self.generate_ontology_tool.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\tools\generate_ontology.py", line 98, in execute
+    ontology = OntologyGenerator().generate(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\services\ontology_generator.py", line 197, in generate
+    result = self.llm_client.chat_json(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 334, in chat_json
+    response = self.chat(
+               ^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 117, in chat
+    return self._chat_openai(messages, temperature, max_tokens, response_format)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 165, in _chat_openai
+    raise RuntimeError(f"LLM API returned {response.status_code}: {response.text}")
+RuntimeError: LLM API returned 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"stepfun/step-3.5-flash:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"StepFun","is_byok":false}},"user_id":"user_39YHXk0BFKr6ktxpKgNUKIueLbU"}
+
+[2026-03-23 01:58:14] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 02:05:30] INFO [mirofish.create_app:40] ==================================================
+[2026-03-23 02:05:30] INFO [mirofish.create_app:41] MiroFish Backend starting...
+[2026-03-23 02:05:30] INFO [mirofish.create_app:42] ==================================================
+[2026-03-23 02:05:32] INFO [mirofish.create_app:57] Simulation process cleanup registered
+[2026-03-23 02:05:32] INFO [mirofish.create_app:58] Graph storage backend: KuzuDBStorage
+[2026-03-23 02:05:36] INFO [mirofish.create_app:105] MiroFish Backend started successfully
+[2026-03-23 02:05:40] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 02:05:40] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 02:05:48] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 02:05:48] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 02:05:51] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 02:05:51] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 02:06:09] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 02:06:09] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 02:06:12] ERROR [mirofish.llm_client._chat_openai:164] OpenRouter API Error: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"stepfun/step-3.5-flash:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"StepFun","is_byok":false}},"user_id":"user_39YHXk0BFKr6ktxpKgNUKIueLbU"}
+[2026-03-23 02:06:12] ERROR [mirofish.api.generate_ontology:166] Failed to generate ontology: Traceback (most recent call last):
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\api\graph.py", line 145, in generate_ontology
+    result = session.generate_ontology(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\core\workbench_session.py", line 118, in generate_ontology
+    result = self.generate_ontology_tool.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\tools\generate_ontology.py", line 98, in execute
+    ontology = OntologyGenerator().generate(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\services\ontology_generator.py", line 197, in generate
+    result = self.llm_client.chat_json(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 334, in chat_json
+    response = self.chat(
+               ^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 117, in chat
+    return self._chat_openai(messages, temperature, max_tokens, response_format)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 165, in _chat_openai
+    raise RuntimeError(f"LLM API returned {response.status_code}: {response.text}")
+RuntimeError: LLM API returned 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"stepfun/step-3.5-flash:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"StepFun","is_byok":false}},"user_id":"user_39YHXk0BFKr6ktxpKgNUKIueLbU"}
+
+[2026-03-23 02:06:12] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 02:07:15] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 02:07:15] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 02:11:36] INFO [mirofish.create_app:40] ==================================================
+[2026-03-23 02:11:36] INFO [mirofish.create_app:41] MiroFish Backend starting...
+[2026-03-23 02:11:36] INFO [mirofish.create_app:42] ==================================================
+[2026-03-23 02:11:38] INFO [mirofish.create_app:57] Simulation process cleanup registered
+[2026-03-23 02:11:38] INFO [mirofish.create_app:58] Graph storage backend: KuzuDBStorage
+[2026-03-23 02:11:41] INFO [mirofish.create_app:105] MiroFish Backend started successfully
+[2026-03-23 02:11:46] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 02:11:46] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 02:11:48] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 02:11:48] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 02:11:50] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 02:11:50] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 02:11:50] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 02:11:50] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 02:11:51] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 02:11:51] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 02:13:09] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 02:13:09] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 02:16:29] INFO [mirofish.tools.generate_ontology.execute:113] Ontology generated for project proj_ebeea83c64a9
+[2026-03-23 02:16:29] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:06:27] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 03:06:27] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:10:58] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 03:10:58] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 03:11:07] ERROR [mirofish.llm_client._chat_openai:164] OpenRouter API Error: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Venice","is_byok":false}},"user_id":"user_39YHXk0BFKr6ktxpKgNUKIueLbU"}
+[2026-03-23 03:11:07] ERROR [mirofish.api.generate_ontology:166] Failed to generate ontology: Traceback (most recent call last):
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\api\graph.py", line 145, in generate_ontology
+    result = session.generate_ontology(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\core\workbench_session.py", line 118, in generate_ontology
+    result = self.generate_ontology_tool.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\tools\generate_ontology.py", line 98, in execute
+    ontology = OntologyGenerator().generate(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\services\ontology_generator.py", line 197, in generate
+    result = self.llm_client.chat_json(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 334, in chat_json
+    response = self.chat(
+               ^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 117, in chat
+    return self._chat_openai(messages, temperature, max_tokens, response_format)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 165, in _chat_openai
+    raise RuntimeError(f"LLM API returned {response.status_code}: {response.text}")
+RuntimeError: LLM API returned 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Venice","is_byok":false}},"user_id":"user_39YHXk0BFKr6ktxpKgNUKIueLbU"}
+
+[2026-03-23 03:11:07] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 03:11:11] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 03:11:11] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 03:11:19] ERROR [mirofish.llm_client._chat_openai:164] OpenRouter API Error: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Venice","is_byok":false}},"user_id":"user_39YHXk0BFKr6ktxpKgNUKIueLbU"}
+[2026-03-23 03:11:19] ERROR [mirofish.api.generate_ontology:166] Failed to generate ontology: Traceback (most recent call last):
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\api\graph.py", line 145, in generate_ontology
+    result = session.generate_ontology(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\core\workbench_session.py", line 118, in generate_ontology
+    result = self.generate_ontology_tool.execute(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\tools\generate_ontology.py", line 98, in execute
+    ontology = OntologyGenerator().generate(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\services\ontology_generator.py", line 197, in generate
+    result = self.llm_client.chat_json(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 334, in chat_json
+    response = self.chat(
+               ^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 117, in chat
+    return self._chat_openai(messages, temperature, max_tokens, response_format)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\app\utils\llm_client.py", line 165, in _chat_openai
+    raise RuntimeError(f"LLM API returned {response.status_code}: {response.text}")
+RuntimeError: LLM API returned 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Venice","is_byok":false}},"user_id":"user_39YHXk0BFKr6ktxpKgNUKIueLbU"}
+
+[2026-03-23 03:11:19] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 03:11:22] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 03:11:22] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 03:14:51] INFO [mirofish.tools.generate_ontology.execute:113] Ontology generated for project proj_bbe480befb0d
+[2026-03-23 03:14:51] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:14:51] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/build
+[2026-03-23 03:14:51] INFO [mirofish.api.build_graph:180] === Starting graph build ===
+[2026-03-23 03:14:52] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:14:52] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:14:52] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:14:52] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:14:52] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:14:55] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:14:55] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:14:57] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:14:57] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:14:59] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:14:59] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:01] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:15:01] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:03] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:15:03] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:03] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:15:03] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:05] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:15:05] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:07] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:15:07] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:09] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:15:09] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:11] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:15:11] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:13] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:15:13] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:15:13] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:13] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:15] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:15:15] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:17] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:15:17] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:30] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:15:30] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:30] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:15:30] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:30] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:15:30] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:33] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:15:33] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:33] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:15:33] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:35] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:15:35] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:43] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:15:43] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:15:53] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:15:53] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:16:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:16:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:16:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:16:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:16:52] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:16:52] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:16:52] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:16:52] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:16:54] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:16:54] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:16:57] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:16:57] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:16:59] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:16:59] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:01] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:01] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:03] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:17:03] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:03] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:03] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:05] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:05] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:07] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:07] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:09] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:09] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:12] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:12] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:13] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:17:13] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:14] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:14] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:15] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:15] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:17] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:17] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:19] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:19] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:21] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:21] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:23] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:17:23] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:23] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:23] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:25] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:25] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:27] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:27] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:29] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:29] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:31] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:31] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:33] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:17:33] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:33] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:33] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:35] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:35] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:37] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:37] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:39] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:39] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:41] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:41] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:43] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:17:43] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:43] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:43] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:45] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:45] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:47] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:47] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:49] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:49] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:49] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 03:17:49] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:51] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:51] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:53] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:17:53] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:53] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:53] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:17:55] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:17:55] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:18:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:18:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:18:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:18:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:19:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:19:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:19:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:19:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:20:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:20:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:20:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:20:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:21:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:21:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:21:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:21:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:22:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:22:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:22:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:22:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:23:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:23:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:23:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:23:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:24:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:24:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:24:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:24:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:25:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:25:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:25:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:25:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:26:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:26:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:26:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:26:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:28:16] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:28:16] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:28:17] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:28:17] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:28:46] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:28:46] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:28:46] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:28:46] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:30:24] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:30:24] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:30:28] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:30:28] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:30:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:30:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:30:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:30:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:31:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:31:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:31:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:31:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:32:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:32:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:32:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:32:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:33:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:33:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:33:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:33:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:34:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:34:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:34:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:34:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:35:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/task/7b8fb435-9221-4a2d-ae89-806ff67c3429
+[2026-03-23 03:35:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 03:35:36] DEBUG [mirofish.request.log_request:64] Request: GET /api/graph/project/proj_bbe480befb0d
+[2026-03-23 03:35:36] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 07:29:24] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 07:29:24] DEBUG [mirofish.request.log_response:71] Response: 200

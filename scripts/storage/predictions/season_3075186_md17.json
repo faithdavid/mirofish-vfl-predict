@@ -1,0 +1,18 @@
+{
+    "season": "vf:season:3075186",
+    "matchday": 17,
+    "timestamp": "2026-04-07T23:25:44.917113",
+    "predictions": [
+        {
+            "fixture": "Wolverhampton vs Tottenham",
+            "home": "Wolverhampton",
+            "away": "Tottenham",
+            "prediction": "AWAY",
+            "odds": 2.1,
+            "stake": 15.0,
+            "certainty": 65,
+            "tier": "SIGNAL",
+            "label": "AWAY | SIG 75% (8 samples)"
+        }
+    ]
+}

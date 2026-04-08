@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\lib\msport_client.py", line 59, in _load_auth
+    print("[MSPORT] \u2705 Auth loaded from msport_auth.json")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 9: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\scripts\scavenger_daemon.py", line 189, in <module>
+    run_scavenger()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\scripts\scavenger_daemon.py", line 71, in run_scavenger
+    client = MSportClient()
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\lib\msport_client.py", line 49, in __init__
+    self._load_auth(auth_path)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\faith\OneDrive\Documents\GitHub\mirofish\lib\msport_client.py", line 61, in _load_auth
+    print(f"[MSPORT] \u26a0\ufe0f Failed to load auth: {e} — using defaults")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\faith\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 9-10: character maps to <undefined>

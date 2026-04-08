@@ -1,0 +1,18 @@
+{
+    "season": "vf:season:3075186",
+    "matchday": 16,
+    "timestamp": "2026-04-07T23:22:01.433190",
+    "predictions": [
+        {
+            "fixture": "Fulham vs Wolverhampton",
+            "home": "Fulham",
+            "away": "Wolverhampton",
+            "prediction": "AWAY",
+            "odds": 2.2,
+            "stake": 50.0,
+            "certainty": 87,
+            "tier": "LOCK",
+            "label": "AWAY | SIG 88% (8 samples)"
+        }
+    ]
+}

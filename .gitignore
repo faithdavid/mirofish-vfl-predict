@@ -16,8 +16,8 @@ node_modules/
 .idea/
 .gemini/
 
-# Project Specific
-ANalysis/results* # Usually big, already handled or redundant
+# ── Sovereign Specific ──────────────────────────────────
+msport_auth.json* # Usually big, already handled or redundant
 extracted_odds/
 extracted_results/
 backend/data/

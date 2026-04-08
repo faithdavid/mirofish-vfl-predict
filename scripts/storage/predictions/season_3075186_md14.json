@@ -1,0 +1,29 @@
+{
+    "season": "vf:season:3075186",
+    "matchday": 14,
+    "timestamp": "2026-04-07T23:14:57.490271",
+    "predictions": [
+        {
+            "fixture": "Brighton vs Leeds",
+            "home": "Brighton",
+            "away": "Leeds",
+            "prediction": "HOME",
+            "odds": 4.5,
+            "stake": 50.0,
+            "certainty": 85,
+            "tier": "LOCK",
+            "label": "HOME | SIG 86% (7 samples)"
+        },
+        {
+            "fixture": "Wolverhampton vs Newcastle",
+            "home": "Wolverhampton",
+            "away": "Newcastle",
+            "prediction": "HOME",
+            "odds": 3.7,
+            "stake": 30.0,
+            "certainty": 80,
+            "tier": "SIGNAL",
+            "label": "HOME | SIG 80% (5 samples)"
+        }
+    ]
+}

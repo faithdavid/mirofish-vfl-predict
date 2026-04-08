@@ -7,6 +7,48 @@ import joblib
 # Core Oracle Config
 DB_PATH = 'vfl_history.db'
 
+# Constant Quotas (from 184 full season audit)
+D_MEAN = 57.3
+H_MEAN = 101.7
+A_MEAN = 71.2
+
+def get_seasonal_accounting(df, season_id):
+    """Calculates the current league-wide H/D/A tally for the season"""
+    if season_id == 'SOVEREIGN': return {'H': 0, 'D': 0, 'A': 0}
+    s_df = df[df['season'] == season_id].copy()
+    if s_df.empty: return {'H': 0, 'D': 0, 'A': 0}
+    
+    s_df['o'] = s_df['outcome'].apply(lambda x: str(x)[0] if x else None)
+    counts = s_df['o'].value_counts()
+    return {
+        'H': int(counts.get('H', 0)),
+        'D': int(counts.get('D', 0)),
+        'A': int(counts.get('A', 0))
+    }
+
+def apply_global_balancing(pred, stats, day):
+    """Applies the 240-match Zero-Sum weighting to the prediction"""
+    # Pro-rated Draw Target
+    target_d = (day / 30) * D_MEAN
+    
+    if day >= 20:
+        if stats['D'] < target_d * 0.85: # If more than 15% behind pro-rated target
+            pred['draw_surge'] = True
+            if pred['prediction'] == 'D':
+                pred['confidence'] += 0.15
+                pred['label'] = f"[GLOBAL DRAW SURGE] {pred['label']}"
+            elif pred['prediction'] == 'H' and pred['confidence'] < 0.60:
+                # If H prediction is weak and Draws are due, flag as high risk
+                pred['label'] = f"[QUOTA RISK] {pred['label']}"
+                
+    if day >= 25 and stats['D'] < 40:
+        # ABSOLUTE RUPTURE POINT
+        pred['label'] = f"[MATHEMATICAL DRAW FORCE] {pred['label']}"
+        if pred['prediction'] == 'D':
+            pred['confidence'] = max(pred['confidence'], 0.85)
+
+    return pred
+
 def load_vfl_history():
     """Loads and cleans the 50,000 match dataset for V5 analysis."""
     if not os.path.exists(DB_PATH): return None

@@ -1,0 +1,18 @@
+{
+    "season": "vf:season:3075186",
+    "matchday": 19,
+    "timestamp": "2026-04-07T23:32:58.672373",
+    "predictions": [
+        {
+            "fixture": "London Guns vs Bournemouth",
+            "home": "London Guns",
+            "away": "Bournemouth",
+            "prediction": "HOME",
+            "odds": 7.75,
+            "stake": 30.0,
+            "certainty": 75,
+            "tier": "SIGNAL",
+            "label": "HOME | SIG 75% (16 samples)"
+        }
+    ]
+}

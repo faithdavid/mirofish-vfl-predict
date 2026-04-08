@@ -1,0 +1,148 @@
+[2026-03-22 23:07:19] INFO [mirofish.create_app:40] ==================================================
+[2026-03-22 23:07:19] INFO [mirofish.create_app:41] MiroFish Backend starting...
+[2026-03-22 23:07:19] INFO [mirofish.create_app:42] ==================================================
+[2026-03-22 23:07:22] INFO [mirofish.create_app:57] Simulation process cleanup registered
+[2026-03-22 23:07:22] INFO [mirofish.create_app:58] Graph storage backend: KuzuDBStorage
+[2026-03-22 23:07:28] INFO [mirofish.create_app:105] MiroFish Backend started successfully
+[2026-03-22 23:08:27] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-22 23:08:27] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-22 23:13:41] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-22 23:13:41] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-22 23:17:49] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:17:49] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:18:04] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:18:04] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:18:05] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:18:05] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:18:12] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:18:12] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:18:15] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:18:15] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:18:22] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:18:22] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:19:11] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-22 23:19:11] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-22 23:20:03] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:20:03] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:20:10] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:20:10] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:20:20] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:20:20] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:20:28] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:20:28] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:20:30] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:20:30] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:20:38] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:20:38] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:32:50] INFO [mirofish.create_app:40] ==================================================
+[2026-03-22 23:32:50] INFO [mirofish.create_app:41] MiroFish Backend starting...
+[2026-03-22 23:32:50] INFO [mirofish.create_app:42] ==================================================
+[2026-03-22 23:32:50] ERROR [mirofish.graph_storage.__init__:199] Failed to initialize KuzuDB storage at C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\data\kuzu_db\graph.kuzu: IO exception: Could not set lock on file : C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\data\kuzu_db\graph.kuzu
+See the docs: https://docs.kuzudb.com/concurrency for more information.
+[2026-03-22 23:33:26] INFO [mirofish.create_app:40] ==================================================
+[2026-03-22 23:33:26] INFO [mirofish.create_app:41] MiroFish Backend starting...
+[2026-03-22 23:33:26] INFO [mirofish.create_app:42] ==================================================
+[2026-03-22 23:33:26] ERROR [mirofish.graph_storage.__init__:199] Failed to initialize KuzuDB storage at C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\data\kuzu_db\graph.kuzu: IO exception: Could not set lock on file : C:\Users\faith\OneDrive\Documents\GitHub\mirofish\backend\data\kuzu_db\graph.kuzu
+See the docs: https://docs.kuzudb.com/concurrency for more information.
+[2026-03-22 23:33:41] INFO [mirofish.create_app:40] ==================================================
+[2026-03-22 23:33:41] INFO [mirofish.create_app:41] MiroFish Backend starting...
+[2026-03-22 23:33:41] INFO [mirofish.create_app:42] ==================================================
+[2026-03-22 23:33:44] INFO [mirofish.create_app:57] Simulation process cleanup registered
+[2026-03-22 23:33:44] INFO [mirofish.create_app:58] Graph storage backend: KuzuDBStorage
+[2026-03-22 23:33:46] INFO [mirofish.create_app:105] MiroFish Backend started successfully
+[2026-03-22 23:37:11] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:37:11] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:37:17] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:37:17] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:37:19] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:37:19] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:37:26] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:37:26] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:37:28] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:37:28] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:37:36] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:37:36] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:39:22] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-22 23:39:22] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-22 23:42:03] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:42:03] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:42:08] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:42:08] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:42:12] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:42:12] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:42:18] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:42:18] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:42:21] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:42:21] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:42:26] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:42:26] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:45:46] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-22 23:45:46] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-22 23:49:01] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:49:01] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:49:05] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:49:05] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:49:16] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:49:16] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:49:20] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:49:20] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:49:30] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-22 23:49:30] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-22 23:49:34] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-22 23:49:34] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-22 23:51:28] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-22 23:51:28] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 00:00:54] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 00:00:54] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 00:00:58] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-23 00:00:58] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 00:01:00] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 00:01:00] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 00:01:05] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-23 00:01:05] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 00:01:08] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 00:01:08] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 00:01:12] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-23 00:01:12] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 00:02:35] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 00:02:35] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 00:14:48] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 00:14:48] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 00:22:02] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 00:22:02] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 00:22:07] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-23 00:22:07] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 00:22:17] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 00:22:17] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 00:22:22] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-23 00:22:22] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 00:22:49] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 00:22:49] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 00:22:55] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-23 00:22:55] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 00:23:49] DEBUG [mirofish.request.log_request:64] Request: GET /api/simulation/history
+[2026-03-23 00:23:49] DEBUG [mirofish.request.log_response:71] Response: 200
+[2026-03-23 00:25:15] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 00:25:15] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 00:25:21] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-23 00:25:21] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 00:25:33] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 00:25:33] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 00:25:38] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-23 00:25:38] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 00:25:44] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 00:25:44] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 00:25:50] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-23 00:25:50] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 00:30:24] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 00:30:24] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 00:30:28] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-23 00:30:28] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 00:38:07] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 00:38:07] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 00:38:12] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-23 00:38:12] DEBUG [mirofish.request.log_response:71] Response: 500
+[2026-03-23 00:41:08] DEBUG [mirofish.request.log_request:64] Request: POST /api/graph/ontology/generate
+[2026-03-23 00:41:08] INFO [mirofish.api.generate_ontology:137] === Starting ontology generation ===
+[2026-03-23 00:41:13] ERROR [mirofish.api.generate_ontology:164] Failed to generate ontology: [WinError 2] The system cannot find the file specified
+[2026-03-23 00:41:13] DEBUG [mirofish.request.log_response:71] Response: 500

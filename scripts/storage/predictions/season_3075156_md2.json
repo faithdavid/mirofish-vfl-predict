@@ -1,0 +1,40 @@
+{
+    "season": "vf:season:3075156",
+    "matchday": 2,
+    "timestamp": "2026-04-07T20:38:53.875557",
+    "predictions": [
+        {
+            "fixture": "Leeds vs Aston Villa",
+            "home": "Leeds",
+            "away": "Aston Villa",
+            "prediction": "DRAW",
+            "odds": 1.95,
+            "stake": 30.0,
+            "certainty": 71,
+            "tier": "SIGNAL",
+            "label": "DRAW | SIG 71% (7 samples)"
+        },
+        {
+            "fixture": "Fulham vs West Ham",
+            "home": "Fulham",
+            "away": "West Ham",
+            "prediction": "AWAY",
+            "odds": 2.1,
+            "stake": 30.0,
+            "certainty": 71,
+            "tier": "SIGNAL",
+            "label": "AWAY | SIG 71% (7 samples)"
+        },
+        {
+            "fixture": "Crystal Palace vs Wolverhampton",
+            "home": "Crystal Palace",
+            "away": "Wolverhampton",
+            "prediction": "HOME",
+            "odds": 2.5,
+            "stake": 30.0,
+            "certainty": 70,
+            "tier": "SIGNAL",
+            "label": "HOME | SIG 80% (5 samples)"
+        }
+    ]
+}

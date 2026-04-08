@@ -1,0 +1,18 @@
+{
+    "season": "vf:season:3075156",
+    "matchday": 14,
+    "timestamp": "2026-04-07T21:22:46.693662",
+    "predictions": [
+        {
+            "fixture": "West Ham vs Leeds",
+            "home": "West Ham",
+            "away": "Leeds",
+            "prediction": "HOME",
+            "odds": 3.95,
+            "stake": 50.0,
+            "certainty": 90,
+            "tier": "LOCK",
+            "label": "HOME | SIG 100% (10 samples)"
+        }
+    ]
+}

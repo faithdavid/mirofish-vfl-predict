@@ -1,0 +1,18 @@
+{
+    "season": "vf:season:3075072",
+    "matchday": 18,
+    "timestamp": "2026-04-07T16:01:19.017517",
+    "predictions": [
+        {
+            "fixture": "Liverpool vs Manchester Red",
+            "home": "Liverpool",
+            "away": "Manchester Red",
+            "prediction": "HOME",
+            "odds": 3.35,
+            "stake": 50.0,
+            "certainty": 90,
+            "tier": "LOCK",
+            "label": "HOME | SIG 100% (5 samples)"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "season": "vf:season:3075072",
+    "matchday": 17,
+    "timestamp": "2026-04-07T15:57:32.694558",
+    "predictions": [
+        {
+            "fixture": "Fulham vs Everton",
+            "home": "Fulham",
+            "away": "Everton",
+            "prediction": "AWAY",
+            "odds": 2.05,
+            "stake": 15.0,
+            "certainty": 61,
+            "tier": "SIGNAL",
+            "label": "AWAY | SIG 71% (7 samples)"
+        }
+    ]
+}
